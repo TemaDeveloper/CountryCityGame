@@ -246,6 +246,7 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
             Intent intent = new Intent(Intent.ACTION_MAIN);
             intent.setClass(getApplicationContext(), FinishActivity.class);
             intent.putExtra("scoreIntent", score + "");
+            intent.putExtra("lvlTitle", textIntentTitle);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         }

@@ -48,7 +48,7 @@ public class AdapterLightLvl extends RecyclerView.Adapter<AdapterLightLvl.LightL
         holder.textScore.setText(lvls.get(position).getScore());
 
         //take previous position and look if it has the score that more then 0/10
-        if(position > 0 && !lvls.get(position - 1).getScore().equals("0/10")){
+        if(position > 0 && !lvls.get(position - 1).getScore().equals("0 / 10")){
             holder.itemView.setEnabled(true);
             holder.cardLvl.setBackgroundResource(android.R.color.white);
             holder.textNum.setTextColor(ContextCompat.getColor(context, R.color.blue));
@@ -74,6 +74,7 @@ public class AdapterLightLvl extends RecyclerView.Adapter<AdapterLightLvl.LightL
         return lvls.size();
     }
 
+
     public class LightLvlViewHolder extends RecyclerView.ViewHolder {
 
         private TextView textNum, textScore;
@@ -87,6 +88,7 @@ public class AdapterLightLvl extends RecyclerView.Adapter<AdapterLightLvl.LightL
             cardLvl = itemView.findViewById(R.id.card_lvl);
             textScore = itemView.findViewById(R.id.text_score);
             imgCircle = itemView.findViewById(R.id.img_circle);
+
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

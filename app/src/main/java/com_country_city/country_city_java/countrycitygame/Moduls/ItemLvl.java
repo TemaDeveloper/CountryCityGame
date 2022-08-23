@@ -12,8 +12,6 @@ public class ItemLvl {
         this.score = score;
     }
 
-
-
     public String getScore() {
         return score;
     }
