@@ -1,6 +1,7 @@
 package com_country_city.country_city_java.countrycitygame.OnBoarding;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowCompat;
@@ -38,6 +39,7 @@ public class OnBoardingActivity extends AppCompatActivity{
     private MyPagerAdapter mFragmentAdapter;
     private ViewPager mViewPager;
     private TabLayout mTabLayout;
+    private ConstraintLayout constraintLayoutTop;
 
     private TextView textSkip;
 
@@ -48,12 +50,36 @@ public class OnBoardingActivity extends AppCompatActivity{
 
         mFragmentAdapter = new MyPagerAdapter(getSupportFragmentManager());
         mViewPager = findViewById(R.id.view_pager_onBoarding);
+        constraintLayoutTop = findViewById(R.id.cons_top);
         textSkip = findViewById(R.id.text_skip);
         mViewPager.setAdapter(mFragmentAdapter);
 
         // link the tabLayout and the viewpager together
         mTabLayout = findViewById(R.id.tabs_on_boarding);
         mTabLayout.setupWithViewPager(mViewPager);
+
+        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                if (position == 0) {
+                    constraintLayoutTop.setVisibility(View.VISIBLE);
+                } else if (position == 1) {
+                    constraintLayoutTop.setVisibility(View.VISIBLE);
+                } else {
+                    constraintLayoutTop.setVisibility(View.GONE);
+                }
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
 
         textSkip.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,19 +118,7 @@ public class OnBoardingActivity extends AppCompatActivity{
         // Will be displayed as the tab's label
         @Override
         public CharSequence getPageTitle(int position) {
-            switch(position) {
-                case 0:
-                    return "";
-
-                case 1:
-                    return "";
-
-                case 2:
-                    return "";
-
-                default:
-                    return null;
-            }
+            return "";
         }
 
         // Returns total number of pages

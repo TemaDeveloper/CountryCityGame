@@ -6,6 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="bottom"
+    android:background="@android:color/transparent"
     android:layout_alignParentBottom="true"
     tools:context=".OnBoarding.StepTwoFragment">
 
@@ -13,22 +14,27 @@
         android:id="@+id/linimgs_onboarding"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/img_heart"
+            android:layout_margin="10dp"
             android:layout_marginRight="10dp"
-            app:tint="@color/white"/>
+            android:rotation="320"
+            android:src="@drawable/img_heart"
+            app:tint="@color/white" />
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:layout_marginLeft="10dp"
+            android:rotation="40"
             android:src="@drawable/img_unfill_heart"
-            app:tint="@color/white"/>
+            app:tint="@color/white" />
 
     </LinearLayout>
 
@@ -42,7 +48,7 @@
         android:layout_marginRight="10dp"
         android:fontFamily="@font/font_raleway"
         android:letterSpacing=".1"
-        android:text="Rules"
+        android:text="@string/title_step_2"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="24dp" />
@@ -55,7 +61,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:text="You will have 3 hp as long as you have 3 mistakes the level will be reloaded."
+        android:text="@string/description_step_2"
         android:textColor="@color/white"
         android:textSize="20dp" />
 

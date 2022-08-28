@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/blue"
+    android:background="@color/orange"
     android:fillViewport="true"
     android:fitsSystemWindows="true"
+    android:orientation="vertical"
     tools:context=".LVLconstructors.LvlActivity">
 
 
@@ -15,7 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
 
 
         <Toolbar
@@ -45,8 +44,6 @@
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textSize="16dp" />
-
-
 
 
                 </RelativeLayout>
@@ -140,29 +137,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_below="@+id/toolbar"
             android:background="@color/white"
-            android:layout_below="@+id/toolbar">
+            android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/lin_question"
-                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                >
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/text_question"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="@font/font_raleway"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
                     android:text="s?"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/orange"
                     android:textSize="20dp" />
 
 
@@ -172,24 +168,23 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/card_question"
                     android:layout_centerHorizontal="true"
-                    app:cardCornerRadius="4dp"
-                    android:elevation="4dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:visibility="gone">
+                    android:elevation="4dp"
+                    android:visibility="gone"
+                    app:cardCornerRadius="4dp">
 
                     <ImageView
                         android:id="@+id/img_question"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
-                        android:scaleType="centerCrop"/>
+                        android:scaleType="centerCrop" />
 
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
-
 
 
             <LinearLayout
@@ -205,20 +200,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="score: "
                     android:letterSpacing=".1"
+                    android:text="score: "
                     android:textAllCaps="true"
-                    android:textColor="@color/black"
+                    android:textColor="@color/orange"
                     android:textSize="16dp" />
 
                 <TextView
                     android:id="@+id/text_score"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0/n"
                     android:fontFamily="@font/font_raleway"
+                    android:text="0/n"
                     android:textAllCaps="true"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/orange"
                     android:textSize="16dp" />
 
             </LinearLayout>
@@ -252,7 +247,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/font_raleway"
                     android:gravity="center"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/orange"
                     android:textSize="16dp"
                     tools:text="0/10" />
 
@@ -294,68 +289,68 @@
                         android:id="@+id/btn_option_one"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:elevation="4dp"
-                        android:layout_marginTop="5dp"
                         android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginBottom="5dp"
+                        android:background="@drawable/radio_selector_insane"
                         android:button="@android:color/transparent"
+                        android:elevation="4dp"
                         android:fontFamily="@font/font_raleway"
+                        android:gravity="center"
                         android:text="Gabon"
-                        android:background="@drawable/radio_btn_selector"
-                        android:textColor="@drawable/text_color_selector"
+                        android:textColor="@drawable/text_color_selector_insane"
                         android:textSize="20dp" />
 
                     <RadioButton
                         android:id="@+id/btn_option_two"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:elevation="4dp"
-                        android:layout_marginTop="5dp"
                         android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginBottom="5dp"
-                        android:gravity="center"
+                        android:background="@drawable/radio_selector_insane"
                         android:button="@android:color/transparent"
+                        android:elevation="4dp"
                         android:fontFamily="@font/font_raleway"
+                        android:gravity="center"
                         android:text="France"
-                        android:background="@drawable/radio_btn_selector"
-                        android:textColor="@drawable/text_color_selector"
+                        android:textColor="@drawable/text_color_selector_insane"
                         android:textSize="20dp" />
 
                     <RadioButton
                         android:id="@+id/btn_option_three"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:elevation="4dp"
-                        android:layout_marginTop="5dp"
                         android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginBottom="5dp"
-                        android:gravity="center"
+                        android:background="@drawable/radio_selector_insane"
                         android:button="@android:color/transparent"
+                        android:elevation="4dp"
                         android:fontFamily="@font/font_raleway"
+                        android:gravity="center"
                         android:text="German"
-                        android:background="@drawable/radio_btn_selector"
-                        android:textColor="@drawable/text_color_selector"
+                        android:textColor="@drawable/text_color_selector_insane"
                         android:textSize="20dp" />
 
                     <RadioButton
                         android:id="@+id/btn_option_four"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:elevation="4dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginRight="5dp"
-                        android:gravity="center"
-                        android:background="@drawable/radio_btn_selector"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/radio_selector_insane"
                         android:button="@android:color/transparent"
+                        android:elevation="4dp"
                         android:fontFamily="@font/font_raleway"
+                        android:gravity="center"
                         android:text="USA"
-                        android:textColor="@drawable/text_color_selector"
+                        android:textColor="@drawable/text_color_selector_insane"
                         android:textSize="20dp" />
 
                 </RadioGroup>
@@ -366,11 +361,11 @@
                 android:id="@+id/btn_submit"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:backgroundTint="@color/blue"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/orange"
                 android:elevation="4dp"
                 android:fontFamily="@font/font_raleway"
                 android:text="Next"

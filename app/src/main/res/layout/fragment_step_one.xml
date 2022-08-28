@@ -3,35 +3,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_alignParentBottom="true"
     android:gravity="bottom"
     android:background="@android:color/transparent"
     tools:context=".OnBoarding.StepOneFragment">
 
+
+    <LinearLayout
+        android:id="@+id/linimgs_onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/center_img"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:rotation="350"
+            android:src="@drawable/img_adventurer_all_height"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/center_img"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/img_alien_all_height"
+            app:tint="@color/white" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignRight="@+id/center_img"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:rotation="20"
+            android:scaleX="-1"
+            android:src="@drawable/img_voyager_all_height"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
     <TextView
         android:id="@+id/text_title_onboarding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What for this app?"
-        android:textAllCaps="true"
-        android:fontFamily="@font/font_raleway"
-        android:textColor="@color/white"
-        android:letterSpacing=".1"
+        android:layout_below="@+id/linimgs_onboarding"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="24dp"/>
+        android:fontFamily="@font/font_raleway"
+        android:letterSpacing=".1"
+        android:text="@string/title_step_1"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title_onboarding"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_below="@+id/text_title_onboarding"
-        android:text="Here you will be able to improve your knowledge aof geography and finger out a plenty of details and mere of this outstanding subject."
+        android:text="@string/description_step_1"
         android:textColor="@color/white"
         android:textSize="20dp" />
 

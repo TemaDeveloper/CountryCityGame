@@ -2,7 +2,8 @@
 <resources>
     <color name="blue">#3386FF</color>
     <color name="red">#FF5733</color>
-    <color name="yellow">#FFEC33</color>
+    <color name="orange">#FF8633</color>
+    <color name="pink">#FF3396</color><!--FFEC33-->
     <color name="green">#A2E32A</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

@@ -10,7 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CountryCityGame.Fullscreen">
         <activity
-            android:name=".Main.FAQActivity"
+            android:name=".DifficultyLvls.InsaneLVLsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LVLconstructors.InsaneLVLActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoarding.SplashScreenActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplahTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LVLconstructors.LVLMediumActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DifficultyLvls.MediumLVLsActivity"
             android:exported="false" />
         <activity
             android:name=".Main.FinishActivity"
@@ -19,20 +40,14 @@
         <activity
             android:name=".OnBoarding.OnBoardingActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".Main.LvlActivity"
+            android:name=".LVLconstructors.LvlActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".DifficultyLvls.LightLvlsActivity"
+            android:name=".DifficultyLvls.EasyLVLsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity

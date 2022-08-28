@@ -7,7 +7,7 @@
     android:background="@color/blue"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context=".DifficultyLvls.LightLvlsActivity"
+    tools:context=".DifficultyLvls.EasyLVLsActivity"
     tools:ignore="MissingDefaultResource">
 
     <com.google.android.material.appbar.AppBarLayout

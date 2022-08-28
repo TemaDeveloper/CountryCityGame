@@ -16,31 +16,31 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-import com_country_city.country_city_java.countrycitygame.Main.LvlActivity;
+import com_country_city.country_city_java.countrycitygame.LVLconstructors.LvlActivity;
 import com_country_city.country_city_java.countrycitygame.Moduls.ItemLvl;
 import com_country_city.country_city_java.countrycitygame.R;
 
-public class AdapterLightLvl extends RecyclerView.Adapter<AdapterLightLvl.LightLvlViewHolder> {
+public class AdapterEasyLvl extends RecyclerView.Adapter<AdapterEasyLvl.LightLvlViewHolder> {
 
     private ArrayList<ItemLvl> lvls;
     private Context context;
 
-    public AdapterLightLvl(Context context, ArrayList<ItemLvl> lvls) {
+    public AdapterEasyLvl(Context context, ArrayList<ItemLvl> lvls) {
         this.lvls = lvls;
         this.context = context;
     }
 
     @NonNull
     @Override
-    public AdapterLightLvl.LightLvlViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public AdapterEasyLvl.LightLvlViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_lvl, parent, false);
+                .inflate(R.layout.item_lvl_easy, parent, false);
         return new LightLvlViewHolder(view);
     }
 
     @SuppressLint("ResourceAsColor")
     @Override
-    public void onBindViewHolder(@NonNull AdapterLightLvl.LightLvlViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull AdapterEasyLvl.LightLvlViewHolder holder, int position) {
         int currentPosition = position + 1;
 
         holder.textNum.setText(currentPosition + "." + lvls.get(position).getNum());

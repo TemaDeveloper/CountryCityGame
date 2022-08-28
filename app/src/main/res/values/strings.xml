@@ -1,7 +1,27 @@
 <resources>
     <string name="app_name">Geography Quiz</string>
 
+    <!--OnBoarding Texts-->
 
+    <string name="title_step_1">What for this app?</string>
+    <string name="description_step_1">Here you will be able to improve your knowledge of geography and finger out a plenty of details and mere of this outstanding subject.</string>
+    
+    
+    <string name="title_step_2">Rules</string>
+    <string name="description_step_2">You will have 3 hp as long as you have 3 mistakes the level will be lost.\nOf course you are able to retry the level.\nThe points those you score will be saved.</string>
+    
+    <string name="title_step_3">Welcome!</string>
+    <string name="description_step_3">Develop and practise your knowledge of geography. Enjoy!</string>
+    
+    <string name="btn_start_text">Start</string>
+    <string name="GQ_reduction_text">G • Q</string>
+    <string name="text_skip">Skip</string>
+
+    <!--SplashScreen texts-->
+
+    <string name="text_created_by">Created by</string>
+    <string name="name_of_creator">TEMA:D</string>
+    
     <!-- Questions easy levels || Ordinary person-->
     <string name="easy_lvl_question_1">What is the capital of Spain?</string>
 
@@ -83,6 +103,922 @@
     <string name="easy_lvl_question_10_option_2">River character</string>
     <string name="easy_lvl_question_10_option_3">River regime</string>
     <string name="easy_lvl_question_10_option_4">River flow</string>
+
+
+    <!-- Questions easy levels || Teacher-->
+    <string name="easy_lvl_question_11">What causes the difference in time in different parts of the Earth?</string>
+
+    <!--options and answer for easy lvl || question 11|| Teacher-->
+    <string name="easy_lvl_question_11_option_1">Climatic conditions</string>
+    <string name="easy_lvl_question_11_option_2">The movement of the earth around the sun</string>
+    <string name="easy_lvl_question_11_option_3">Axial rotation of the earth</string>
+    <string name="easy_lvl_question_11_option_4">Change of seasons</string>
+
+    <string name="easy_lvl_question_12">What plain is NOT on the Eurasian continent?</string>
+
+    <!--options and answer for easy lvl || question 12|| Teacher-->
+    <string name="easy_lvl_question_12_option_1">West Siberian</string>
+    <string name="easy_lvl_question_12_option_2">Amazonian</string>
+    <string name="easy_lvl_question_12_option_3">East European</string>
+    <string name="easy_lvl_question_12_option_4">Indo-Gangetic</string>
+
+    <string name="easy_lvl_question_13">The day of March 21 in the northern hemisphere is called the day:</string>
+
+    <!--options and answer for easy lvl || question 13|| Teacher-->
+    <string name="easy_lvl_question_13_option_1">Summer solstice</string>
+    <string name="easy_lvl_question_13_option_2">Spring equinox</string>
+    <string name="easy_lvl_question_13_option_3">Autumn equinox</string>
+    <string name="easy_lvl_question_13_option_4">Winter solstice</string>
+
+    <string name="easy_lvl_question_14">Consider a photograph depicting a dangerous natural phenomenon. In what part of the geographic shell of the earth did this phenomenon originate?</string>
+
+    <!--options and answer for easy lvl || question 14|| Teacher-->
+    <string name="easy_lvl_question_14_option_1">Lithosphere</string>
+    <string name="easy_lvl_question_14_option_2">Hydrosphere</string>
+    <string name="easy_lvl_question_14_option_3">Biosphere</string>
+    <string name="easy_lvl_question_14_option_4">Atmosphere</string>
+
+
+    <string name="easy_lvl_question_15">Rocks formed as a result of the accumulation of substances precipitated at the bottom of reservoirs are called:</string>
+
+    <!--options and answer for easy lvl || question 15|| Teacher-->
+    <string name="easy_lvl_question_15_option_1">Metamorphic</string>
+    <string name="easy_lvl_question_15_option_2">Sedimentary</string>
+    <string name="easy_lvl_question_15_option_3">Igneous</string>
+    <string name="easy_lvl_question_15_option_4">Organic</string>
+
+    <string name="easy_lvl_question_16">Mountains on the map are indicated by color:</string>
+
+    <!--options and answer for easy lvl || question 16|| Teacher-->
+    <string name="easy_lvl_question_16_option_1">Blue</string>
+    <string name="easy_lvl_question_16_option_2">Yellow</string>
+    <string name="easy_lvl_question_16_option_3">Green</string>
+    <string name="easy_lvl_question_16_option_4">Brown</string>
+
+    <string name="easy_lvl_question_17">On what continent could this sign be located?</string>
+
+    <!--options and answer for easy lvl || question 17|| Teacher-->
+    <string name="easy_lvl_question_17_option_1">Africa</string>
+    <string name="easy_lvl_question_17_option_2">South America</string>
+    <string name="easy_lvl_question_17_option_3">Eurasia</string>
+    <string name="easy_lvl_question_17_option_4">North America</string>
+
+    <string name="easy_lvl_question_18">At meteorological stations, pressure is determined using:</string>
+
+    <!--options and answer for easy lvl || question 18|| Teacher-->
+    <string name="easy_lvl_question_18_option_1">Hygrometer</string>
+    <string name="easy_lvl_question_18_option_2">Thermometer</string>
+    <string name="easy_lvl_question_18_option_3">Weather vane</string>
+    <string name="easy_lvl_question_18_option_4">Barometer</string>
+
+    <string name="easy_lvl_question_19">A river CANNOT originate from:</string>
+
+    <!--options and answer for easy lvl || question 19|| Teacher-->
+    <string name="easy_lvl_question_19_option_1">Swamps</string>
+    <string name="easy_lvl_question_19_option_2">Lakes</string>
+    <string name="easy_lvl_question_19_option_3">Seas</string>
+    <string name="easy_lvl_question_19_option_4">Spring</string>
+
+    <string name="easy_lvl_question_20">South America is the most ... mainland</string>
+
+    <!--options and answer for easy lvl || question 20|| Teacher-->
+    <string name="easy_lvl_question_20_option_1">Hot</string>
+    <string name="easy_lvl_question_20_option_2">Wet</string>
+    <string name="easy_lvl_question_20_option_3">Dry</string>
+    <string name="easy_lvl_question_20_option_4">giant, in terms of area</string>
+
+    <!-- Questions easy levels || Voyager-->
+    <string name="easy_lvl_question_21">Ocean water temperature is influenced by:</string>
+
+    <!--options and answer for easy lvl || question 21|| Voyager-->
+    <string name="easy_lvl_question_21_option_1">Bottom topography</string>
+    <string name="easy_lvl_question_21_option_2">Rainfall</string>
+    <string name="easy_lvl_question_21_option_3">Geographical latitude</string>
+    <string name="easy_lvl_question_21_option_4">Number of fish</string>
+
+    <string name="easy_lvl_question_22">The layer of the atmosphere in which all weather changes occur</string>
+
+    <!--options and answer for easy lvl || question 22|| Voyager-->
+    <string name="easy_lvl_question_22_option_1">Troposphere</string>
+    <string name="easy_lvl_question_22_option_2">Thermosphere</string>
+    <string name="easy_lvl_question_22_option_3">Stratosphere</string>
+    <string name="easy_lvl_question_22_option_4">Mesosphere</string>
+
+    <string name="easy_lvl_question_23">The four seasons of the year are clearly expressed in these latitudes:</string>
+
+    <!--options and answer for easy lvl || question 23|| Voyager-->
+    <string name="easy_lvl_question_23_option_1">Equatorial</string>
+    <string name="easy_lvl_question_23_option_2">Tropical</string>
+    <string name="easy_lvl_question_23_option_3">Moderate</string>
+    <string name="easy_lvl_question_23_option_4">Arctic</string>
+
+    <string name="easy_lvl_question_24">In which natural area does precipitation fall evenly throughout the year?</string>
+
+    <!--options and answer for easy lvl || question 24|| Voyager-->
+    <string name="easy_lvl_question_24_option_1">Savannah</string>
+    <string name="easy_lvl_question_24_option_2">Tundra</string>
+    <string name="easy_lvl_question_24_option_3">Taiga</string>
+    <string name="easy_lvl_question_24_option_4">Humid equatorial forests</string>
+
+
+    <string name="easy_lvl_question_25">In which natural area could this photo have been taken?</string>
+
+    <!--options and answer for easy lvl || question 25|| Voyager-->
+    <string name="easy_lvl_question_25_option_1">Tundra</string>
+    <string name="easy_lvl_question_25_option_2">Taiga</string>
+    <string name="easy_lvl_question_25_option_3">Steppes</string>
+    <string name="easy_lvl_question_25_option_4">Desert</string>
+
+    <string name="easy_lvl_question_26">The driest continent on earth is...</string>
+
+    <!--options and answer for easy lvl || question 26|| Voyager-->
+    <string name="easy_lvl_question_26_option_1">Antarctica</string>
+    <string name="easy_lvl_question_26_option_2">Africa</string>
+    <string name="easy_lvl_question_26_option_3">Australia</string>
+    <string name="easy_lvl_question_26_option_4">North America</string>
+
+    <string name="easy_lvl_question_27">Island groups are called:</string>
+
+    <!--options and answer for easy lvl || question 27|| Voyager-->
+    <string name="easy_lvl_question_27_option_1">Continents</string>
+    <string name="easy_lvl_question_27_option_2">Archipelagos</string>
+    <string name="easy_lvl_question_27_option_3">Lots of islands</string>
+    <string name="easy_lvl_question_27_option_4">parts of the world</string>
+
+    <string name="easy_lvl_question_28">What did the navigator shown in the picture discover?</string>
+
+    <!--options and answer for easy lvl || question 28|| Voyager-->
+    <string name="easy_lvl_question_28_option_1">Eurasia</string>
+    <string name="easy_lvl_question_28_option_2">Antarctica</string>
+    <string name="easy_lvl_question_28_option_3">Austria</string>
+    <string name="easy_lvl_question_28_option_4">New World</string>
+
+    <string name="easy_lvl_question_29">The lithosphere contains...</string>
+
+    <!--options and answer for easy lvl || question 29|| Voyager-->
+    <string name="easy_lvl_question_29_option_1">Mantle and core</string>
+    <string name="easy_lvl_question_29_option_2">The crust of Earth and upper mantle</string>
+    <string name="easy_lvl_question_29_option_3">Crust of Earth, mantle and core</string>
+    <string name="easy_lvl_question_29_option_4">Crust of Earth</string>
+
+    <string name="easy_lvl_question_30">Fresh water pantries are:</string>
+
+    <!--options and answer for easy lvl || question 30|| Voyager-->
+    <string name="easy_lvl_question_30_option_1">Glaciers</string>
+    <string name="easy_lvl_question_30_option_2">Rivers</string>
+    <string name="easy_lvl_question_30_option_3">Lakes</string>
+    <string name="easy_lvl_question_30_option_4">Swamps</string>
+
+
+    <!-- Questions easy levels || Businessman-->
+    <string name="easy_lvl_question_31">On which continent is the famous Mount Kilimanjaro located?</string>
+
+    <!--options and answer for easy lvl || question 31|| Businessman-->
+    <string name="easy_lvl_question_31_option_1">Africa</string>
+    <string name="easy_lvl_question_31_option_2">South America</string>
+    <string name="easy_lvl_question_31_option_3">North America</string>
+    <string name="easy_lvl_question_31_option_4">Australia</string>
+
+    <string name="easy_lvl_question_32">Which flag is shown in the picture?</string>
+
+    <!--options and answer for easy lvl || question 32|| Businessman-->
+    <string name="easy_lvl_question_32_option_1">Spain</string>
+    <string name="easy_lvl_question_32_option_2">Poland</string>
+    <string name="easy_lvl_question_32_option_3">Japan</string>
+    <string name="easy_lvl_question_32_option_4">North Korea</string>
+
+    <string name="easy_lvl_question_33">Which of the following are located in North America?</string>
+
+    <!--options and answer for easy lvl || question 33|| Businessman-->
+    <string name="easy_lvl_question_33_option_1">Amazon, Washington, Kilimanjaro</string>
+    <string name="easy_lvl_question_33_option_2">London, Cordillera, Andes</string>
+    <string name="easy_lvl_question_33_option_3">Himalayas, Mississippi, Baikal</string>
+    <string name="easy_lvl_question_33_option_4">Appalachians, New Orleans, l. Upper</string>
+
+    <string name="easy_lvl_question_34">What is the name of the strait that separates Europe from Africa?</string>
+
+    <!--options and answer for easy lvl || question 34|| Businessman-->
+    <string name="easy_lvl_question_34_option_1">Beringov</string>
+    <string name="easy_lvl_question_34_option_2">Gibraltar</string>
+    <string name="easy_lvl_question_34_option_3">Magellan</string>
+    <string name="easy_lvl_question_34_option_4">La Perouse</string>
+
+
+    <string name="easy_lvl_question_35">Where do most organisms live?</string>
+
+    <!--options and answer for easy lvl || question 35|| Businessman-->
+    <string name="easy_lvl_question_35_option_1">Near the surface of Earth</string>
+    <string name="easy_lvl_question_35_option_2">In deep waters</string>
+    <string name="easy_lvl_question_35_option_3">In 300m height</string>
+    <string name="easy_lvl_question_35_option_4">In soil</string>
+
+    <string name="easy_lvl_question_36">What continent is the country in the picture on?</string>
+
+    <!--options and answer for easy lvl || question 36|| Businessman-->
+    <string name="easy_lvl_question_36_option_1">North America</string>
+    <string name="easy_lvl_question_36_option_2">South America</string>
+    <string name="easy_lvl_question_36_option_3">Eurasia</string>
+    <string name="easy_lvl_question_36_option_4">Africa</string>
+
+    <string name="easy_lvl_question_37">The tilt angle of the axis of Earth is:</string>
+
+    <!--options and answer for easy lvl || question 37|| Businessman-->
+    <string name="easy_lvl_question_37_option_1">0°</string>
+    <string name="easy_lvl_question_37_option_2">66,51°</string>
+    <string name="easy_lvl_question_37_option_3">23,26°</string>
+    <string name="easy_lvl_question_37_option_4">90°</string>
+
+    <string name="easy_lvl_question_38">The average thickness of the continental crust is:</string>
+
+    <!--options and answer for easy lvl || question 38|| Businessman-->
+    <string name="easy_lvl_question_38_option_1">35-45 km</string>
+    <string name="easy_lvl_question_38_option_2">50-80 km</string>
+    <string name="easy_lvl_question_38_option_3">10-20 km</string>
+    <string name="easy_lvl_question_38_option_4">3-7 km</string>
+
+    <string name="easy_lvl_question_39">Which of the directions is opposite to the direction of the Northwest?</string>
+
+    <!--options and answer for easy lvl || question 39|| Businessman-->
+    <string name="easy_lvl_question_39_option_1">North-East</string>
+    <string name="easy_lvl_question_39_option_2">North-South</string>
+    <string name="easy_lvl_question_39_option_3">South-East</string>
+    <string name="easy_lvl_question_39_option_4">South-West</string>
+
+    <string name="easy_lvl_question_40">The lowest atmospheric pressure is observed on:</string>
+
+    <!--options and answer for easy lvl || question 40|| Businessman-->
+    <string name="easy_lvl_question_40_option_1">Seashore</string>
+    <string name="easy_lvl_question_40_option_2">lowlands</string>
+    <string name="easy_lvl_question_40_option_3">Top of the mountain</string>
+    <string name="easy_lvl_question_40_option_4">Hill</string>
+
+
+    <!-- Questions easy levels || Adventurer-->
+    <string name="easy_lvl_question_41">What is the name of the charts that give a visual representation of the prevailing winds in any area?</string>
+
+    <!--options and answer for easy lvl || question 41|| Adventurer-->
+    <string name="easy_lvl_question_41_option_1">Isotherm</string>
+    <string name="easy_lvl_question_41_option_2">Rose of Wind</string>
+    <string name="easy_lvl_question_41_option_3">Weather vane</string>
+    <string name="easy_lvl_question_41_option_4">Carminative</string>
+
+    <string name="easy_lvl_question_42">The capital of Australia is...</string>
+
+    <!--options and answer for easy lvl || question 42|| Adventurer-->
+    <string name="easy_lvl_question_42_option_1">Sydney</string>
+    <string name="easy_lvl_question_42_option_2">Melbourne</string>
+    <string name="easy_lvl_question_42_option_3">Canberra</string>
+    <string name="easy_lvl_question_42_option_4">Darwin</string>
+
+    <string name="easy_lvl_question_43">Instrument for monitoring wind direction and speed is...</string>
+
+    <!--options and answer for easy lvl || question 43|| Adventurer-->
+    <string name="easy_lvl_question_43_option_1">Barometer</string>
+    <string name="easy_lvl_question_43_option_2">Anemometer</string>
+    <string name="easy_lvl_question_43_option_3">Thermometer</string>
+    <string name="easy_lvl_question_43_option_4">Rain gauge</string>
+
+    <string name="easy_lvl_question_44">In what part of the geographic shell of the earth did this natural phenomenon originate?</string>
+
+    <!--options and answer for easy lvl || question 44|| Adventurer-->
+    <string name="easy_lvl_question_44_option_1">Lithosphere</string>
+    <string name="easy_lvl_question_44_option_2">Hydrosphere</string>
+    <string name="easy_lvl_question_44_option_3">Biosphere</string>
+    <string name="easy_lvl_question_44_option_4">Atmosphere</string>
+
+
+    <string name="easy_lvl_question_45">What is a gentle wind that changes direction twice a day called?</string>
+
+    <!--options and answer for easy lvl || question 45|| Adventurer-->
+    <string name="easy_lvl_question_45_option_1">Breeze</string>
+    <string name="easy_lvl_question_45_option_2">Hurricane</string>
+    <string name="easy_lvl_question_45_option_3">Monsoon</string>
+    <string name="easy_lvl_question_45_option_4">Calm</string>
+
+    <string name="easy_lvl_question_46">What is the extent of the territory of Russia from west to east?</string>
+
+    <!--options and answer for easy lvl || question 46|| Adventurer-->
+    <string name="easy_lvl_question_46_option_1">Around 5000 km</string>
+    <string name="easy_lvl_question_46_option_2">Around 10000 km</string>
+    <string name="easy_lvl_question_46_option_3">Around 15000 km</string>
+    <string name="easy_lvl_question_46_option_4">Around 20000 km</string>
+
+    <string name="easy_lvl_question_47">Which waterfall is the largest in the world?</string>
+
+    <!--options and answer for easy lvl || question 47|| Adventurer-->
+    <string name="easy_lvl_question_47_option_1">Victoria</string>
+    <string name="easy_lvl_question_47_option_2">Niagara</string>
+    <string name="easy_lvl_question_47_option_3">Iguazu</string>
+    <string name="easy_lvl_question_47_option_4">Stanley</string>
+
+    <string name="easy_lvl_question_48">What are the soils in the territory of variable-humid forests?</string>
+
+    <!--options and answer for easy lvl || question 48|| Adventurer-->
+    <string name="easy_lvl_question_48_option_1">Gray soils</string>
+    <string name="easy_lvl_question_48_option_2">Gray forest</string>
+    <string name="easy_lvl_question_48_option_3">Chernozems</string>
+    <string name="easy_lvl_question_48_option_4">Red ferralite</string>
+
+    <string name="easy_lvl_question_49">In which country is the attraction from the photo located?</string>
+
+    <!--options and answer for easy lvl || question 49|| Adventurer-->
+    <string name="easy_lvl_question_49_option_1">Spain</string>
+    <string name="easy_lvl_question_49_option_2">Italy</string>
+    <string name="easy_lvl_question_49_option_3">France</string>
+    <string name="easy_lvl_question_49_option_4">Egypt</string>
+
+    <string name="easy_lvl_question_50">Hydrosphere is...</string>
+
+    <!--options and answer for easy lvl || question 50|| Adventurer-->
+    <string name="easy_lvl_question_50_option_1">Air shell</string>
+    <string name="easy_lvl_question_50_option_2">Hard shell</string>
+    <string name="easy_lvl_question_50_option_3">Water shell</string>
+    <string name="easy_lvl_question_50_option_4">Alive shell</string>
+
+
+    <!-- Questions easy levels || Alien-->
+    <string name="easy_lvl_question_51">Plains are distinguished by height:</string>
+
+    <!--options and answer for easy lvl || question 51|| Alien-->
+    <string name="easy_lvl_question_51_option_1">Lowlands not higher than 200 m</string>
+    <string name="easy_lvl_question_51_option_2">Elevations 200 - 500 m</string>
+    <string name="easy_lvl_question_51_option_3">Plateau 500 m</string>
+    <string name="easy_lvl_question_51_option_4">All of the options are correct</string>
+
+    <string name="easy_lvl_question_52">What is the name of the ridge in the middle of the Atlantic Ocean?</string>
+
+    <!--options and answer for easy lvl || question 52|| Alien-->
+    <string name="easy_lvl_question_52_option_1">Mid-Atlantic Ridge</string>
+    <string name="easy_lvl_question_52_option_2">Arabian Indian Range</string>
+    <string name="easy_lvl_question_52_option_3">East Pacific Rise</string>
+    <string name="easy_lvl_question_52_option_4">Deep sea trench</string>
+
+    <string name="easy_lvl_question_53">What are the highest mountains in the Himalayas?</string>
+
+    <!--options and answer for easy lvl || question 53|| Alien-->
+    <string name="easy_lvl_question_53_option_1">To middle</string>
+    <string name="easy_lvl_question_53_option_2">To height</string>
+    <string name="easy_lvl_question_53_option_3">To low</string>
+    <string name="easy_lvl_question_53_option_4">It does not match to mountains</string>
+
+    <string name="easy_lvl_question_54">The deepest trench on Earth:</string>
+
+    <!--options and answer for easy lvl || question 54|| Alien-->
+    <string name="easy_lvl_question_54_option_1">Puerto Rico</string>
+    <string name="easy_lvl_question_54_option_2">Sunda trench</string>
+    <string name="easy_lvl_question_54_option_3">Greenland Sea</string>
+    <string name="easy_lvl_question_54_option_4">Mariana Trench</string>
+
+
+    <string name="easy_lvl_question_55">From the photo of the animals, determine which continent they are on:</string>
+
+    <!--options and answer for easy lvl || question 55|| Alien-->
+    <string name="easy_lvl_question_55_option_1">Finland</string>
+    <string name="easy_lvl_question_55_option_2">Antarctica</string>
+    <string name="easy_lvl_question_55_option_3">North America</string>
+    <string name="easy_lvl_question_55_option_4">South pole</string>
+
+    <string name="easy_lvl_question_56">Who discovered the strait between Asia and America?</string>
+
+    <!--options and answer for easy lvl || question 56|| Alien-->
+    <string name="easy_lvl_question_56_option_1">Bering</string>
+    <string name="easy_lvl_question_56_option_2">Columbus</string>
+    <string name="easy_lvl_question_56_option_3">Dezhnev</string>
+    <string name="easy_lvl_question_56_option_4">Hudson</string>
+
+    <string name="easy_lvl_question_57">What part of the world is entirely in the Western Hemisphere?</string>
+
+    <!--options and answer for easy lvl || question 57|| Alien-->
+    <string name="easy_lvl_question_57_option_1">USA</string>
+    <string name="easy_lvl_question_57_option_2">Australia</string>
+    <string name="easy_lvl_question_57_option_3">Africa</string>
+    <string name="easy_lvl_question_57_option_4">South America</string>
+
+    <string name="easy_lvl_question_58">What is the dominant element in the crust?</string>
+
+    <!--options and answer for easy lvl || question 58|| Alien-->
+    <string name="easy_lvl_question_58_option_1">Ox</string>
+    <string name="easy_lvl_question_58_option_2">Silicon</string>
+    <string name="easy_lvl_question_58_option_3">Magnesium</string>
+    <string name="easy_lvl_question_58_option_4">Nitrogen</string>
+
+    <string name="easy_lvl_question_59">Igneous rocks formed as a result of:</string>
+
+    <!--options and answer for easy lvl || question 59|| Alien-->
+    <string name="easy_lvl_question_59_option_1">Accumulation of animal remains</string>
+    <string name="easy_lvl_question_59_option_2">Lava solidification</string>
+    <string name="easy_lvl_question_59_option_3">High pressure and high temperatures at great depths</string>
+    <string name="easy_lvl_question_59_option_4">Destruction of hard rocks</string>
+
+    <string name="easy_lvl_question_60">Which country is shaped like the object shown in the picture?</string>
+
+    <!--options and answer for easy lvl || question 60|| Alien-->
+    <string name="easy_lvl_question_60_option_1">Iceland</string>
+    <string name="easy_lvl_question_60_option_2">USA</string>
+    <string name="easy_lvl_question_60_option_3">Germany</string>
+    <string name="easy_lvl_question_60_option_4">Italy</string>
+
+
+
+
+
+    <!-- Questions medium levels || Ordinary person-->
+    <string name="medium_lvl_question_61">Which of the following deserts is located in the Southern Hemisphere?</string>
+
+    <!--options and answer for medium lvl || question 1|| Ordinary person-->
+    <string name="medium_lvl_question_61_option_1">Atacama</string>
+    <string name="medium_lvl_question_61_option_2">Sahara</string>
+    <string name="medium_lvl_question_61_option_3">Gobi</string>
+    <string name="medium_lvl_question_61_option_4">Rub al Khali</string>
+
+    <string name="medium_lvl_question_62">Which of the following countries is located in two parts of the world?</string>
+
+    <!--options and answer for medium lvl || question 2|| Ordinary person-->
+    <string name="medium_lvl_question_62_option_1">Brazil</string>
+    <string name="medium_lvl_question_62_option_2">Russia</string>
+    <string name="medium_lvl_question_62_option_3">India</string>
+    <string name="medium_lvl_question_62_option_4">Algeria</string>
+
+    <string name="medium_lvl_question_63">Which of the following countries has the largest population?</string>
+
+    <!--options and answer for medium lvl || question 3|| Ordinary person-->
+    <string name="medium_lvl_question_63_option_1">USA</string>
+    <string name="medium_lvl_question_63_option_2">Brazil</string>
+    <string name="medium_lvl_question_63_option_3">Russia</string>
+    <string name="medium_lvl_question_63_option_4">India</string>
+
+    <string name="medium_lvl_question_64">Determine the country from the photo of the national dish:</string>
+
+    <!--options and answer for medium lvl || question 4|| Ordinary person-->
+    <string name="medium_lvl_question_64_option_1">Ukraine</string>
+    <string name="medium_lvl_question_64_option_2">Scotland</string>
+    <string name="medium_lvl_question_64_option_3">Belarus</string>
+    <string name="medium_lvl_question_64_option_4">Canada</string>
+
+
+    <string name="medium_lvl_question_65">Which of the following natural resources is inexhaustible?</string>
+
+    <!--options and answer for medium lvl || question 5|| Ordinary person-->
+    <string name="medium_lvl_question_65_option_1">Soil</string>
+    <string name="medium_lvl_question_65_option_2">Oil</string>
+    <string name="medium_lvl_question_65_option_3">Tidal energy</string>
+    <string name="medium_lvl_question_65_option_4">Peat</string>
+
+    <string name="medium_lvl_question_66">From the picture of the inverted flag, determine which country it belongs to:</string>
+
+    <!--options and answer for medium lvl || question 6|| Ordinary person-->
+    <string name="medium_lvl_question_66_option_1">Belgium</string>
+    <string name="medium_lvl_question_66_option_2">Germany</string>
+    <string name="medium_lvl_question_66_option_3">Poland</string>
+    <string name="medium_lvl_question_66_option_4">Estonia</string>
+
+    <string name="medium_lvl_question_67">Which of the following islands has active volcanoes?</string>
+
+    <!--options and answer for medium lvl || question 7|| Ordinary person-->
+    <string name="medium_lvl_question_67_option_1">Iceland</string>
+    <string name="medium_lvl_question_67_option_2">Madagascar</string>
+    <string name="medium_lvl_question_67_option_3">Sri Lanka</string>
+    <string name="medium_lvl_question_67_option_4">Sakhalin</string>
+
+    <string name="medium_lvl_question_68">On which of the following continents are Lakes Erie and Michigan located?</string>
+
+    <!--options and answer for medium lvl || question 8|| Ordinary person-->
+    <string name="medium_lvl_question_68_option_1">Australia</string>
+    <string name="medium_lvl_question_68_option_2">North America</string>
+    <string name="medium_lvl_question_68_option_3">Africa</string>
+    <string name="medium_lvl_question_68_option_4">South America</string>
+
+    <string name="medium_lvl_question_69">Clouds are:</string>
+
+    <!--options and answer for medium lvl || question 9|| Ordinary person-->
+    <string name="medium_lvl_question_69_option_1">Pinnate</string>
+    <string name="medium_lvl_question_69_option_2">Cumulus</string>
+    <string name="medium_lvl_question_69_option_3">Layered</string>
+    <string name="medium_lvl_question_69_option_4">All of the options are correct</string>
+
+    <string name="medium_lvl_question_70">In whose factories did the car turn from "luxury into a means of transportation"?</string>
+
+    <!--options and answer for medium lvl || question 10|| Ordinary person-->
+    <string name="medium_lvl_question_70_option_1">E. Seton-Thompson</string>
+    <string name="medium_lvl_question_70_option_2">Benjamin Franklin</string>
+    <string name="medium_lvl_question_70_option_3">Ilona Mask</string>
+    <string name="medium_lvl_question_70_option_4">Henry Ford</string>
+
+
+    <!-- Questions medium levels || Teacher-->
+    <string name="medium_lvl_question_71">The tallest waterfall is on the mainland...</string>
+
+    <!--options and answer for medium 7vl || question 11|| Teacher-->
+    <string name="medium_lvl_question_71_option_1">Africa</string>
+    <string name="medium_lvl_question_71_option_2">Australia</string>
+    <string name="medium_lvl_question_71_option_3">North America</string>
+    <string name="medium_lvl_question_71_option_4">South America</string>
+
+    <string name="medium_lvl_question_72">Which of the following countries has the largest lowland in the world?</string>
+
+    <!--options and answer for medium lvl || question 12|| Teacher-->
+    <string name="medium_lvl_question_72_option_1">USA</string>
+    <string name="medium_lvl_question_72_option_2">China</string>
+    <string name="medium_lvl_question_72_option_3">Brazil</string>
+    <string name="medium_lvl_question_72_option_4">Canada</string>
+
+    <string name="medium_lvl_question_73">According to the photo of the national dress, determine the country in which it is worn:</string>
+
+    <!--options and answer for medium lvl || question 13|| Teacher-->
+    <string name="medium_lvl_question_73_option_1">China</string>
+    <string name="medium_lvl_question_73_option_2">Japan</string>
+    <string name="medium_lvl_question_73_option_3">North Korea</string>
+    <string name="medium_lvl_question_73_option_4">Mongolia</string>
+
+    <string name="medium_lvl_question_74">Normal atmospheric pressure at sea level is:</string>
+
+    <!--options and answer for medium lvl || question 14|| Teacher-->
+    <string name="medium_lvl_question_74_option_1">740 mmHg Art.</string>
+    <string name="medium_lvl_question_74_option_2">750 mmHg Art.</string>
+    <string name="medium_lvl_question_74_option_3">760 mmHg Art.</string>
+    <string name="medium_lvl_question_74_option_4">770 mmHg Art.</string>
+
+
+    <string name="medium_lvl_question_75">Which of the following cities has the largest population?</string>
+
+    <!--options and answer for medium lvl || question 15|| Teacher-->
+    <string name="medium_lvl_question_75_option_1">Sydney</string>
+    <string name="medium_lvl_question_75_option_2">Mexico city</string>
+    <string name="medium_lvl_question_75_option_3">Rome</string>
+    <string name="medium_lvl_question_75_option_4">St. Petersburg</string>
+
+    <string name="medium_lvl_question_76">More than half of the air in the troposphere is made up of</string>
+
+    <!--options and answer for medium lvl || question 16|| Teacher-->
+    <string name="medium_lvl_question_76_option_1">Nitrogen</string>
+    <string name="medium_lvl_question_76_option_2">Ox</string>
+    <string name="medium_lvl_question_76_option_3">Carbon Dioxide</string>
+    <string name="medium_lvl_question_76_option_4">Hydrogen</string>
+
+    <string name="medium_lvl_question_77">Which state includes the largest island on Earth?</string>
+
+    <!--options and answer for medium lvl || question 17|| Teacher-->
+    <string name="medium_lvl_question_77_option_1">USA</string>
+    <string name="medium_lvl_question_77_option_2">Russia</string>
+    <string name="medium_lvl_question_77_option_3">Canada</string>
+    <string name="medium_lvl_question_77_option_4">Denmark</string>
+
+    <string name="medium_lvl_question_78">From the photo of the map of the capital, determine the country to which it belongs:</string>
+
+    <!--options and answer for medium lvl || question 18|| Teacher-->
+    <string name="medium_lvl_question_78_option_1">Canada</string>
+    <string name="medium_lvl_question_78_option_2">Mexico</string>
+    <string name="medium_lvl_question_78_option_3">USA</string>
+    <string name="medium_lvl_question_78_option_4">Columbia</string>
+
+    <string name="medium_lvl_question_79">Which of the following rocks is igneous?</string>
+
+    <!--options and answer for medium lvl || question 19|| Teacher-->
+    <string name="medium_lvl_question_79_option_1">Marble</string>
+    <string name="medium_lvl_question_79_option_2">Granite</string>
+    <string name="medium_lvl_question_79_option_3">Limestone</string>
+    <string name="medium_lvl_question_79_option_4">Rock salt</string>
+
+    <string name="medium_lvl_question_80">Which of the following continents is offshore by the Gulf Stream?</string>
+
+    <!--options and answer for medium lvl || question 20|| Teacher-->
+    <string name="medium_lvl_question_80_option_1">Australia</string>
+    <string name="medium_lvl_question_80_option_2">South America</string>
+    <string name="medium_lvl_question_80_option_3">North America</string>
+    <string name="medium_lvl_question_80_option_4">Africa</string>
+
+    <!-- Questions medium levels || Voyager-->
+    <string name="medium_lvl_question_81">Look at a photo of an ordinary street and choose the country where this photo was taken...</string>
+
+    <!--options and answer for medium lvl || question 21|| Voyager-->
+    <string name="medium_lvl_question_81_option_1">Russia</string>
+    <string name="medium_lvl_question_81_option_2">China</string>
+    <string name="medium_lvl_question_81_option_3">India</string>
+    <string name="medium_lvl_question_81_option_4">Great Briton</string>
+
+    <string name="medium_lvl_question_82">What is the name of the continent through which the Colorado River flows?</string>
+
+    <!--options and answer for medium lvl || question 22|| Voyager-->
+    <string name="medium_lvl_question_82_option_1">Africa</string>
+    <string name="medium_lvl_question_82_option_2">North America</string>
+    <string name="medium_lvl_question_82_option_3">Australia</string>
+    <string name="medium_lvl_question_82_option_4">South America</string>
+
+    <string name="medium_lvl_question_83">What part is fresh water in the total volume of the hydrosphere?</string>
+
+    <!--options and answer for medium lvl || question 23|| Voyager-->
+    <string name="medium_lvl_question_83_option_1">3%</string>
+    <string name="medium_lvl_question_83_option_2">12%</string>
+    <string name="medium_lvl_question_83_option_3">24%</string>
+    <string name="medium_lvl_question_83_option_4">48%</string>
+
+    <string name="medium_lvl_question_84">Which of the following active volcanoes in Eurasia is the highest?</string>
+
+    <!--options and answer for medium lvl || question 24|| Voyager-->
+    <string name="medium_lvl_question_84_option_1">Etna</string>
+    <string name="medium_lvl_question_84_option_2">Vesuvius</string>
+    <string name="medium_lvl_question_84_option_3">Fujiyama</string>
+    <string name="medium_lvl_question_84_option_4">Klyuchevskaya Sopka</string>
+
+
+    <string name="medium_lvl_question_85">Which of the following cities is the capital of the state?</string>
+
+    <!--options and answer for medium lvl || question 25|| Voyager-->
+    <string name="medium_lvl_question_85_option_1">New York</string>
+    <string name="medium_lvl_question_85_option_2">Montreal</string>
+    <string name="medium_lvl_question_85_option_3">Washington</string>
+    <string name="medium_lvl_question_85_option_4">Sydney</string>
+
+    <string name="medium_lvl_question_86">What does the number of stars on the flag in the picture mean?</string>
+
+    <!--options and answer for medium lvl || question 26|| Voyager-->
+    <string name="medium_lvl_question_86_option_1">Number of presidents in US history</string>
+    <string name="medium_lvl_question_86_option_2">Number of partner countries</string>
+    <string name="medium_lvl_question_86_option_3">Number of laws in the constitution</string>
+    <string name="medium_lvl_question_86_option_4">Number of states</string>
+
+    <string name="medium_lvl_question_87">Which of the following continents does not have active volcanoes?</string>
+
+    <!--options and answer for medium lvl || question 27|| Voyager-->
+    <string name="medium_lvl_question_87_option_1">South America</string>
+    <string name="medium_lvl_question_87_option_2">Australia</string>
+    <string name="medium_lvl_question_87_option_3">Antarctica</string>
+    <string name="medium_lvl_question_87_option_4">North America</string>
+
+    <string name="medium_lvl_question_88">Which navigator led the first expedition around the world?</string>
+
+    <!--options and answer for medium lvl || question 28|| Voyager-->
+    <string name="medium_lvl_question_88_option_1">Vasco da Gama</string>
+    <string name="medium_lvl_question_88_option_2">Christopher Columbus</string>
+    <string name="medium_lvl_question_88_option_3">Ferdinand Magellan</string>
+    <string name="medium_lvl_question_88_option_4">James Cook</string>
+
+    <string name="medium_lvl_question_89">On which continent is the deepest river in the world located?</string>
+
+    <!--options and answer for medium lvl || question 29|| Voyager-->
+    <string name="medium_lvl_question_89_option_1">Africa</string>
+    <string name="medium_lvl_question_89_option_2">South America</string>
+    <string name="medium_lvl_question_89_option_3">Eurasia</string>
+    <string name="medium_lvl_question_89_option_4">North America</string>
+
+    <string name="medium_lvl_question_90">What is the name of the continent where Niagara Falls is located?</string>
+
+    <!--options and answer for medium lvl || question 30|| Voyager-->
+    <string name="medium_lvl_question_90_option_1">Africa</string>
+    <string name="medium_lvl_question_90_option_2">South America</string>
+    <string name="medium_lvl_question_90_option_3">Australia</string>
+    <string name="medium_lvl_question_90_option_4">North America</string>
+
+
+    <!-- Questions medium levels || Businessman-->
+    <string name="medium_lvl_question_91">Which of the following mountain ranges is the longest?</string>
+
+    <!--options and answer for medium lvl || question 31|| Businessman-->
+    <string name="medium_lvl_question_91_option_1">Himalayas</string>
+    <string name="medium_lvl_question_91_option_2">Caucasus</string>
+    <string name="medium_lvl_question_91_option_3">Andes</string>
+    <string name="medium_lvl_question_91_option_4">Carpathians</string>
+
+    <string name="medium_lvl_question_92">Look at the national musical instrument and determine which country it belongs to:</string>
+
+    <!--options and answer for medium lvl || question 32|| Businessman-->
+    <string name="medium_lvl_question_92_option_1">Nigeria</string>
+    <string name="medium_lvl_question_92_option_2">Turkey</string>
+    <string name="medium_lvl_question_92_option_3">India</string>
+    <string name="medium_lvl_question_92_option_4">Saudi Arabia</string>
+
+    <string name="medium_lvl_question_93">Which of the following ocean currents is cold?</string>
+
+    <!--options and answer for medium lvl || question 33|| Businessman-->
+    <string name="medium_lvl_question_93_option_1">Peruvian</string>
+    <string name="medium_lvl_question_93_option_2">Gulfstream</string>
+    <string name="medium_lvl_question_93_option_3">Brazilian</string>
+    <string name="medium_lvl_question_93_option_4">Guinean</string>
+
+    <string name="medium_lvl_question_94">Which of the following rivers in Europe is the longest?</string>
+
+    <!--options and answer for medium lvl || question 34|| Businessman-->
+    <string name="medium_lvl_question_94_option_1">Don</string>
+    <string name="medium_lvl_question_94_option_2">Volga</string>
+    <string name="medium_lvl_question_94_option_3">Dnieper</string>
+    <string name="medium_lvl_question_94_option_4">Pechora</string>
+
+
+    <string name="medium_lvl_question_95">Which natural area is characterized by the greatest species diversity of flora and fauna?</string>
+
+    <!--options and answer for medium lvl || question 35|| Businessman-->
+    <string name="medium_lvl_question_95_option_1">Tundra and forest tundra</string>
+    <string name="medium_lvl_question_95_option_2">Taiga</string>
+    <string name="medium_lvl_question_95_option_3">Steppes and forest-steppes</string>
+    <string name="medium_lvl_question_95_option_4">Humid equatorial forests</string>
+
+    <string name="medium_lvl_question_96">What contribution did James Cook make to the history of discovery?</string>
+
+    <!--options and answer for medium lvl || question 36|| Businessman-->
+    <string name="medium_lvl_question_96_option_1">First European to reach the shores of India</string>
+    <string name="medium_lvl_question_96_option_2">Made the first trip around the world</string>
+    <string name="medium_lvl_question_96_option_3">Explored and mapped the east coast of Australia</string>
+    <string name="medium_lvl_question_96_option_4">First European to reach the shores of North America</string>
+
+    <string name="medium_lvl_question_97">Which of the following seas has the highest salinity in surface water?</string>
+
+    <!--options and answer for medium lvl || question 37|| Businessman-->
+    <string name="medium_lvl_question_97_option_1">Red</string>
+    <string name="medium_lvl_question_97_option_2">Black</string>
+    <string name="medium_lvl_question_97_option_3">Mediterranean</string>
+    <string name="medium_lvl_question_97_option_4">Caribbean</string>
+
+    <string name="medium_lvl_question_98">Determine which country is shown in the picture:</string>
+
+    <!--options and answer for medium lvl || question 38|| Businessman-->
+    <string name="medium_lvl_question_98_option_1">Serbia</string>
+    <string name="medium_lvl_question_98_option_2">Libya</string>
+    <string name="medium_lvl_question_98_option_3">Japan</string>
+    <string name="medium_lvl_question_98_option_4">Italy</string>
+
+    <string name="medium_lvl_question_99">In what part of the world is the deepest lake on earth located?</string>
+
+    <!--options and answer for medium lvl || question 39|| Businessman-->
+    <string name="medium_lvl_question_99_option_1">Asia</string>
+    <string name="medium_lvl_question_99_option_2">America</string>
+    <string name="medium_lvl_question_99_option_3">Europe</string>
+    <string name="medium_lvl_question_99_option_4">Africa</string>
+
+    <string name="medium_lvl_question_100">Abel Tasman made a major contribution to the study</string>
+
+    <!--options and answer for medium lvl || question 40|| Businessman-->
+    <string name="medium_lvl_question_100_option_1">Arabian Peninsula</string>
+    <string name="medium_lvl_question_100_option_2">Islands new zealand</string>
+    <string name="medium_lvl_question_100_option_3">Peninsular California</string>
+    <string name="medium_lvl_question_100_option_4">Island New Earth</string>
+
+
+    <!-- Questions medium levels || Adventurer-->
+    <string name="medium_lvl_question_101">Which of the following countries is one of the largest producers of cotton fiber?</string>
+
+    <!--options and answer for medium lvl || question 41|| Adventurer-->
+    <string name="medium_lvl_question_101_option_1">Portugal</string>
+    <string name="medium_lvl_question_101_option_2">Czech</string>
+    <string name="medium_lvl_question_101_option_3">Chile</string>
+    <string name="medium_lvl_question_101_option_4">India</string>
+
+    <string name="medium_lvl_question_102">Which of the following countries is a member of OPEC?</string>
+
+    <!--options and answer for medium lvl || question 42|| Adventurer-->
+    <string name="medium_lvl_question_102_option_1">Venezuela</string>
+    <string name="medium_lvl_question_102_option_2">Pakistan</string>
+    <string name="medium_lvl_question_102_option_3">Mexico</string>
+    <string name="medium_lvl_question_102_option_4">Egypt</string>
+
+    <string name="medium_lvl_question_103">What letter represents the territory of Peru on the map of South America?</string>
+
+    <!--options and answer for easy lvl || question 43|| Adventurer-->
+    <string name="medium_lvl_question_103_option_1">A</string>
+    <string name="medium_lvl_question_103_option_2">B</string>
+    <string name="medium_lvl_question_103_option_3">C</string>
+    <string name="medium_lvl_question_103_option_4">D</string>
+
+    <string name="medium_lvl_question_104">Which of the following countries has the highest average life expectancy?</string>
+
+    <!--options and answer for medium lvl || question 44|| Adventurer-->
+    <string name="medium_lvl_question_104_option_1">Egypt</string>
+    <string name="medium_lvl_question_104_option_2">Ukraine</string>
+    <string name="medium_lvl_question_104_option_3">Russia</string>
+    <string name="medium_lvl_question_104_option_4">Germany</string>
+
+
+    <string name="medium_lvl_question_105">The coast of which bay is characterized by the highest concentration of specialized oil loading ports?</string>
+
+    <!--options and answer for medium lvl || question 45|| Adventurer-->
+    <string name="medium_lvl_question_105_option_1">Biscay</string>
+    <string name="medium_lvl_question_105_option_2">Greater Australian</string>
+    <string name="medium_lvl_question_105_option_3">Persian</string>
+    <string name="medium_lvl_question_105_option_4">Bengal</string>
+
+    <string name="medium_lvl_question_106">Which of the following countries has the most dense railroad network?</string>
+
+    <!--options and answer for medium lvl || question 46|| Adventurer-->
+    <string name="medium_lvl_question_106_option_1">Switzerland</string>
+    <string name="medium_lvl_question_106_option_2">Australia</string>
+    <string name="medium_lvl_question_106_option_3">Canada</string>
+    <string name="medium_lvl_question_106_option_4">Brazil</string>
+
+    <string name="medium_lvl_question_107">It is used not only as a pack animal, but also for the production of meat and milk. What animal is shown in the picture?</string>
+
+    <!--options and answer for medium lvl || question 47|| Adventurer-->
+    <string name="medium_lvl_question_107_option_1">Bison</string>
+    <string name="medium_lvl_question_107_option_2">Mouflon</string>
+    <string name="medium_lvl_question_107_option_3">Deer</string>
+    <string name="medium_lvl_question_107_option_4">Yak</string>
+
+    <string name="medium_lvl_question_108">Which of the following countries has the highest GDP per capita?</string>
+
+    <!--options and answer for medium lvl || question 48|| Adventurer-->
+    <string name="medium_lvl_question_108_option_1">Pakistan</string>
+    <string name="medium_lvl_question_108_option_2">Mexico</string>
+    <string name="medium_lvl_question_108_option_3">Finland</string>
+    <string name="medium_lvl_question_108_option_4">Iran</string>
+
+    <string name="medium_lvl_question_109">With which of the following countries does Russia have a land border?</string>
+
+    <!--options and answer for medium lvl || question 49|| Adventurer-->
+    <string name="medium_lvl_question_109_option_1">Kazakhstan</string>
+    <string name="medium_lvl_question_109_option_2">Turkmenistan</string>
+    <string name="medium_lvl_question_109_option_3">Armenia</string>
+    <string name="medium_lvl_question_109_option_4">Uzbekistan</string>
+
+    <string name="medium_lvl_question_110">Which of the categories of non-ferrous metals is indicated incorrectly?</string>
+
+    <!--options and answer for medium lvl || question 50|| Adventurer-->
+    <string name="medium_lvl_question_110_option_1">Light</string>
+    <string name="medium_lvl_question_110_option_2">Medium</string>
+    <string name="medium_lvl_question_110_option_3">Hard</string>
+    <string name="medium_lvl_question_110_option_4">Precious</string>
+
+
+    <!-- Questions medium levels || Alien-->
+    <string name="medium_lvl_question_111">Horticulture and viticulture are widely represented in these regions of Europe:</string>
+
+    <!--options and answer for medium lvl || question 51|| Alien-->
+    <string name="medium_lvl_question_111_option_1">Eastern</string>
+    <string name="medium_lvl_question_111_option_2">Western</string>
+    <string name="medium_lvl_question_111_option_3">Central</string>
+    <string name="medium_lvl_question_111_option_4">Southern</string>
+
+    <string name="medium_lvl_question_112">Which branch of the economy does not belong to the agro-industrial complex?</string>
+
+    <!--options and answer for medium lvl || question 52|| Alien-->
+    <string name="medium_lvl_question_112_option_1">Crop production</string>
+    <string name="medium_lvl_question_112_option_2">Production of agricultural machinery</string>
+    <string name="medium_lvl_question_112_option_3">Energy</string>
+    <string name="medium_lvl_question_112_option_4">Fertilizer production</string>
+
+    <string name="medium_lvl_question_113">What ores do ferrous metallurgy enterprises work with?</string>
+
+    <!--options and answer for medium lvl || question 53|| Alien-->
+    <string name="medium_lvl_question_113_option_1">Iron</string>
+    <string name="medium_lvl_question_113_option_2">Aluminum</string>
+    <string name="medium_lvl_question_113_option_3">Copper</string>
+    <string name="medium_lvl_question_113_option_4">Lead-zinc</string>
+
+    <string name="medium_lvl_question_114">The symbol of which international organization is shown in the illustration?</string>
+
+    <!--options and answer for medium lvl || question 54|| Alien-->
+    <string name="medium_lvl_question_114_option_1">UNESCO</string>
+    <string name="medium_lvl_question_114_option_2">UNICEF</string>
+    <string name="medium_lvl_question_114_option_3">Greenpeace</string>
+    <string name="medium_lvl_question_114_option_4">WHO</string>
+
+
+    <string name="medium_lvl_question_115">What agricultural plant belongs to melon crops?</string>
+
+    <!--options and answer for medium lvl || question 55|| Alien-->
+    <string name="medium_lvl_question_115_option_1">Linen</string>
+    <string name="medium_lvl_question_115_option_2">Barley</string>
+    <string name="medium_lvl_question_115_option_3">Pumpkin</string>
+    <string name="medium_lvl_question_115_option_4">Potato</string>
+
+    <string name="medium_lvl_question_116">What is the state border between Bulgaria and Romania?</string>
+
+    <!--options and answer for medium lvl || question 56|| Alien-->
+    <string name="medium_lvl_question_116_option_1">Along a conditional line</string>
+    <string name="medium_lvl_question_116_option_2">Along the mountain range</string>
+    <string name="medium_lvl_question_116_option_3">On the lake</string>
+    <string name="medium_lvl_question_116_option_4">Down the river</string>
+
+    <string name="medium_lvl_question_117">What animals do not belong to cattle?</string>
+
+    <!--options and answer for medium lvl || question 57|| Alien-->
+    <string name="medium_lvl_question_117_option_1">Oxen</string>
+    <string name="medium_lvl_question_117_option_2">Rams</string>
+    <string name="medium_lvl_question_117_option_3">Cows</string>
+    <string name="medium_lvl_question_117_option_4">Bulls</string>
+
+    <string name="medium_lvl_question_118">The most expensive type of transport in terms of cost of transportation:</string>
+
+    <!--options and answer for medium lvl || question 58|| Alien-->
+    <string name="medium_lvl_question_118_option_1">Railway</string>
+    <string name="medium_lvl_question_118_option_2">Automotive</string>
+    <string name="medium_lvl_question_118_option_3">Water</string>
+    <string name="medium_lvl_question_118_option_4">Air</string>
+
+    <string name="medium_lvl_question_119">The top three coal-producing countries in the world are...</string>
+
+    <!--options and answer for medium lvl || question 59|| Alien-->
+    <string name="medium_lvl_question_119_option_1">Russia</string>
+    <string name="medium_lvl_question_119_option_2">USA</string>
+    <string name="medium_lvl_question_119_option_3">Germany</string>
+    <string name="medium_lvl_question_119_option_4">Australian Union</string>
+
+    <string name="medium_lvl_question_120">The founder of the doctrine of the centers of origin of cultivated plants is:</string>
+
+    <!--options and answer for medium lvl || question 120|| Alien-->
+    <string name="medium_lvl_question_120_option_1">N. I. Vavilov</string>
+    <string name="medium_lvl_question_120_option_2">A. L. Smolim</string>
+    <string name="medium_lvl_question_120_option_3">F. F. Bellingshausen</string>
+    <string name="medium_lvl_question_120_option_4">S. Dezhnev</string>
+
+
 
 
 </resources>

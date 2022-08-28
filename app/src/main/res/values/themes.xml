@@ -12,12 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:windowFullscreen">true</item>
 
-        <!--<item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>
 
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="windowActionBarOverlay">true</item>
-        <item name="android:fitsSystemWindows">true</item>-->
+
+    </style>
+
+    <style name="SplahTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:windowBackground">@drawable/img_splash</item>
+        <item name="android:statusBarColor">@color/purple_500</item>
     </style>
 
     <style name="Theme.CountryCityGame.Fullscreen" parent="Theme.CountryCityGame">

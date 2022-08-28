@@ -1,4 +1,4 @@
-package com_country_city.country_city_java.countrycitygame.Main;
+package com_country_city.country_city_java.countrycitygame.LVLconstructors;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -16,7 +16,6 @@ import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,10 +33,14 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Consumer;
 
+import com_country_city.country_city_java.countrycitygame.Main.FinishActivity;
+import com_country_city.country_city_java.countrycitygame.Main.MainActivity;
+import com_country_city.country_city_java.countrycitygame.Main.lists;
 import com_country_city.country_city_java.countrycitygame.Moduls.ItemQuestion;
+import com_country_city.country_city_java.countrycitygame.QestionsMatcher.LvlEasyQuestions;
 import com_country_city.country_city_java.countrycitygame.R;
 
-public class LvlActivity extends AppCompatActivity implements lists, View.OnClickListener {
+public class LvlActivity extends AppCompatActivity implements lists, View.OnClickListener, buildTimerOptions {
 
     private static final long START_TIME_IN_MILLIS = 20000;
     private TextView textTimer, textQuestion, textLvlTopic, textScore, textProgress;
@@ -86,7 +89,8 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
 
     }
 
-    private void startTimer() {
+    @Override
+    public void startTimer() {
         mCountDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
@@ -111,19 +115,19 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
         FloatingActionButton fabMenu = dialogLose.findViewById(R.id.btn_all_levels);
         fabMenu.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
         dialogLose.show();
-
         dialogLose.setCanceledOnTouchOutside(false);
-
     }
 
+    @Override
     @RequiresApi(api = Build.VERSION_CODES.N)
-    private void resetTimer() {
+    public void resetTimer() {
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
         updateCountDownText();
     }
 
+    @Override
     @RequiresApi(api = Build.VERSION_CODES.N)
-    private void updateCountDownText() {
+    public void updateCountDownText() {
         int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
         String timeLeftFormatted = String.format(Locale.getDefault(), "%02d", seconds);
         textTimer.setText(timeLeftFormatted);
@@ -163,31 +167,25 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
         btnOptionThree.setTextColor(getResources().getColor(R.color.red));
         btnOptionFour.setTextColor(getResources().getColor(R.color.red));
 
-        @SuppressLint({"NewApi", "LocalSuppress"})Map<Integer, Consumer<Integer>> answersMap = Map.of(
-                    1, (value) -> btnOptionOne.setTextColor(getResources().getColor(R.color.green)),
-                    2, (value) -> btnOptionTwo.setTextColor(getResources().getColor(R.color.green)),
-                    3, (value) -> btnOptionThree.setTextColor(getResources().getColor(R.color.green)),
-                    4, (value) -> btnOptionFour.setTextColor(getResources().getColor(R.color.green))
-            );
-        Optional.ofNullable(answersMap.get(itemQuestion.getAnswer()))
-                .orElse((value) -> Log.d("TAG_CONDITIONAL", "Something went wrong"))
-                .accept(itemQuestion.getAnswer());
 
-
-        /*switch (itemQuestion.getAnswer()) {
+        switch (itemQuestion.getAnswer()) {
             case 1:
-                btnOptionOne.setTextColor(getResources().getColor(R.color.green));
+                btnOptionOne.setBackgroundColor(getResources().getColor(R.color.green));
+                btnOptionOne.setTextColor(getResources().getColor(R.color.white));
                 break;
             case 2:
-                btnOptionTwo.setTextColor(getResources().getColor(R.color.green));
+                btnOptionTwo.setBackgroundColor(getResources().getColor(R.color.green));
+                btnOptionTwo.setTextColor(getResources().getColor(R.color.white));
                 break;
             case 3:
-                btnOptionThree.setTextColor(getResources().getColor(R.color.green));
+                btnOptionThree.setBackgroundColor(getResources().getColor(R.color.green));
+                btnOptionThree.setTextColor(getResources().getColor(R.color.white));
                 break;
             case 4:
-                btnOptionFour.setTextColor(getResources().getColor(R.color.green));
+                btnOptionFour.setBackgroundColor(getResources().getColor(R.color.green));
+                btnOptionFour.setTextColor(getResources().getColor(R.color.white));
                 break;
-        }*/
+        }
 
         btnOptionOne.setEnabled(false);
         btnOptionTwo.setEnabled(false);
@@ -209,14 +207,22 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
 
     private void showNextQuestion() {
 
-        btnOptionOne.setTextColor(dfRbColors);
-        btnOptionTwo.setTextColor(dfRbColors);
-        btnOptionThree.setTextColor(dfRbColors);
-        btnOptionFour.setTextColor(dfRbColors);
-
         if (qCounter < totalQuestions) {
 
+            changeDefaultConditionOfButtons();
+
+            btnOptionOne.setTextColor(dfRbColors);
+            btnOptionTwo.setTextColor(dfRbColors);
+            btnOptionThree.setTextColor(dfRbColors);
+            btnOptionFour.setTextColor(dfRbColors);
+
             itemQuestion = questionsAndAnswers.get(qCounter);
+
+            textQuestion.setText(itemQuestion.getQuestion());
+            btnOptionOne.setText(itemQuestion.getOptionOne());
+            btnOptionTwo.setText(itemQuestion.getOptionTwo());
+            btnOptionThree.setText(itemQuestion.getOptionThree());
+            btnOptionFour.setText(itemQuestion.getOptionFour());
 
 
             if (itemQuestion.getImage() != 0) {
@@ -228,14 +234,6 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
                 cardImgQuestion.setVisibility(View.GONE);
             }
 
-            textQuestion.setText(itemQuestion.getQuestion());
-            btnOptionOne.setText(itemQuestion.getOptionOne());
-            btnOptionTwo.setText(itemQuestion.getOptionTwo());
-            btnOptionThree.setText(itemQuestion.getOptionThree());
-            btnOptionFour.setText(itemQuestion.getOptionFour());
-
-            changeDefaultConditionOfButtons();
-
             qCounter++;
             btnSubmit.setText("Submit");
             textProgress.setText(qCounter + "/" + totalQuestions);
@@ -246,22 +244,24 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
             Intent intent = new Intent(Intent.ACTION_MAIN);
             intent.setClass(getApplicationContext(), FinishActivity.class);
             intent.putExtra("scoreIntent", score + "");
-            intent.putExtra("lvlTitle", textIntentTitle);
+            intent.putExtra("lvlTitle", textIntentTitle + " Easy");
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         }
     }
 
     private void changeDefaultConditionOfButtons(){
+
+        btnOptionOne.setBackgroundResource(R.drawable.radio_btn_selector);
+        btnOptionTwo.setBackgroundResource(R.drawable.radio_btn_selector);
+        btnOptionThree.setBackgroundResource(R.drawable.radio_btn_selector);
+        btnOptionFour.setBackgroundResource(R.drawable.radio_btn_selector);
+
         btnOptionOne.setEnabled(true);
         btnOptionTwo.setEnabled(true);
         btnOptionThree.setEnabled(true);
         btnOptionFour.setEnabled(true);
-
-        btnOptionOne.setChecked(false);
-        btnOptionTwo.setChecked(false);
-        btnOptionThree.setChecked(false);
-        btnOptionFour.setChecked(false);
+        radioGroup.clearCheck();
     }
 
     //TODO: optimize code, cuz of a plenty of repetitions
@@ -289,14 +289,23 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
 
     @Override
     public void addQuestionListForBusinessman() {
+        lvlOneQuestions = new LvlEasyQuestions(questionsAndAnswers, getApplicationContext());
+        lvlOneQuestions.addQuestionsAndOptionsForLvl4();
+        Collections.shuffle(questionsAndAnswers);
     }
 
     @Override
     public void addQuestionListForAdventurer() {
+        lvlOneQuestions = new LvlEasyQuestions(questionsAndAnswers, getApplicationContext());
+        lvlOneQuestions.addQuestionsAndOptionsForLvl5();
+        Collections.shuffle(questionsAndAnswers);
     }
 
     @Override
     public void addQuestionListForAlien() {
+        lvlOneQuestions = new LvlEasyQuestions(questionsAndAnswers, getApplicationContext());
+        lvlOneQuestions.addQuestionsAndOptionsForLvl6();
+        Collections.shuffle(questionsAndAnswers);
     }
 
     private void getIntentLvl() {

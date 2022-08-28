@@ -54,23 +54,45 @@ public class FinishActivity extends AppCompatActivity {
         SharedPreferences.Editor editorSP = sharedPreferences.edit();
         //put data in shared pref
         switch(lvlTitle){
-            case "1.Ordinary Person":
+            //for easy LV
+            case "1.Ordinary Person Easy":
                 editorSP.putString("SCORE_ORDINARY_PERSON", score + " / 10");
                 break;
-            case "2.Teacher":
+            case "2.Teacher Easy":
                 editorSP.putString("SCORE_TEACHER", score + " / 10");
                 break;
-            case "3.Voyager":
+            case "3.Voyager Easy":
                 editorSP.putString("SCORE_VOYAGER", score + " / 10");
                 break;
-            case "4.Businessman":
+            case "4.Businessman Easy":
                 editorSP.putString("SCORE_BUSINESSMAN", score + " / 10");
                 break;
-            case "5.Adventurer":
+            case "5.Adventurer Easy":
                 editorSP.putString("SCORE_ADVENTURER", score + " / 10");
                 break;
-            case "6.Alien":
+            case "6.Alien Easy":
                 editorSP.putString("SCORE_ALIEN", score + " / 10");
+                break;
+
+                //for medium LV
+
+            case "1.Ordinary Person Medium":
+                editorSP.putString("MEDIUM_SCORE_ORDINARY_PERSON", score + " / 10");
+                break;
+            case "2.Teacher Medium":
+                editorSP.putString("MEDIUM_SCORE_TEACHER", score + " / 10");
+                break;
+            case "3.Voyager Medium":
+                editorSP.putString("MEDIUM_SCORE_VOYAGER", score + " / 10");
+                break;
+            case "4.Businessman Medium":
+                editorSP.putString("MEDIUM_SCORE_BUSINESSMAN", score + " / 10");
+                break;
+            case "5.Adventurer Medium":
+                editorSP.putString("MEDIUM_SCORE_ADVENTURER", score + " / 10");
+                break;
+            case "6.Alien Medium":
+                editorSP.putString("SMEDIUM_CORE_ALIEN", score + " / 10");
                 break;
         }
         editorSP.apply();
