@@ -14,6 +14,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -42,6 +43,7 @@ public class OnBoardingActivity extends AppCompatActivity{
     private ConstraintLayout constraintLayoutTop;
 
     private TextView textSkip;
+    private SharedPreferences mSharedPref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +59,16 @@ public class OnBoardingActivity extends AppCompatActivity{
         // link the tabLayout and the viewpager together
         mTabLayout = findViewById(R.id.tabs_on_boarding);
         mTabLayout.setupWithViewPager(mViewPager);
+
+        mSharedPref = getSharedPreferences("SP_ONBOARDING", MODE_PRIVATE);
+        boolean isFirstTime = mSharedPref.getBoolean("firstTime", true);
+
+        if(isFirstTime){
+            SharedPreferences.Editor editor = mSharedPref.edit();
+            editor.putBoolean("firstTime", false);
+            editor.commit();
+        }else
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
 
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override

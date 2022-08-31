@@ -1,0 +1,1565 @@
+<resources>
+    <string name="app_name">Geography Quiz</string>
+
+    <!--OnBoarding Texts-->
+    <string name="title_step_1">Сложность</string>
+    <string name="description_step_1">Перед тем, как ты начнёшь узнавать новое о нашей планете и отвечать на вопросы по географии, поговорим о правилах.\nВ игре есть тесты разной сложности. Не переживай, если забыл всё, что говорили в школе, ты быстро освоишься на лёгких уровнях и сможешь решать более сложные.</string>
+
+    <string name="title_step_2">Правила</string>
+    <string name="description_step_2">На каждый тест у тебя есть три сердечка. За каждую ошибку снимается одно из них, а значит после третьей ошибки тест будет прекращён. Но не расстраивайся, его всегда можно будет пройти заново.</string>
+
+    <string name="title_step_3">Таймер</string>
+    <string name="description_step_3">А ещё тут есть таймер. На каждый вопрос отводится определённое время. Если опоздаешь хотя бы раз — тест будет провален, но я уверен, что ты всё успеешь!</string>
+
+    <string name="btn_start_text">Начать</string>
+    <string name="GQ_reduction_text">G • Q</string>
+    <string name="text_skip">Пропустить</string>
+
+    <!--SplashScreen texts-->
+    <string name="text_created_by">Created by</string>
+    <string name="name_of_creator">TEMA:D</string>
+
+    <!--all of the easy LVLs-->
+    <string name="text_easy">Легко</string>
+    <string name="text_description_inside_easy">Как только вы достигните 6ого уровня,\nвам будут доступны тесты с среднего уровня сложности</string>
+
+    <!--all of the medium LVLs-->
+    <string name="text_medium">Среднее</string>
+    <string name="text_description_inside_medium">Как только вы достигните 6ого уровня,\nвам будут доступны тесты с невозможного уровня сложности</string>
+
+    <!--all of the insane LVLs-->
+    <string name="text_insane">Невероятно</string>
+    <string name="text_description_inside_insane">Как только вы достигните 6ого уровня,\nвы будете таким крутым, что сможете обучать других!</string>
+
+    <!--Finish activity-->
+    <string name="text_finish_congrats">Поздравляем</string>
+    <string name="text_finish_score">Ваши очки:</string>
+    <string name="btn_text_go_menu">перейти в меню</string>
+
+    <!--LVL's texts-->
+    <string name="text_score">очки:</string>
+    <string name="text_question_no">вопрос:</string>
+    <string name="text_select_answer">Выбирете ответ</string>
+    <string name="btn_text_submit">Проверить</string>
+    <string name="btn_text_next">Следущий</string>
+
+    <!--Lose dialog-->
+    <string name="text_game_over">Игра Окончена</string>
+    <string name="text_game_over_description">Вы проиграли!\nПопробуйте снова</string>
+
+    <!--Main and selection of difficulty-->
+    <string name="text_difficulty">сложность</string>
+    <string name="text_coming_soon">Выйдет Скоро</string>
+    <string name="text_currency">Валюта</string>
+    <string name="text_flags">Флаги</string>
+    <string name="text_country_city">Страна - Город</string>
+    <string name="text_description_easy_outside">Здест ты найдешь НАИЛЕГЧАЙШИЕ вопросы по географии\n\nЭти задания могут быть решены даже моим 4ех летним сыном</string>
+    <string name="text_description_medium_outside">Там вы найдете СРЕДНИЕ вопросы по географии и страноведению\n\nЭтот уровень показывает, что вы можете учить других, потому что только некоторые могут решить эти уровни</string>
+    <string name="text_description_insane_outside">Там вы найдете БЕЗУМНЫЕ вопросы по географии и страноведению\n\nПОПРОБУЙТЕ СЕБЯ и решите сложнейшие на сегодняшний день задачи по географии</string>
+
+    <!--personalities-->
+    <string name="text_ordinary_person">Обычный человек</string>
+    <string name="text_teacher">Учитель</string>
+    <string name="text_voyager">Путешественник</string>
+    <string name="text_businessman">Бизнесмэн</string>
+    <string name="text_adventurer">Искатель приключений</string>
+    <string name="text_alien">Иностранец</string>
+
+    <!--Timer and switchin' lvl-->
+    <string name="text_time_is_over">Кончилось</string>
+    <string name="btn_text_finish">Закончить</string>
+    <string name="text_selection_of_option">Выбирете ответ</string>
+
+
+    <!-- Questions easy levels || Ordinary person-->
+    <string name="easy_lvl_question_1">Столицей Испании является...</string>
+
+    <!--options and answer for easy lvl || question 1|| Ordinary person-->
+    <string name="easy_lvl_question_1_option_1">Берлин</string>
+    <string name="easy_lvl_question_1_option_2">Париж</string>
+    <string name="easy_lvl_question_1_option_3">Мадрид</string>
+    <string name="easy_lvl_question_1_option_4">Москва</string>
+
+    <string name="easy_lvl_question_2">Какой географический объект относится к созданным человеком?</string>
+
+    <!--options and answer for easy lvl || question 2|| Ordinary person-->
+    <string name="easy_lvl_question_2_option_1">Равнина</string>
+    <string name="easy_lvl_question_2_option_2">Порт</string>
+    <string name="easy_lvl_question_2_option_3">Река</string>
+    <string name="easy_lvl_question_2_option_4">Гора</string>
+
+    <string name="easy_lvl_question_3">Как называется прибор, показанный на рисунке, который используется при географических исследованиях?</string>
+
+    <!--options and answer for easy lvl || question 3|| Ordinary person-->
+    <string name="easy_lvl_question_3_option_1">Компас</string>
+    <string name="easy_lvl_question_3_option_2">Рулетка</string>
+    <string name="easy_lvl_question_3_option_3">Термометр</string>
+    <string name="easy_lvl_question_3_option_4">Барометр</string>
+
+    <string name="easy_lvl_question_4">Как называется единица измерения солёности воды?</string>
+
+    <!--options and answer for easy lvl || question 4|| Ordinary person-->
+    <string name="easy_lvl_question_4_option_1">Паскаль</string>
+    <string name="easy_lvl_question_4_option_2">Килобар</string>
+    <string name="easy_lvl_question_4_option_3">Ярд</string>
+    <string name="easy_lvl_question_4_option_4">Промилле</string>
+
+
+    <string name="easy_lvl_question_5">Какой океан является самым большим по площади?</string>
+
+    <!--options and answer for easy lvl || question 5|| Ordinary person-->
+    <string name="easy_lvl_question_5_option_1">Атлантический океан</string>
+    <string name="easy_lvl_question_5_option_2">Тихий океан</string>
+    <string name="easy_lvl_question_5_option_3">Индийский океан</string>
+    <string name="easy_lvl_question_5_option_4">Северный Ледовитый океан</string>
+
+    <string name="easy_lvl_question_6">Как называется самое большое озеро на Земле?</string>
+
+    <!--options and answer for easy lvl || question 6|| Ordinary person-->
+    <string name="easy_lvl_question_6_option_1">Байкал озеро</string>
+    <string name="easy_lvl_question_6_option_2">Каспийское озеро</string>
+    <string name="easy_lvl_question_6_option_3">Ладожское озеро</string>
+    <string name="easy_lvl_question_6_option_4">Онежское озеро</string>
+
+    <string name="easy_lvl_question_7">Как называется самый большой остров на Земле?</string>
+
+    <!--options and answer for easy lvl || question 7|| Ordinary person-->
+    <string name="easy_lvl_question_7_option_1">Гренландия</string>
+    <string name="easy_lvl_question_7_option_2">Новая Гвинея</string>
+    <string name="easy_lvl_question_7_option_3">Новая Зеландия</string>
+    <string name="easy_lvl_question_7_option_4">Мадагаскар</string>
+
+    <string name="easy_lvl_question_8">Как называется континент, изображённый на картинке?</string>
+
+    <!--options and answer for easy lvl || question 8|| Ordinary person-->
+    <string name="easy_lvl_question_8_option_1">Австралия</string>
+    <string name="easy_lvl_question_8_option_2">Евразия</string>
+    <string name="easy_lvl_question_8_option_3">Япония</string>
+    <string name="easy_lvl_question_8_option_4">Северная Америка</string>
+
+    <string name="easy_lvl_question_9">Создателем первого в мире глобуса был...</string>
+
+    <!--options and answer for easy lvl || question 9|| Ordinary person-->
+    <string name="easy_lvl_question_9_option_1">Геродот</string>
+    <string name="easy_lvl_question_9_option_2">Птолемей</string>
+    <string name="easy_lvl_question_9_option_3">Вальдземюллер</string>
+    <string name="easy_lvl_question_9_option_4">Бехайм</string>
+
+    <string name="easy_lvl_question_10">Поведение реки во времени называют её...</string>
+
+    <!--options and answer for easy lvl || question 10|| Ordinary person-->
+    <string name="easy_lvl_question_10_option_1">Системой</string>
+    <string name="easy_lvl_question_10_option_2">Характером</string>
+    <string name="easy_lvl_question_10_option_3">Режимом</string>
+    <string name="easy_lvl_question_10_option_4">Течением</string>
+
+
+    <!-- Questions easy levels || Teacher-->
+    <string name="easy_lvl_question_11">Чем обусловлена разница во времени в разных частях Земли?</string>
+
+    <!--options and answer for easy lvl || question 11|| Teacher-->
+    <string name="easy_lvl_question_11_option_1">Климатическими условиями</string>
+    <string name="easy_lvl_question_11_option_2">Движением Земли вокруг Солнца</string>
+    <string name="easy_lvl_question_11_option_3">Осевым вращением Земли</string>
+    <string name="easy_lvl_question_11_option_4">Сменой времён года</string>
+
+    <string name="easy_lvl_question_12">Какой равнины НЕТ на материке Евразия?</string>
+
+    <!--options and answer for easy lvl || question 12|| Teacher-->
+    <string name="easy_lvl_question_12_option_1">Западно-Сибирской</string>
+    <string name="easy_lvl_question_12_option_2">Амазонской</string>
+    <string name="easy_lvl_question_12_option_3">Восточно-Европейской</string>
+    <string name="easy_lvl_question_12_option_4">Индо-Гангской</string>
+
+    <string name="easy_lvl_question_13">День 21 марта в северном полушарии называют днём:</string>
+
+    <!--options and answer for easy lvl || question 13|| Teacher-->
+    <string name="easy_lvl_question_13_option_1">Летнего солнцестояния</string>
+    <string name="easy_lvl_question_13_option_2">Весеннего равноденствия</string>
+    <string name="easy_lvl_question_13_option_3">Осеннего равноденствия</string>
+    <string name="easy_lvl_question_13_option_4">Зимнего солнцестояния</string>
+
+    <string name="easy_lvl_question_14">Рассмотрите фотографию с изображением опасного явления природы. В какой части географической оболочки земли зарождалось это явление?</string>
+
+    <!--options and answer for easy lvl || question 14|| Teacher-->
+    <string name="easy_lvl_question_14_option_1">Литосфере</string>
+    <string name="easy_lvl_question_14_option_2">Гидросфере</string>
+    <string name="easy_lvl_question_14_option_3">Биосфере</string>
+    <string name="easy_lvl_question_14_option_4">Атмосфере</string>
+
+
+    <string name="easy_lvl_question_15">Горные породы образованные в результате накопления веществ выпавших в осадок на дне водоёмов называются:</string>
+
+    <!--options and answer for easy lvl || question 15|| Teacher-->
+    <string name="easy_lvl_question_15_option_1">Метаморфическими</string>
+    <string name="easy_lvl_question_15_option_2">Осадочными</string>
+    <string name="easy_lvl_question_15_option_3">Магматическими</string>
+    <string name="easy_lvl_question_15_option_4">Органическими</string>
+
+    <string name="easy_lvl_question_16">Горы на карте обозначаются цветом:</string>
+
+    <!--options and answer for easy lvl || question 16|| Teacher-->
+    <string name="easy_lvl_question_16_option_1">голубым</string>
+    <string name="easy_lvl_question_16_option_2">жёлтым</string>
+    <string name="easy_lvl_question_16_option_3">зелёным</string>
+    <string name="easy_lvl_question_16_option_4">коричневым</string>
+
+    <string name="easy_lvl_question_17">На каком континенте мог быть расположен этот знак?</string>
+
+    <!--options and answer for easy lvl || question 17|| Teacher-->
+    <string name="easy_lvl_question_17_option_1">Африка</string>
+    <string name="easy_lvl_question_17_option_2">Южная Америка</string>
+    <string name="easy_lvl_question_17_option_3">Евразия</string>
+    <string name="easy_lvl_question_17_option_4">Северная Америка</string>
+
+    <string name="easy_lvl_question_18">На метеорологических станциях давление определяют с помощью:</string>
+
+    <!--options and answer for easy lvl || question 18|| Teacher-->
+    <string name="easy_lvl_question_18_option_1">гигрометра</string>
+    <string name="easy_lvl_question_18_option_2">термометра</string>
+    <string name="easy_lvl_question_18_option_3">флюгера</string>
+    <string name="easy_lvl_question_18_option_4">барометра</string>
+
+    <string name="easy_lvl_question_19">Река НЕ может брать начало из:</string>
+
+    <!--options and answer for easy lvl || question 19|| Teacher-->
+    <string name="easy_lvl_question_19_option_1">болота</string>
+    <string name="easy_lvl_question_19_option_2">озера</string>
+    <string name="easy_lvl_question_19_option_3">моря</string>
+    <string name="easy_lvl_question_19_option_4">родника</string>
+
+    <string name="easy_lvl_question_20">Южная Америка — это самый...материк</string>
+
+    <!--options and answer for easy lvl || question 20|| Teacher-->
+    <string name="easy_lvl_question_20_option_1">жаркий</string>
+    <string name="easy_lvl_question_20_option_2">влажный</string>
+    <string name="easy_lvl_question_20_option_3">сухой</string>
+    <string name="easy_lvl_question_20_option_4">большой по площади</string>
+
+    <!-- Questions easy levels || Voyager-->
+    <string name="easy_lvl_question_21">На температуру воды в океане оказывает влияние:</string>
+
+    <!--options and answer for easy lvl || question 21|| Voyager-->
+    <string name="easy_lvl_question_21_option_1">рельеф дна</string>
+    <string name="easy_lvl_question_21_option_2">количество осадков</string>
+    <string name="easy_lvl_question_21_option_3">географическая широта</string>
+    <string name="easy_lvl_question_21_option_4">количество рыб</string>
+
+    <string name="easy_lvl_question_22">Слой атмосферы, в котором происходят все погодные изменения</string>
+
+    <!--options and answer for easy lvl || question 22|| Voyager-->
+    <string name="easy_lvl_question_22_option_1">тропосфера</string>
+    <string name="easy_lvl_question_22_option_2">термосфера</string>
+    <string name="easy_lvl_question_22_option_3">стратосфера</string>
+    <string name="easy_lvl_question_22_option_4">мезосфера</string>
+
+    <string name="easy_lvl_question_23">Четыре времени года чётко выражены в этих широтах:</string>
+
+    <!--options and answer for easy lvl || question 23|| Voyager-->
+    <string name="easy_lvl_question_23_option_1">экваториальных</string>
+    <string name="easy_lvl_question_23_option_2">тропических</string>
+    <string name="easy_lvl_question_23_option_3">умеренных</string>
+    <string name="easy_lvl_question_23_option_4">арктических</string>
+
+    <string name="easy_lvl_question_24">В какой природной зоне осадки выпадают равномерно в течение года?</string>
+
+    <!--options and answer for easy lvl || question 24|| Voyager-->
+    <string name="easy_lvl_question_24_option_1">саванна</string>
+    <string name="easy_lvl_question_24_option_2">тундра</string>
+    <string name="easy_lvl_question_24_option_3">тайга</string>
+    <string name="easy_lvl_question_24_option_4">влажные экваториальные леса</string>
+
+
+    <string name="easy_lvl_question_25">В какой из природных зон могла быть сделана эта фотография?</string>
+
+    <!--options and answer for easy lvl || question 25|| Voyager-->
+    <string name="easy_lvl_question_25_option_1">тундра</string>
+    <string name="easy_lvl_question_25_option_2">тайга</string>
+    <string name="easy_lvl_question_25_option_3">степи</string>
+    <string name="easy_lvl_question_25_option_4">пустыни</string>
+
+    <string name="easy_lvl_question_26">Самый сухой материк Земли - это...</string>
+
+    <!--options and answer for easy lvl || question 26|| Voyager-->
+    <string name="easy_lvl_question_26_option_1">Антарктида</string>
+    <string name="easy_lvl_question_26_option_2">Африка</string>
+    <string name="easy_lvl_question_26_option_3">Австралия</string>
+    <string name="easy_lvl_question_26_option_4">Северная Америка</string>
+
+    <string name="easy_lvl_question_27">Группы островов называют:</string>
+
+    <!--options and answer for easy lvl || question 27|| Voyager-->
+    <string name="easy_lvl_question_27_option_1">материками</string>
+    <string name="easy_lvl_question_27_option_2">архипелагами</string>
+    <string name="easy_lvl_question_27_option_3">континентами</string>
+    <string name="easy_lvl_question_27_option_4">частями света</string>
+
+    <string name="easy_lvl_question_28">Что открыл мореплаватель, изображённый на картинке?</string>
+
+    <!--options and answer for easy lvl || question 28|| Voyager-->
+    <string name="easy_lvl_question_28_option_1">Евразию</string>
+    <string name="easy_lvl_question_28_option_2">Антарктиду</string>
+    <string name="easy_lvl_question_28_option_3">Австрию</string>
+    <string name="easy_lvl_question_28_option_4">Новый Свет</string>
+
+    <string name="easy_lvl_question_29">В состав литосферы входит...</string>
+
+    <!--options and answer for easy lvl || question 29|| Voyager-->
+    <string name="easy_lvl_question_29_option_1">мантия и ядро</string>
+    <string name="easy_lvl_question_29_option_2">земная кора и верхняя часть мантии</string>
+    <string name="easy_lvl_question_29_option_3">земная кора, мантия и ядро</string>
+    <string name="easy_lvl_question_29_option_4">земная кора</string>
+
+    <string name="easy_lvl_question_30">Кладовые пресной воды — это:</string>
+
+    <!--options and answer for easy lvl || question 30|| Voyager-->
+    <string name="easy_lvl_question_30_option_1">ледники</string>
+    <string name="easy_lvl_question_30_option_2">реки</string>
+    <string name="easy_lvl_question_30_option_3">озёра</string>
+    <string name="easy_lvl_question_30_option_4">болота</string>
+
+
+    <!-- Questions easy levels || Businessman-->
+    <string name="easy_lvl_question_31">На каком материке находится знаменитый вулкан Килиманджаро?</string>
+
+    <!--options and answer for easy lvl || question 31|| Businessman-->
+    <string name="easy_lvl_question_31_option_1">Африка</string>
+    <string name="easy_lvl_question_31_option_2">Южная Америка</string>
+    <string name="easy_lvl_question_31_option_3">Северная Америка</string>
+    <string name="easy_lvl_question_31_option_4">Австралия</string>
+
+    <string name="easy_lvl_question_32">Флаг какой страны изображён на картинке?</string>
+
+    <!--options and answer for easy lvl || question 32|| Businessman-->
+    <string name="easy_lvl_question_32_option_1">Испании</string>
+    <string name="easy_lvl_question_32_option_2">Польши</string>
+    <string name="easy_lvl_question_32_option_3">Японии</string>
+    <string name="easy_lvl_question_32_option_4">КНДР</string>
+
+    <string name="easy_lvl_question_33">Какие из перечисленных объектов расположены на территории Северной Америки:</string>
+
+    <!--options and answer for easy lvl || question 33|| Businessman-->
+    <string name="easy_lvl_question_33_option_1">Амазонка, Вашингтон, Килиманджаро</string>
+    <string name="easy_lvl_question_33_option_2">Лондон, Кордильеры, Анды</string>
+    <string name="easy_lvl_question_33_option_3">Гималаи, Миссисипи, Байкал</string>
+    <string name="easy_lvl_question_33_option_4">Аппалачи, Новый Орлеан, оз. Верхнее</string>
+
+    <string name="easy_lvl_question_34">Как называется пролив, отделяющий Европу от Африки?</string>
+
+    <!--options and answer for easy lvl || question 34|| Businessman-->
+    <string name="easy_lvl_question_34_option_1">Берингов</string>
+    <string name="easy_lvl_question_34_option_2">Гибралтарский</string>
+    <string name="easy_lvl_question_34_option_3">Магелланов</string>
+    <string name="easy_lvl_question_34_option_4">Лаперуза</string>
+
+
+    <string name="easy_lvl_question_35">Где обитает больше всего организмов?</string>
+
+    <!--options and answer for easy lvl || question 35|| Businessman-->
+    <string name="easy_lvl_question_35_option_1">около земной поверхности</string>
+    <string name="easy_lvl_question_35_option_2">в глубоководных впадинах</string>
+    <string name="easy_lvl_question_35_option_3">на высоте 300 м</string>
+    <string name="easy_lvl_question_35_option_4">в почве</string>
+
+    <string name="easy_lvl_question_36">На каком материке находится страна, изображённая на картинке?</string>
+
+    <!--options and answer for easy lvl || question 36|| Businessman-->
+    <string name="easy_lvl_question_36_option_1">Северная Америка</string>
+    <string name="easy_lvl_question_36_option_2">Южная Америка</string>
+    <string name="easy_lvl_question_36_option_3">Евразия</string>
+    <string name="easy_lvl_question_36_option_4">Африка</string>
+
+    <string name="easy_lvl_question_37">Угол наклона земной оси составляет:</string>
+
+    <!--options and answer for easy lvl || question 37|| Businessman-->
+    <string name="easy_lvl_question_37_option_1">0°</string>
+    <string name="easy_lvl_question_37_option_2">66,51°</string>
+    <string name="easy_lvl_question_37_option_3">23,26°</string>
+    <string name="easy_lvl_question_37_option_4">90°</string>
+
+    <string name="easy_lvl_question_38">Средняя толщина материковой коры составляет:</string>
+
+    <!--options and answer for easy lvl || question 38|| Businessman-->
+    <string name="easy_lvl_question_38_option_1">35-45 km</string>
+    <string name="easy_lvl_question_38_option_2">50-80 km</string>
+    <string name="easy_lvl_question_38_option_3">10-20 km</string>
+    <string name="easy_lvl_question_38_option_4">3-7 km</string>
+
+    <string name="easy_lvl_question_39">Какое из направлений противоположно направлению на Северо-Запад?</string>
+
+    <!--options and answer for easy lvl || question 39|| Businessman-->
+    <string name="easy_lvl_question_39_option_1">Северо-Восток</string>
+    <string name="easy_lvl_question_39_option_2">Северо-Юг</string>
+    <string name="easy_lvl_question_39_option_3">Юго-Восток</string>
+    <string name="easy_lvl_question_39_option_4">Юго-Запад</string>
+
+    <string name="easy_lvl_question_40">Наименьшее атмосферное давление наблюдается на:</string>
+
+    <!--options and answer for easy lvl || question 40|| Businessman-->
+    <string name="easy_lvl_question_40_option_1">берегу моря</string>
+    <string name="easy_lvl_question_40_option_2">низменности</string>
+    <string name="easy_lvl_question_40_option_3">вершине горы</string>
+    <string name="easy_lvl_question_40_option_4">холме</string>
+
+
+    <!-- Questions easy levels || Adventurer-->
+    <string name="easy_lvl_question_41">Как называют диаграммы, дающие наглядное представление о преобладающих ветрах на какой-либо территории</string>
+
+    <!--options and answer for easy lvl || question 41|| Adventurer-->
+    <string name="easy_lvl_question_41_option_1">изотерма</string>
+    <string name="easy_lvl_question_41_option_2">роза ветров</string>
+    <string name="easy_lvl_question_41_option_3">флюгермер</string>
+    <string name="easy_lvl_question_41_option_4">ветрогон</string>
+
+    <string name="easy_lvl_question_42">Столица Австралии — это...</string>
+
+    <!--options and answer for easy lvl || question 42|| Adventurer-->
+    <string name="easy_lvl_question_42_option_1">Сидней</string>
+    <string name="easy_lvl_question_42_option_2">Мельбурн</string>
+    <string name="easy_lvl_question_42_option_3">Канберра</string>
+    <string name="easy_lvl_question_42_option_4">Дарвин</string>
+
+    <string name="easy_lvl_question_43">Прибор для наблюдения за направлением и скоростью ветра...</string>
+
+    <!--options and answer for easy lvl || question 43|| Adventurer-->
+    <string name="easy_lvl_question_43_option_1">барометр</string>
+    <string name="easy_lvl_question_43_option_2">анемометр</string>
+    <string name="easy_lvl_question_43_option_3">термометр</string>
+    <string name="easy_lvl_question_43_option_4">осадкомер</string>
+
+    <string name="easy_lvl_question_44">В какой части географической оболочки земли зарождалось это природное явление?</string>
+
+    <!--options and answer for easy lvl || question 44|| Adventurer-->
+    <string name="easy_lvl_question_44_option_1">литосфере</string>
+    <string name="easy_lvl_question_44_option_2">гидросфере</string>
+    <string name="easy_lvl_question_44_option_3">биосфере</string>
+    <string name="easy_lvl_question_44_option_4">атмосфере</string>
+
+
+    <string name="easy_lvl_question_45">Как называют несильный ветер, меняющий направление два раза в сутки?</string>
+
+    <!--options and answer for easy lvl || question 45|| Adventurer-->
+    <string name="easy_lvl_question_45_option_1">бриз</string>
+    <string name="easy_lvl_question_45_option_2">ураган</string>
+    <string name="easy_lvl_question_45_option_3">муссон</string>
+    <string name="easy_lvl_question_45_option_4">штиль</string>
+
+    <string name="easy_lvl_question_46">Какова протяженность территории России с запада на восток?</string>
+
+    <!--options and answer for easy lvl || question 46|| Adventurer-->
+    <string name="easy_lvl_question_46_option_1">около 5000 км</string>
+    <string name="easy_lvl_question_46_option_2">около 10000 км</string>
+    <string name="easy_lvl_question_46_option_3">около 15000 км</string>
+    <string name="easy_lvl_question_46_option_4">около 20000 км</string>
+
+    <string name="easy_lvl_question_47">Какой водопад является самым большим в мире?</string>
+
+    <!--options and answer for easy lvl || question 47|| Adventurer-->
+    <string name="easy_lvl_question_47_option_1">Виктория</string>
+    <string name="easy_lvl_question_47_option_2">Ниагарский</string>
+    <string name="easy_lvl_question_47_option_3">Игуасу</string>
+    <string name="easy_lvl_question_47_option_4">Стэнли</string>
+
+    <string name="easy_lvl_question_48">Какие почвы на территории переменно-влажных лесов?</string>
+
+    <!--options and answer for easy lvl || question 48|| Adventurer-->
+    <string name="easy_lvl_question_48_option_1">серозёмы</string>
+    <string name="easy_lvl_question_48_option_2">серые лесные</string>
+    <string name="easy_lvl_question_48_option_3">чернозёмы</string>
+    <string name="easy_lvl_question_48_option_4">красные ферраллитные</string>
+
+    <string name="easy_lvl_question_49">В какой стране расположена достопримечательность с фотографии?</string>
+
+    <!--options and answer for easy lvl || question 49|| Adventurer-->
+    <string name="easy_lvl_question_49_option_1">Испания</string>
+    <string name="easy_lvl_question_49_option_2">Италия</string>
+    <string name="easy_lvl_question_49_option_3">Франция</string>
+    <string name="easy_lvl_question_49_option_4">Египет</string>
+
+    <string name="easy_lvl_question_50">Гидросфера - это...</string>
+
+    <!--options and answer for easy lvl || question 50|| Adventurer-->
+    <string name="easy_lvl_question_50_option_1">воздушная оболочка земли</string>
+    <string name="easy_lvl_question_50_option_2">твёрдая оболочка земли</string>
+    <string name="easy_lvl_question_50_option_3">водная оболочка земли</string>
+    <string name="easy_lvl_question_50_option_4">живая оболочка земли</string>
+
+
+    <!-- Questions easy levels || Alien-->
+    <string name="easy_lvl_question_51">Равнины различают по высоте:</string>
+
+    <!--options and answer for easy lvl || question 51|| Alien-->
+    <string name="easy_lvl_question_51_option_1">низменности не выше 200 м</string>
+    <string name="easy_lvl_question_51_option_2">возвышенности от 200 м до 500 м</string>
+    <string name="easy_lvl_question_51_option_3">плоскогорья 500 м</string>
+    <string name="easy_lvl_question_51_option_4">все ответы правильные</string>
+
+    <string name="easy_lvl_question_52">Как называется хребет в центре Атлантического океана?</string>
+
+    <!--options and answer for easy lvl || question 52|| Alien-->
+    <string name="easy_lvl_question_52_option_1">Срединно-Атлантический хребет</string>
+    <string name="easy_lvl_question_52_option_2">Аравийско-Индийский хребет</string>
+    <string name="easy_lvl_question_52_option_3">Восточно-Тихоокеанское поднятие</string>
+    <string name="easy_lvl_question_52_option_4">Глубоководный желоб</string>
+
+    <string name="easy_lvl_question_53">К каким горам по высоте относятся Гималаи?</string>
+
+    <!--options and answer for easy lvl || question 53|| Alien-->
+    <string name="easy_lvl_question_53_option_1">к средним</string>
+    <string name="easy_lvl_question_53_option_2">к высоким</string>
+    <string name="easy_lvl_question_53_option_3">к низким</string>
+    <string name="easy_lvl_question_53_option_4">не относятся к горам</string>
+
+    <string name="easy_lvl_question_54">Самый глубокий желоб на Земле:</string>
+
+    <!--options and answer for easy lvl || question 54|| Alien-->
+    <string name="easy_lvl_question_54_option_1">Пуэрто-Рико</string>
+    <string name="easy_lvl_question_54_option_2">Зондский желоб</string>
+    <string name="easy_lvl_question_54_option_3">Гренландское море</string>
+    <string name="easy_lvl_question_54_option_4">Марианский желоб</string>
+
+
+    <string name="easy_lvl_question_55">По фотографии животных определи, на каком континенте они находятся:</string>
+
+    <!--options and answer for easy lvl || question 55|| Alien-->
+    <string name="easy_lvl_question_55_option_1">Финляндия</string>
+    <string name="easy_lvl_question_55_option_2">Антарктида</string>
+    <string name="easy_lvl_question_55_option_3">Северная Америка</string>
+    <string name="easy_lvl_question_55_option_4">Южный полюс</string>
+
+    <string name="easy_lvl_question_56">Кто открыл пролив между Азией и Америкой?</string>
+
+    <!--options and answer for easy lvl || question 56|| Alien-->
+    <string name="easy_lvl_question_56_option_1">Беринг</string>
+    <string name="easy_lvl_question_56_option_2">Колумб</string>
+    <string name="easy_lvl_question_56_option_3">Дежнев</string>
+    <string name="easy_lvl_question_56_option_4">Гудзон</string>
+
+    <string name="easy_lvl_question_57">Какая часть света целиком находится в западном полушарии?</string>
+
+    <!--options and answer for easy lvl || question 57|| Alien-->
+    <string name="easy_lvl_question_57_option_1">Америка</string>
+    <string name="easy_lvl_question_57_option_2">Австралия</string>
+    <string name="easy_lvl_question_57_option_3">Африка</string>
+    <string name="easy_lvl_question_57_option_4">Южная Америка</string>
+
+    <string name="easy_lvl_question_58">Какой элемент в земной коре преобладает?</string>
+
+    <!--options and answer for easy lvl || question 58|| Alien-->
+    <string name="easy_lvl_question_58_option_1">кислород</string>
+    <string name="easy_lvl_question_58_option_2">кремний</string>
+    <string name="easy_lvl_question_58_option_3">магний</string>
+    <string name="easy_lvl_question_58_option_4">азот</string>
+
+    <string name="easy_lvl_question_59">Магматические горные породы образовались в результате:</string>
+
+    <!--options and answer for easy lvl || question 59|| Alien-->
+    <string name="easy_lvl_question_59_option_1">накопления животных остатков</string>
+    <string name="easy_lvl_question_59_option_2">застывания лавы</string>
+    <string name="easy_lvl_question_59_option_3">повышения давления и высоких температур на большой глубине</string>
+    <string name="easy_lvl_question_59_option_4">разрушения твёрдых пород</string>
+
+    <string name="easy_lvl_question_60">Какая страна по своей форме напоминает предмет, изображённый на картинке?</string>
+
+    <!--options and answer for easy lvl || question 60|| Alien-->
+    <string name="easy_lvl_question_60_option_1">Исландия</string>
+    <string name="easy_lvl_question_60_option_2">США</string>
+    <string name="easy_lvl_question_60_option_3">Германия</string>
+    <string name="easy_lvl_question_60_option_4">Италия</string>
+
+
+    <!-- Questions medium levels || Ordinary person-->
+    <string name="medium_lvl_question_61">Какая из перечисленных пустынь находится в Южном полушарии?</string>
+
+    <!--options and answer for medium lvl || question 1|| Ordinary person-->
+    <string name="medium_lvl_question_61_option_1">Атакама</string>
+    <string name="medium_lvl_question_61_option_2">Сахара</string>
+    <string name="medium_lvl_question_61_option_3">Гоби</string>
+    <string name="medium_lvl_question_61_option_4">Руб-эль-Хали</string>
+
+    <string name="medium_lvl_question_62">Какая из перечисленных стран находится в двух частях света?</string>
+
+    <!--options and answer for medium lvl || question 2|| Ordinary person-->
+    <string name="medium_lvl_question_62_option_1">Бразилия</string>
+    <string name="medium_lvl_question_62_option_2">Россия</string>
+    <string name="medium_lvl_question_62_option_3">Индия</string>
+    <string name="medium_lvl_question_62_option_4">Алжир</string>
+
+    <string name="medium_lvl_question_63">В какой из перечисленных стран численность населения наибольшая?</string>
+
+    <!--options and answer for medium lvl || question 3|| Ordinary person-->
+    <string name="medium_lvl_question_63_option_1">США</string>
+    <string name="medium_lvl_question_63_option_2">Бразилия</string>
+    <string name="medium_lvl_question_63_option_3">Россия</string>
+    <string name="medium_lvl_question_63_option_4">Индия</string>
+
+    <string name="medium_lvl_question_64">По фотографии национального блюда определи страну:</string>
+
+    <!--options and answer for medium lvl || question 4|| Ordinary person-->
+    <string name="medium_lvl_question_64_option_1">Украина</string>
+    <string name="medium_lvl_question_64_option_2">Шотландия</string>
+    <string name="medium_lvl_question_64_option_3">Белоруссия</string>
+    <string name="medium_lvl_question_64_option_4">Канада</string>
+
+
+    <string name="medium_lvl_question_65">Какой из перечисленных природных ресурсов относится к неисчерпаемым?</string>
+
+    <!--options and answer for medium lvl || question 5|| Ordinary person-->
+    <string name="medium_lvl_question_65_option_1">почвенные</string>
+    <string name="medium_lvl_question_65_option_2">нефть</string>
+    <string name="medium_lvl_question_65_option_3">энергия приливов</string>
+    <string name="medium_lvl_question_65_option_4">торф</string>
+
+    <string name="medium_lvl_question_66">По картинке перевёрнутого флага определи, какой стране он принадлежит:</string>
+
+    <!--options and answer for medium lvl || question 6|| Ordinary person-->
+    <string name="medium_lvl_question_66_option_1">Бельгия</string>
+    <string name="medium_lvl_question_66_option_2">Германия</string>
+    <string name="medium_lvl_question_66_option_3">Польша</string>
+    <string name="medium_lvl_question_66_option_4">Эстония</string>
+
+    <string name="medium_lvl_question_67">На каком из перечисленных островов имеются действующие вулканы?</string>
+
+    <!--options and answer for medium lvl || question 7|| Ordinary person-->
+    <string name="medium_lvl_question_67_option_1">Исландия</string>
+    <string name="medium_lvl_question_67_option_2">Мадагаскар</string>
+    <string name="medium_lvl_question_67_option_3">Шри-Ланка</string>
+    <string name="medium_lvl_question_67_option_4">Сахалин</string>
+
+    <string name="medium_lvl_question_68">На каком из перечисленных материков находятся озёра Эри и Мичиган?</string>
+
+    <!--options and answer for medium lvl || question 8|| Ordinary person-->
+    <string name="medium_lvl_question_68_option_1">Австралия</string>
+    <string name="medium_lvl_question_68_option_2">Северная Америка</string>
+    <string name="medium_lvl_question_68_option_3">Африка</string>
+    <string name="medium_lvl_question_68_option_4">Южная Америка</string>
+
+    <string name="medium_lvl_question_69">Облака бывают:</string>
+
+    <!--options and answer for medium lvl || question 9|| Ordinary person-->
+    <string name="medium_lvl_question_69_option_1">перистые</string>
+    <string name="medium_lvl_question_69_option_2">кучевые</string>
+    <string name="medium_lvl_question_69_option_3">слоистые</string>
+    <string name="medium_lvl_question_69_option_4">все ответы верны</string>
+
+    <string name="medium_lvl_question_70">На чьих заводах автомобиль превратился из «роскоши в средство передвижения»?</string>
+
+    <!--options and answer for medium lvl || question 10|| Ordinary person-->
+    <string name="medium_lvl_question_70_option_1">Э. Сетона-Томпсона</string>
+    <string name="medium_lvl_question_70_option_2">Бенджамина Франклина</string>
+    <string name="medium_lvl_question_70_option_3">Илона Маска</string>
+    <string name="medium_lvl_question_70_option_4">Генри Форда</string>
+
+
+    <!-- Questions medium levels || Teacher-->
+    <string name="medium_lvl_question_71">Самый высокий в мире водопад находится на материке...</string>
+
+    <!--options and answer for medium 7vl || question 11|| Teacher-->
+    <string name="medium_lvl_question_71_option_1">Африка</string>
+    <string name="medium_lvl_question_71_option_2">Австралия</string>
+    <string name="medium_lvl_question_71_option_3">Северная Америка</string>
+    <string name="medium_lvl_question_71_option_4">Южная Америка</string>
+
+    <string name="medium_lvl_question_72">На территории какой из перечисленных стран находится самая большая по площади низменность на Земле?</string>
+
+    <!--options and answer for medium lvl || question 12|| Teacher-->
+    <string name="medium_lvl_question_72_option_1">США</string>
+    <string name="medium_lvl_question_72_option_2">Китай</string>
+    <string name="medium_lvl_question_72_option_3">Бразилия</string>
+    <string name="medium_lvl_question_72_option_4">Канада</string>
+
+    <string name="medium_lvl_question_73">По фотографии национальной одежды определи страну, в которой её носят:</string>
+
+    <!--options and answer for medium lvl || question 13|| Teacher-->
+    <string name="medium_lvl_question_73_option_1">Китай</string>
+    <string name="medium_lvl_question_73_option_2">Япония</string>
+    <string name="medium_lvl_question_73_option_3">Северная Корея</string>
+    <string name="medium_lvl_question_73_option_4">Монголия</string>
+
+    <string name="medium_lvl_question_74">Нормальное атмосферное давление на уровне моря составляет:</string>
+
+    <!--options and answer for medium lvl || question 14|| Teacher-->
+    <string name="medium_lvl_question_74_option_1">740 мм рт. ст.</string>
+    <string name="medium_lvl_question_74_option_2">750 мм рт. ст.</string>
+    <string name="medium_lvl_question_74_option_3">760 мм рт. ст.</string>
+    <string name="medium_lvl_question_74_option_4">770 мм рт. ст.</string>
+
+
+    <string name="medium_lvl_question_75">В каком из перечисленных городов численность населения наибольшая?</string>
+
+    <!--options and answer for medium lvl || question 15|| Teacher-->
+    <string name="medium_lvl_question_75_option_1">Сидней</string>
+    <string name="medium_lvl_question_75_option_2">Мехико</string>
+    <string name="medium_lvl_question_75_option_3">Рим</string>
+    <string name="medium_lvl_question_75_option_4">Санкт-Петербург</string>
+
+    <string name="medium_lvl_question_76">Воздух тропосферы более чем наполовину состоит из...</string>
+
+    <!--options and answer for medium lvl || question 16|| Teacher-->
+    <string name="medium_lvl_question_76_option_1">азота</string>
+    <string name="medium_lvl_question_76_option_2">кислорода</string>
+    <string name="medium_lvl_question_76_option_3">углекислого газа</string>
+    <string name="medium_lvl_question_76_option_4">водорода</string>
+
+    <string name="medium_lvl_question_77">Какое государство включает в себя самый большой остров на Земле?</string>
+
+    <!--options and answer for medium lvl || question 17|| Teacher-->
+    <string name="medium_lvl_question_77_option_1">США</string>
+    <string name="medium_lvl_question_77_option_2">Россия</string>
+    <string name="medium_lvl_question_77_option_3">Канада</string>
+    <string name="medium_lvl_question_77_option_4">Дания</string>
+
+    <string name="medium_lvl_question_78">По фотографии карты столицы определи страну, к которой она принадлежит: </string>
+
+    <!--options and answer for medium lvl || question 18|| Teacher-->
+    <string name="medium_lvl_question_78_option_1">Канада</string>
+    <string name="medium_lvl_question_78_option_2">Мексика</string>
+    <string name="medium_lvl_question_78_option_3">США</string>
+    <string name="medium_lvl_question_78_option_4">Колумбия</string>
+
+    <string name="medium_lvl_question_79">Какая из перечисленных горных пород является магматической?</string>
+
+    <!--options and answer for medium lvl || question 19|| Teacher-->
+    <string name="medium_lvl_question_79_option_1">мрамор</string>
+    <string name="medium_lvl_question_79_option_2">гранит</string>
+    <string name="medium_lvl_question_79_option_3">известняк</string>
+    <string name="medium_lvl_question_79_option_4">каменная соль</string>
+
+    <string name="medium_lvl_question_80">У берегов какого из перечисленных материков проходит океаническое течение Гольфстрим?</string>
+
+    <!--options and answer for medium lvl || question 20|| Teacher-->
+    <string name="medium_lvl_question_80_option_1">Австралия</string>
+    <string name="medium_lvl_question_80_option_2">Южная Америка</string>
+    <string name="medium_lvl_question_80_option_3">Северная Америка</string>
+    <string name="medium_lvl_question_80_option_4">Африка</string>
+
+    <!-- Questions medium levels || Voyager-->
+    <string name="medium_lvl_question_81">Посмотри на фотографию обычной улицы и выбери страну, где это фото было сделано...</string>
+
+    <!--options and answer for medium lvl || question 21|| Voyager-->
+    <string name="medium_lvl_question_81_option_1">Россия</string>
+    <string name="medium_lvl_question_81_option_2">Китай</string>
+    <string name="medium_lvl_question_81_option_3">Индия</string>
+    <string name="medium_lvl_question_81_option_4">Англия</string>
+
+    <string name="medium_lvl_question_82">Как называется материк, по территории которого протекает река Колорадо?</string>
+
+    <!--options and answer for medium lvl || question 22|| Voyager-->
+    <string name="medium_lvl_question_82_option_1">Африка</string>
+    <string name="medium_lvl_question_82_option_2">Северная Америка</string>
+    <string name="medium_lvl_question_82_option_3">Австралия</string>
+    <string name="medium_lvl_question_82_option_4">Южная Америка</string>
+
+    <string name="medium_lvl_question_83">Какая часть приходится на долю пресных вод в общем объёме гидросферы?</string>
+
+    <!--options and answer for medium lvl || question 23|| Voyager-->
+    <string name="medium_lvl_question_83_option_1">3%</string>
+    <string name="medium_lvl_question_83_option_2">12%</string>
+    <string name="medium_lvl_question_83_option_3">24%</string>
+    <string name="medium_lvl_question_83_option_4">48%</string>
+
+    <string name="medium_lvl_question_84">Какой из перечисленных действующих вулканов Евразии является самым высоким?</string>
+
+    <!--options and answer for medium lvl || question 24|| Voyager-->
+    <string name="medium_lvl_question_84_option_1">Этна</string>
+    <string name="medium_lvl_question_84_option_2">Везувий</string>
+    <string name="medium_lvl_question_84_option_3">Фудзияма</string>
+    <string name="medium_lvl_question_84_option_4">Ключевская Сопка</string>
+
+
+    <string name="medium_lvl_question_85">Какой из перечисленных городов является столицей государства?</string>
+
+    <!--options and answer for medium lvl || question 25|| Voyager-->
+    <string name="medium_lvl_question_85_option_1">Нью-Йорк</string>
+    <string name="medium_lvl_question_85_option_2">Монреаль</string>
+    <string name="medium_lvl_question_85_option_3">Вашингтон</string>
+    <string name="medium_lvl_question_85_option_4">Сидней</string>
+
+    <string name="medium_lvl_question_86">Что означет число звёзд, нарисованных на флаге, изображённом на картинке?</string>
+
+    <!--options and answer for medium lvl || question 26|| Voyager-->
+    <string name="medium_lvl_question_86_option_1">Число президентов за историю США</string>
+    <string name="medium_lvl_question_86_option_2">Количество стран-партнёров</string>
+    <string name="medium_lvl_question_86_option_3">Число законов в конституции</string>
+    <string name="medium_lvl_question_86_option_4">Количество штатов</string>
+
+    <string name="medium_lvl_question_87">На каком из перечисленных материков нет действующих вулканов?</string>
+
+    <!--options and answer for medium lvl || question 27|| Voyager-->
+    <string name="medium_lvl_question_87_option_1">Южная Америка</string>
+    <string name="medium_lvl_question_87_option_2">Австралия</string>
+    <string name="medium_lvl_question_87_option_3">Антарктида</string>
+    <string name="medium_lvl_question_87_option_4">Северная Америка</string>
+
+    <string name="medium_lvl_question_88">Какой мореплаватель командовал экспедицией, совершившей первое кругосветное плавание?</string>
+
+    <!--options and answer for medium lvl || question 28|| Voyager-->
+    <string name="medium_lvl_question_88_option_1">Васко да Гама</string>
+    <string name="medium_lvl_question_88_option_2">Христофор Колумб</string>
+    <string name="medium_lvl_question_88_option_3">Фернан Магеллан</string>
+    <string name="medium_lvl_question_88_option_4">Джеймс Кук</string>
+
+    <string name="medium_lvl_question_89">На каком материке находится самая полноводная река мира?</string>
+
+    <!--options and answer for medium lvl || question 29|| Voyager-->
+    <string name="medium_lvl_question_89_option_1">Африка</string>
+    <string name="medium_lvl_question_89_option_2">Южная Америка</string>
+    <string name="medium_lvl_question_89_option_3">Евразия</string>
+    <string name="medium_lvl_question_89_option_4">Северная Америка</string>
+
+    <string name="medium_lvl_question_90">Как называется материк, на территории которого находится Ниагарский водопад?</string>
+
+    <!--options and answer for medium lvl || question 30|| Voyager-->
+    <string name="medium_lvl_question_90_option_1">Африка</string>
+    <string name="medium_lvl_question_90_option_2">Южная Америка</string>
+    <string name="medium_lvl_question_90_option_3">Австралия</string>
+    <string name="medium_lvl_question_90_option_4">Северная Америка</string>
+
+
+    <!-- Questions medium levels || Businessman-->
+    <string name="medium_lvl_question_91">Какая из перечисленных горных систем имеет наибольшую протяженность?</string>
+
+    <!--options and answer for medium lvl || question 31|| Businessman-->
+    <string name="medium_lvl_question_91_option_1">Гималаи</string>
+    <string name="medium_lvl_question_91_option_2">Кавказ</string>
+    <string name="medium_lvl_question_91_option_3">Анды</string>
+    <string name="medium_lvl_question_91_option_4">Карпаты</string>
+
+    <string name="medium_lvl_question_92">Посмотри на национальный музыкальный инструмент и определи, к какой из стран он относится:</string>
+
+    <!--options and answer for medium lvl || question 32|| Businessman-->
+    <string name="medium_lvl_question_92_option_1">Нигерия</string>
+    <string name="medium_lvl_question_92_option_2">Турция</string>
+    <string name="medium_lvl_question_92_option_3">Индия</string>
+    <string name="medium_lvl_question_92_option_4">Саудовская Аравия</string>
+
+    <string name="medium_lvl_question_93">Какое из перечисленных океанических течений холодное?</string>
+
+    <!--options and answer for medium lvl || question 33|| Businessman-->
+    <string name="medium_lvl_question_93_option_1">Перуанское</string>
+    <string name="medium_lvl_question_93_option_2">Гольфстрим</string>
+    <string name="medium_lvl_question_93_option_3">Бразильское</string>
+    <string name="medium_lvl_question_93_option_4">Гвинейское</string>
+
+    <string name="medium_lvl_question_94">Какая из перечисленных рек Европы является наиболее протяжённой?</string>
+
+    <!--options and answer for medium lvl || question 34|| Businessman-->
+    <string name="medium_lvl_question_94_option_1">Дон</string>
+    <string name="medium_lvl_question_94_option_2">Волга</string>
+    <string name="medium_lvl_question_94_option_3">Днепр</string>
+    <string name="medium_lvl_question_94_option_4">Печора</string>
+
+
+    <string name="medium_lvl_question_95">Для какой природной зоны характерно наибольшее видовое разнообразие растительного и животного мира?</string>
+
+    <!--options and answer for medium lvl || question 35|| Businessman-->
+    <string name="medium_lvl_question_95_option_1">тундра и лесотундра</string>
+    <string name="medium_lvl_question_95_option_2">тайга</string>
+    <string name="medium_lvl_question_95_option_3">степи и лесостепи</string>
+    <string name="medium_lvl_question_95_option_4">влажные экваториальные леса</string>
+
+    <string name="medium_lvl_question_96">Кормовая база молочного скотоводства:</string>
+
+    <!--options and answer for medium lvl || question 36|| Businessman-->
+    <string name="medium_lvl_question_96_option_1">грубые и концентрированные корма</string>
+    <string name="medium_lvl_question_96_option_2">сочные корма</string>
+    <string name="medium_lvl_question_96_option_3">зерноотходы, силос</string>
+    <string name="medium_lvl_question_96_option_4">синтетические корма</string>
+
+    <string name="medium_lvl_question_97">В каком из перечисленных морей солёность поверхностных вод наибольшая?</string>
+
+    <!--options and answer for medium lvl || question 37|| Businessman-->
+    <string name="medium_lvl_question_97_option_1">Красное</string>
+    <string name="medium_lvl_question_97_option_2">Чёрное</string>
+    <string name="medium_lvl_question_97_option_3">Средиземное</string>
+    <string name="medium_lvl_question_97_option_4">Карибское</string>
+
+    <string name="medium_lvl_question_98">Определи, какая страна изображена на картинке:</string>
+
+    <!--options and answer for medium lvl || question 38|| Businessman-->
+    <string name="medium_lvl_question_98_option_1">Сербия</string>
+    <string name="medium_lvl_question_98_option_2">Ливия</string>
+    <string name="medium_lvl_question_98_option_3">Япония</string>
+    <string name="medium_lvl_question_98_option_4">Италия</string>
+
+    <string name="medium_lvl_question_99">В какой части света находится самое глубокое озеро на Земле?</string>
+
+    <!--options and answer for medium lvl || question 39|| Businessman-->
+    <string name="medium_lvl_question_99_option_1">Азия</string>
+    <string name="medium_lvl_question_99_option_2">Америка</string>
+    <string name="medium_lvl_question_99_option_3">Европа</string>
+    <string name="medium_lvl_question_99_option_4">Африка</string>
+
+    <string name="medium_lvl_question_100">Абель Тасман внёс большой вклад в исследование...</string>
+
+    <!--options and answer for medium lvl || question 40|| Businessman-->
+    <string name="medium_lvl_question_100_option_1">Аравийского полуострова</string>
+    <string name="medium_lvl_question_100_option_2">островов Новая Зеландия</string>
+    <string name="medium_lvl_question_100_option_3">полуострова Калифорния</string>
+    <string name="medium_lvl_question_100_option_4">островов Новая Земля</string>
+
+
+    <!-- Questions medium levels || Adventurer-->
+    <string name="medium_lvl_question_101">Какая из перечисленных стран входит в число крупнейших производителей хлопка-волокна?</string>
+
+    <!--options and answer for medium lvl || question 41|| Adventurer-->
+    <string name="medium_lvl_question_101_option_1">Португалия</string>
+    <string name="medium_lvl_question_101_option_2">Чехия</string>
+    <string name="medium_lvl_question_101_option_3">Чили</string>
+    <string name="medium_lvl_question_101_option_4">Индия</string>
+
+    <string name="medium_lvl_question_102">Какая из перечисленных стран является членом ОПЕК?</string>
+
+    <!--options and answer for medium lvl || question 42|| Adventurer-->
+    <string name="medium_lvl_question_102_option_1">Венесуэла</string>
+    <string name="medium_lvl_question_102_option_2">Пакистан</string>
+    <string name="medium_lvl_question_102_option_3">Мексика</string>
+    <string name="medium_lvl_question_102_option_4">Египет</string>
+
+    <string name="medium_lvl_question_103">Какой буквой на карте Южной Америки обозначена территория государства Перу?</string>
+
+    <!--options and answer for easy lvl || question 43|| Adventurer-->
+    <string name="medium_lvl_question_103_option_1">A</string>
+    <string name="medium_lvl_question_103_option_2">B</string>
+    <string name="medium_lvl_question_103_option_3">C</string>
+    <string name="medium_lvl_question_103_option_4">D</string>
+
+    <string name="medium_lvl_question_104">В какой из перечисленных стран средняя ожидаемая продолжительность жизни населения наибольшая?</string>
+
+    <!--options and answer for medium lvl || question 44|| Adventurer-->
+    <string name="medium_lvl_question_104_option_1">Египет</string>
+    <string name="medium_lvl_question_104_option_2">Украина</string>
+    <string name="medium_lvl_question_104_option_3">Россия</string>
+    <string name="medium_lvl_question_104_option_4">Германия</string>
+
+
+    <string name="medium_lvl_question_105">Для побережья какого залива характерна наибольшая концентрация специализированных нефтеналивных портов?</string>
+
+    <!--options and answer for medium lvl || question 45|| Adventurer-->
+    <string name="medium_lvl_question_105_option_1">Бискайского</string>
+    <string name="medium_lvl_question_105_option_2">Большого Австралийского</string>
+    <string name="medium_lvl_question_105_option_3">Персидского</string>
+    <string name="medium_lvl_question_105_option_4">Бенгальского</string>
+
+    <string name="medium_lvl_question_106">В какой из перечисленных стран густота сети железных дорог наибольшая?</string>
+
+    <!--options and answer for medium lvl || question 46|| Adventurer-->
+    <string name="medium_lvl_question_106_option_1">Швейцария</string>
+    <string name="medium_lvl_question_106_option_2">Австралия</string>
+    <string name="medium_lvl_question_106_option_3">Канада</string>
+    <string name="medium_lvl_question_106_option_4">Бразилия</string>
+
+    <string name="medium_lvl_question_107">Его используют не только как вьючное животное, но и для производства мяса и молока. Какое животное изображено на картинке?</string>
+
+    <!--options and answer for medium lvl || question 47|| Adventurer-->
+    <string name="medium_lvl_question_107_option_1">зубр</string>
+    <string name="medium_lvl_question_107_option_2">муфлон</string>
+    <string name="medium_lvl_question_107_option_3">марал</string>
+    <string name="medium_lvl_question_107_option_4">як</string>
+
+    <string name="medium_lvl_question_108">В какой из перечисленных стран ВВП на душу населения наибольший?</string>
+
+    <!--options and answer for medium lvl || question 48|| Adventurer-->
+    <string name="medium_lvl_question_108_option_1">Пакистан</string>
+    <string name="medium_lvl_question_108_option_2">Мексика</string>
+    <string name="medium_lvl_question_108_option_3">Финляндия</string>
+    <string name="medium_lvl_question_108_option_4">Иран</string>
+
+    <string name="medium_lvl_question_109">С какой из перечисленных стран Россия имеет сухопутную границу?</string>
+
+    <!--options and answer for medium lvl || question 49|| Adventurer-->
+    <string name="medium_lvl_question_109_option_1">Казахстан</string>
+    <string name="medium_lvl_question_109_option_2">Туркмения</string>
+    <string name="medium_lvl_question_109_option_3">Армения</string>
+    <string name="medium_lvl_question_109_option_4">Узбекистан</string>
+
+    <string name="medium_lvl_question_110">Какая из категорий цветных металлов указана неверно?</string>
+
+    <!--options and answer for medium lvl || question 50|| Adventurer-->
+    <string name="medium_lvl_question_110_option_1">легкие</string>
+    <string name="medium_lvl_question_110_option_2">средние</string>
+    <string name="medium_lvl_question_110_option_3">тяжелые</string>
+    <string name="medium_lvl_question_110_option_4">драгоценные</string>
+
+
+    <!-- Questions medium levels || Alien-->
+    <string name="medium_lvl_question_111">Садоводство и виноградарство широко представлены в этих регионах Европы:</string>
+
+    <!--options and answer for medium lvl || question 51|| Alien-->
+    <string name="medium_lvl_question_111_option_1">восточных</string>
+    <string name="medium_lvl_question_111_option_2">западных</string>
+    <string name="medium_lvl_question_111_option_3">центральных</string>
+    <string name="medium_lvl_question_111_option_4">южных</string>
+
+    <string name="medium_lvl_question_112">Какая отрасль хозяйства не относится к агропромышленному комплексу?</string>
+
+    <!--options and answer for medium lvl || question 52|| Alien-->
+    <string name="medium_lvl_question_112_option_1">растениеводство</string>
+    <string name="medium_lvl_question_112_option_2">производство сельскохозяйственной техники</string>
+    <string name="medium_lvl_question_112_option_3">энергетика</string>
+    <string name="medium_lvl_question_112_option_4">производство удобрений</string>
+
+    <string name="medium_lvl_question_113">С какими рудами работают предприятия черной металлургии?</string>
+
+    <!--options and answer for medium lvl || question 53|| Alien-->
+    <string name="medium_lvl_question_113_option_1">с железными</string>
+    <string name="medium_lvl_question_113_option_2">с алюминиевыми</string>
+    <string name="medium_lvl_question_113_option_3">с медными</string>
+    <string name="medium_lvl_question_113_option_4">со свинцово-цинковыми</string>
+
+    <string name="medium_lvl_question_114">Символ какой международной организации изображен на иллюстрации?</string>
+
+    <!--options and answer for medium lvl || question 54|| Alien-->
+    <string name="medium_lvl_question_114_option_1">ЮНЕСКО</string>
+    <string name="medium_lvl_question_114_option_2">ЮНИСЕФ</string>
+    <string name="medium_lvl_question_114_option_3">Гринпис</string>
+    <string name="medium_lvl_question_114_option_4">ВОЗ</string>
+
+
+    <string name="medium_lvl_question_115">Какое сельскохозяйственное растение относится к бахчевым культурам?</string>
+
+    <!--options and answer for medium lvl || question 55|| Alien-->
+    <string name="medium_lvl_question_115_option_1">лен</string>
+    <string name="medium_lvl_question_115_option_2">ячмень</string>
+    <string name="medium_lvl_question_115_option_3">тыква</string>
+    <string name="medium_lvl_question_115_option_4">картофель</string>
+
+    <string name="medium_lvl_question_116">Как проведена государственная граница между Болгарией и Румынией?</string>
+
+    <!--options and answer for medium lvl || question 56|| Alien-->
+    <string name="medium_lvl_question_116_option_1">по условной линии</string>
+    <string name="medium_lvl_question_116_option_2">по горному хребту</string>
+    <string name="medium_lvl_question_116_option_3">по озеру</string>
+    <string name="medium_lvl_question_116_option_4">по реке</string>
+
+    <string name="medium_lvl_question_117">Какие животные не относятся к крупному рогатому скоту?</string>
+
+    <!--options and answer for medium lvl || question 57|| Alien-->
+    <string name="medium_lvl_question_117_option_1">волы</string>
+    <string name="medium_lvl_question_117_option_2">бараны</string>
+    <string name="medium_lvl_question_117_option_3">коровы</string>
+    <string name="medium_lvl_question_117_option_4">быки</string>
+
+    <string name="medium_lvl_question_118">Самый дорогой по себестоимости перевозок вид транспорта:</string>
+
+    <!--options and answer for medium lvl || question 58|| Alien-->
+    <string name="medium_lvl_question_118_option_1">железнодорожный</string>
+    <string name="medium_lvl_question_118_option_2">автомобильный</string>
+    <string name="medium_lvl_question_118_option_3">водный</string>
+    <string name="medium_lvl_question_118_option_4">воздушный</string>
+
+    <string name="medium_lvl_question_119">В тройку ведущих угледобывающих стран мира входит...</string>
+
+    <!--options and answer for medium lvl || question 59|| Alien-->
+    <string name="medium_lvl_question_119_option_1">Россия</string>
+    <string name="medium_lvl_question_119_option_2">США</string>
+    <string name="medium_lvl_question_119_option_3">Германия</string>
+    <string name="medium_lvl_question_119_option_4">Австралийский Союз</string>
+
+    <string name="medium_lvl_question_120">Основоположником учения о центрах происхождения культурных растений является:</string>
+
+    <!--options and answer for medium lvl || question 120|| Alien-->
+    <string name="medium_lvl_question_120_option_1">Н. И. Вавилов</string>
+    <string name="medium_lvl_question_120_option_2">А. Л. Смолим</string>
+    <string name="medium_lvl_question_120_option_3">Ф. Ф. Беллинсгаузен</string>
+    <string name="medium_lvl_question_120_option_4">С. Дежнев</string>
+
+
+    <!-- Questions insane levels || Ordinary person-->
+    <string name="insane_lvl_question_121">Какого древнегреческого ученого считают родоначальником геополитики?</string>
+
+    <!--options and answer for insane lvl || question 1|| Ordinary person-->
+    <string name="insane_lvl_question_121_option_1">Сократа</string>
+    <string name="insane_lvl_question_121_option_2">Платона</string>
+    <string name="insane_lvl_question_121_option_3">Аристотеля</string>
+    <string name="insane_lvl_question_121_option_4">Фалеса</string>
+
+    <string name="insane_lvl_question_122">В этом европейском городе совсем нет дорог, а перемещение происходит по каналам. Что это за город?</string>
+
+    <!--options and answer for insane lvl || question 2|| Ordinary person-->
+    <string name="insane_lvl_question_122_option_1">Антверпен</string>
+    <string name="insane_lvl_question_122_option_2">Венеция</string>
+    <string name="insane_lvl_question_122_option_3">Мадрид</string>
+    <string name="insane_lvl_question_122_option_4">Хельсинки</string>
+
+    <string name="insane_lvl_question_123">В каком городе расположена штаб-квартира ООН?</string>
+
+    <!--options and answer for insane lvl || question 3|| Ordinary person-->
+    <string name="insane_lvl_question_123_option_1">Лондон</string>
+    <string name="insane_lvl_question_123_option_2">Брюссель</string>
+    <string name="insane_lvl_question_123_option_3">Париж</string>
+    <string name="insane_lvl_question_123_option_4">Нью-Йорк</string>
+
+    <string name="insane_lvl_question_124">До какого расстояния простираются территориальные воды государства?</string>
+
+    <!--options and answer for insane lvl || question 4|| Ordinary person-->
+    <string name="insane_lvl_question_124_option_1">8 миль</string>
+    <string name="insane_lvl_question_124_option_2">10 миль</string>
+    <string name="insane_lvl_question_124_option_3">12 миль</string>
+    <string name="insane_lvl_question_124_option_4">15 миль</string>
+
+
+    <string name="insane_lvl_question_125">На иллюстрации изображен объект Всемирного наследия ЮНЕСКО. В какой стране он расположен?</string>
+
+    <!--options and answer for insane lvl || question 5|| Ordinary person-->
+    <string name="insane_lvl_question_125_option_1">Великобритания</string>
+    <string name="insane_lvl_question_125_option_2">Дания</string>
+    <string name="insane_lvl_question_125_option_3">Исландия</string>
+    <string name="insane_lvl_question_125_option_4">Германия</string>
+
+    <string name="insane_lvl_question_126">Какими вопросами занимается структурное подразделение ООН ЮНИСЕФ?</string>
+
+    <!--options and answer for insane lvl || question 6|| Ordinary person-->
+    <string name="insane_lvl_question_126_option_1">защита прав детей</string>
+    <string name="insane_lvl_question_126_option_2">сохранение исторического наследия</string>
+    <string name="insane_lvl_question_126_option_3">охрана природы</string>
+    <string name="insane_lvl_question_126_option_4">вопросы продовольствия</string>
+
+    <string name="insane_lvl_question_127">Какая единственная из азиатских стран входит в «Большую семерку»?</string>
+
+    <!--options and answer for insane lvl || question 7|| Ordinary person-->
+    <string name="insane_lvl_question_127_option_1">Малайзия</string>
+    <string name="insane_lvl_question_127_option_2">Китай</string>
+    <string name="insane_lvl_question_127_option_3">Филиппины</string>
+    <string name="insane_lvl_question_127_option_4">Япония</string>
+
+    <string name="insane_lvl_question_128">В какой из этих стран республиканская, а не монархическая форма правления?</string>
+
+    <!--options and answer for insane lvl || question 8|| Ordinary person-->
+    <string name="insane_lvl_question_128_option_1">Зимбабве</string>
+    <string name="insane_lvl_question_128_option_2">Норвегия</string>
+    <string name="insane_lvl_question_128_option_3">Нидерланды</string>
+    <string name="insane_lvl_question_128_option_4">Кувейт</string>
+
+    <string name="insane_lvl_question_129">В каком из перечисленных европейских государств в наши дни существует монархическая форма правления?</string>
+
+    <!--options and answer for insane lvl || question 9|| Ordinary person-->
+    <string name="insane_lvl_question_129_option_1">Германия</string>
+    <string name="insane_lvl_question_129_option_2">Испания</string>
+    <string name="insane_lvl_question_129_option_3">Италия</string>
+    <string name="insane_lvl_question_129_option_4">Франция</string>
+
+    <string name="insane_lvl_question_130">Какая из этих стран относится к слаборазвитым государствам с архаичной экономикой и ВВП на душу населения менее 1500 долларов?</string>
+
+    <!--options and answer for insane lvl || question 10|| Ordinary person-->
+    <string name="insane_lvl_question_130_option_1">Китай</string>
+    <string name="insane_lvl_question_130_option_2">Пакистан</string>
+    <string name="insane_lvl_question_130_option_3">Индия</string>
+    <string name="insane_lvl_question_130_option_4">Афганистан</string>
+
+
+    <!-- Questions insane levels || Teacher-->
+    <string name="insane_lvl_question_131">В каком году была образована Организация Объединенных Наций?</string>
+
+    <!--options and answer for insane lvl || question 11|| Teacher-->
+    <string name="insane_lvl_question_131_option_1">1918</string>
+    <string name="insane_lvl_question_131_option_2">1939</string>
+    <string name="insane_lvl_question_131_option_3">1945</string>
+    <string name="insane_lvl_question_131_option_4">1949</string>
+
+    <string name="insane_lvl_question_132">Какое государство является самым маленьким в мире?</string>
+
+    <!--options and answer for insane lvl || question 12|| Teacher-->
+    <string name="insane_lvl_question_132_option_1">Сан-Марино</string>
+    <string name="insane_lvl_question_132_option_2">Ватикан</string>
+    <string name="insane_lvl_question_132_option_3">Лихтенштейн</string>
+    <string name="insane_lvl_question_132_option_4">Мальта</string>
+
+    <string name="insane_lvl_question_133">Что входит в сферу интересов крупнейшей международной организации МАГАТЭ?</string>
+
+    <!--options and answer for insane lvl || question 13|| Teacher-->
+    <string name="insane_lvl_question_133_option_1">атомная энергетика</string>
+    <string name="insane_lvl_question_133_option_2">охрана мира</string>
+    <string name="insane_lvl_question_133_option_3">защита прав человека</string>
+    <string name="insane_lvl_question_133_option_4">экология</string>
+
+    <string name="insane_lvl_question_134">Это второй по численности город Европы и один из самых посещаемых туристических центров. О каком городе идет речь?</string>
+
+    <!--options and answer for insane lvl || question 14|| Teacher-->
+    <string name="insane_lvl_question_134_option_1">Рим</string>
+    <string name="insane_lvl_question_134_option_2">Париж</string>
+    <string name="insane_lvl_question_134_option_3">Мадрид</string>
+    <string name="insane_lvl_question_134_option_4">Берлин</string>
+
+
+    <string name="insane_lvl_question_135">Какая из стран никогда не была участницей Организации Варшавского договора?</string>
+
+    <!--options and answer for insane lvl || question 15|| Teacher-->
+    <string name="insane_lvl_question_135_option_1">Польша</string>
+    <string name="insane_lvl_question_135_option_2">Финляндия</string>
+    <string name="insane_lvl_question_135_option_3">СССР</string>
+    <string name="insane_lvl_question_135_option_4">Болгария</string>
+
+    <string name="insane_lvl_question_136">Сколько стран на начало XXI в. относилось к Западной Европе?</string>
+
+    <!--options and answer for insane lvl || question 16|| Teacher-->
+    <string name="insane_lvl_question_136_option_1">14</string>
+    <string name="insane_lvl_question_136_option_2">18</string>
+    <string name="insane_lvl_question_136_option_3">24</string>
+    <string name="insane_lvl_question_136_option_4">36</string>
+
+    <string name="insane_lvl_question_137">Какой из перечисленных европейских народов говорит на языке, принадлежащем романской языковой группе?</string>
+
+    <!--options and answer for insane lvl || question 17|| Teacher-->
+    <string name="insane_lvl_question_137_option_1">англичане</string>
+    <string name="insane_lvl_question_137_option_2">французы</string>
+    <string name="insane_lvl_question_137_option_3">голландцы</string>
+    <string name="insane_lvl_question_137_option_4">немцы</string>
+
+    <string name="insane_lvl_question_138">Какая из перечисленных крупных фирм не является западноевропейской?</string>
+
+    <!--options and answer for insane lvl || question 18|| Teacher-->
+    <string name="insane_lvl_question_138_option_1">«Хонда»</string>
+    <string name="insane_lvl_question_138_option_2">«Сименс»</string>
+    <string name="insane_lvl_question_138_option_3">«Фольксваген»</string>
+    <string name="insane_lvl_question_138_option_4">«Рено»</string>
+
+    <string name="insane_lvl_question_139">В какой стране находится статуя Иисуса Христа, запечатленная на фото ниже?</string>
+
+    <!--options and answer for insane lvl || question 19|| Teacher-->
+    <string name="insane_lvl_question_139_option_1">Боливия</string>
+    <string name="insane_lvl_question_139_option_2">Бразилия</string>
+    <string name="insane_lvl_question_139_option_3">Уругвай</string>
+    <string name="insane_lvl_question_139_option_4">Барбадос</string>
+
+    <string name="insane_lvl_question_140">В каком году произошло воссоединение Германии?</string>
+
+    <!--options and answer for insane lvl || question 20|| Teacher-->
+    <string name="insane_lvl_question_140_option_1">1986</string>
+    <string name="insane_lvl_question_140_option_2">1988</string>
+    <string name="insane_lvl_question_140_option_3">1990</string>
+    <string name="insane_lvl_question_140_option_4">1992</string>
+
+    <!-- Questions insane levels || Voyager-->
+    <string name="insane_lvl_question_141">В какой стране расположен крупнейший портово-промышленный комплекс Роттердам?</string>
+
+    <!--options and answer for insane lvl || question 21|| Voyager-->
+    <string name="insane_lvl_question_141_option_1">Великобритания</string>
+    <string name="insane_lvl_question_141_option_2">Дания</string>
+    <string name="insane_lvl_question_141_option_3">Нидерланды</string>
+    <string name="insane_lvl_question_141_option_4">Швеция</string>
+
+    <string name="insane_lvl_question_142">Какие из перечисленных островов не входят в состав Великобритании?</string>
+
+    <!--options and answer for insane lvl || question 22|| Voyager-->
+    <string name="insane_lvl_question_142_option_1">Балеарские</string>
+    <string name="insane_lvl_question_142_option_2">Оркнейские</string>
+    <string name="insane_lvl_question_142_option_3">Нормандские</string>
+    <string name="insane_lvl_question_142_option_4">Гебридские</string>
+
+    <string name="insane_lvl_question_143">Как называется мост, расположенный в Сиднее и изображённый на этой картинке?</string>
+
+    <!--options and answer for insane lvl || question 23|| Voyager-->
+    <string name="insane_lvl_question_143_option_1">Ракотцбрюке</string>
+    <string name="insane_lvl_question_143_option_2">Пуэнте-Нуэво</string>
+    <string name="insane_lvl_question_143_option_3">Харбор-Бридж</string>
+    <string name="insane_lvl_question_143_option_4">Харбор-Минар</string>
+
+    <string name="insane_lvl_question_144">Какая из перечисленных стран не относится к Западной Европе?</string>
+
+    <!--options and answer for insane lvl || question 24|| Voyager-->
+    <string name="insane_lvl_question_144_option_1">Дания</string>
+    <string name="insane_lvl_question_144_option_2">Исландия</string>
+    <string name="insane_lvl_question_144_option_3">Сан-Марино</string>
+    <string name="insane_lvl_question_144_option_4">Болгария</string>
+
+
+    <string name="insane_lvl_question_145">В религиозном отношении большая часть жителей Франции – это:</string>
+
+    <!--options and answer for insane lvl || question 25|| Voyager-->
+    <string name="insane_lvl_question_145_option_1">мусульмане</string>
+    <string name="insane_lvl_question_145_option_2">католики</string>
+    <string name="insane_lvl_question_145_option_3">протестанты</string>
+    <string name="insane_lvl_question_145_option_4">православные</string>
+
+    <string name="insane_lvl_question_146">Какова численность населения Зарубежной Европы?</string>
+
+    <!--options and answer for insane lvl || question 26|| Voyager-->
+    <string name="insane_lvl_question_146_option_1">150 млн</string>
+    <string name="insane_lvl_question_146_option_2">250 млн</string>
+    <string name="insane_lvl_question_146_option_3">500 млн</string>
+    <string name="insane_lvl_question_146_option_4">750 млн</string>
+
+    <string name="insane_lvl_question_147">Какой тип электростанций изображен на рисунке?</string>
+
+    <!--options and answer for insane lvl || question 27|| Voyager-->
+    <string name="insane_lvl_question_147_option_1">ТЭЦ</string>
+    <string name="insane_lvl_question_147_option_2">ГЭС</string>
+    <string name="insane_lvl_question_147_option_3">АЭС</string>
+    <string name="insane_lvl_question_147_option_4">ВЭС</string>
+
+    <string name="insane_lvl_question_148">Сколько национальностей проживает в Европе?</string>
+
+    <!--options and answer for insane lvl || question 28|| Voyager-->
+    <string name="insane_lvl_question_148_option_1">28</string>
+    <string name="insane_lvl_question_148_option_2">44</string>
+    <string name="insane_lvl_question_148_option_3">62</string>
+    <string name="insane_lvl_question_148_option_4">88</string>
+
+    <string name="insane_lvl_question_149">В Европе 35 городов с населением более миллиона человек. К городам-миллионникам не относится:</string>
+
+    <!--options and answer for insane lvl || question 29|| Voyager-->
+    <string name="insane_lvl_question_149_option_1">Хельсинки</string>
+    <string name="insane_lvl_question_149_option_2">Мадрид</string>
+    <string name="insane_lvl_question_149_option_3">Вена</string>
+    <string name="insane_lvl_question_149_option_4">Гамбург</string>
+
+    <string name="insane_lvl_question_150">Как называется главная автострада Италии?</string>
+
+    <!--options and answer for insane lvl || question 30|| Voyager-->
+    <string name="insane_lvl_question_150_option_1">Море</string>
+    <string name="insane_lvl_question_150_option_2">Ветер</string>
+    <string name="insane_lvl_question_150_option_3">Воздух</string>
+    <string name="insane_lvl_question_150_option_4">Солнце</string>
+
+
+    <!-- Questions insane levels || Businessman-->
+    <string name="insane_lvl_question_151">Какой тип торговых суден изображен на иллюстрации?</string>
+
+    <!--options and answer for insane lvl || question 31|| Businessman-->
+    <string name="insane_lvl_question_151_option_1">танкер</string>
+    <string name="insane_lvl_question_151_option_2">круизное судно</string>
+    <string name="insane_lvl_question_151_option_3">авианосец</string>
+    <string name="insane_lvl_question_151_option_4">контейнеровоз</string>
+
+    <string name="insane_lvl_question_152">В какой европейской стране преобладает ислам?</string>
+
+    <!--options and answer for insane lvl || question 32|| Businessman-->
+    <string name="insane_lvl_question_152_option_1">Албания</string>
+    <string name="insane_lvl_question_152_option_2">Хорватия</string>
+    <string name="insane_lvl_question_152_option_3">Франция</string>
+    <string name="insane_lvl_question_152_option_4">Черногория</string>
+
+    <string name="insane_lvl_question_153">Какой из перечисленных объектов Всемирного наследия находится не в Великобритании, а во Франции?</string>
+
+    <!--options and answer for insane lvl || question 33|| Businessman-->
+    <string name="insane_lvl_question_153_option_1">Стоунхендж</string>
+    <string name="insane_lvl_question_153_option_2">Тауэр</string>
+    <string name="insane_lvl_question_153_option_3">Мост Айрон-Бридж</string>
+    <string name="insane_lvl_question_153_option_4">Амьенский собор</string>
+
+    <string name="insane_lvl_question_154">Какой туристический объект в Европе является самым посещаемым?</string>
+
+    <!--options and answer for insane lvl || question 34|| Businessman-->
+    <string name="insane_lvl_question_154_option_1">Колизей</string>
+    <string name="insane_lvl_question_154_option_2">Лувр</string>
+    <string name="insane_lvl_question_154_option_3">Стоунхендж</string>
+    <string name="insane_lvl_question_154_option_4">Пизанская башня</string>
+
+
+    <string name="insane_lvl_question_155">Какой тип альтернативной энергетики проиллюстрирован на этой картинке?</string>
+
+    <!--options and answer for insane lvl || question 35|| Businessman-->
+    <string name="insane_lvl_question_155_option_1">ветровая</string>
+    <string name="insane_lvl_question_155_option_2">геотермальная</string>
+    <string name="insane_lvl_question_155_option_3">волновая</string>
+    <string name="insane_lvl_question_155_option_4">солнечная</string>
+
+    <string name="insane_lvl_question_156">Какая из перечисленных стран никогда не была британской колонией и не входит в состав Содружества?</string>
+
+    <!--options and answer for insane lvl || question 36|| Businessman-->
+    <string name="insane_lvl_question_156_option_1">Бангладеш</string>
+    <string name="insane_lvl_question_156_option_2">Гана</string>
+    <string name="insane_lvl_question_156_option_3">Филиппины</string>
+    <string name="insane_lvl_question_156_option_4">Пакистан</string>
+
+    <string name="insane_lvl_question_157">В состав какого государства входят земли Тюрингия, Гессен и Саксония?</string>
+
+    <!--options and answer for insane lvl || question 37|| Businessman-->
+    <string name="insane_lvl_question_157_option_1">Германия</string>
+    <string name="insane_lvl_question_157_option_2">Дания</string>
+    <string name="insane_lvl_question_157_option_3">Бельгия</string>
+    <string name="insane_lvl_question_157_option_4">Нидерланды</string>
+
+    <string name="insane_lvl_question_158">Численность населения Германии составляет:</string>
+
+    <!--options and answer for insane lvl || question 38|| Businessman-->
+    <string name="insane_lvl_question_158_option_1">40 млн</string>
+    <string name="insane_lvl_question_158_option_2">60 млн</string>
+    <string name="insane_lvl_question_158_option_3">80 млн</string>
+    <string name="insane_lvl_question_158_option_4">120 млн</string>
+
+    <string name="insane_lvl_question_159">Какая европейская страна лидер по добыче нефти?</string>
+
+    <!--options and answer for insane lvl || question 39|| Businessman-->
+    <string name="insane_lvl_question_159_option_1">Норвегия</string>
+    <string name="insane_lvl_question_159_option_2">Великобритания</string>
+    <string name="insane_lvl_question_159_option_3">Дания</string>
+    <string name="insane_lvl_question_159_option_4">Франция</string>
+
+    <string name="insane_lvl_question_160">Основную часть электроэнергии Франция получает в результате работы:</string>
+
+    <!--options and answer for insane lvl || question 40|| Businessman-->
+    <string name="insane_lvl_question_160_option_1">гидроэлектростанций</string>
+    <string name="insane_lvl_question_160_option_2">ветровых электростанций</string>
+    <string name="insane_lvl_question_160_option_3">приливных электростанций</string>
+    <string name="insane_lvl_question_160_option_4">атомных электростанций</string>
+
+
+    <!-- Questions insane levels || Adventurer-->
+    <string name="insane_lvl_question_161">Какая из этих стран Зарубежной Европы не имеет выхода к морю?</string>
+
+    <!--options and answer for insane lvl || question 41|| Adventurer-->
+    <string name="insane_lvl_question_161_option_1">Австрия</string>
+    <string name="insane_lvl_question_161_option_2">Норвегия</string>
+    <string name="insane_lvl_question_161_option_3">Франция</string>
+    <string name="insane_lvl_question_161_option_4">Испания</string>
+
+    <string name="insane_lvl_question_162">Какие страны оспаривают между собой право на владение Гибралтаром?</string>
+
+    <!--options and answer for insane lvl || question 42|| Adventurer-->
+    <string name="insane_lvl_question_162_option_1">Германия и Франция</string>
+    <string name="insane_lvl_question_162_option_2">Португалия и Испания</string>
+    <string name="insane_lvl_question_162_option_3">Великобритания и Испания</string>
+    <string name="insane_lvl_question_162_option_4">Норвегия и Дания</string>
+
+    <string name="insane_lvl_question_163">К англоязычной Америке относятся:</string>
+
+    <!--options and answer for insane lvl || question 43|| Adventurer-->
+    <string name="insane_lvl_question_163_option_1">Мексика, Бразилия</string>
+    <string name="insane_lvl_question_163_option_2">Канада, США</string>
+    <string name="insane_lvl_question_163_option_3">США, Венесуэла</string>
+    <string name="insane_lvl_question_163_option_4">Венесуэла, Мексика</string>
+
+    <string name="insane_lvl_question_164">В какой из стран была придумана обувь, изображённая на картинке?</string>
+
+    <!--options and answer for insane lvl || question 44|| Adventurer-->
+    <string name="insane_lvl_question_164_option_1">Казахстан</string>
+    <string name="insane_lvl_question_164_option_2">Китай</string>
+    <string name="insane_lvl_question_164_option_3">Морокко</string>
+    <string name="insane_lvl_question_164_option_4">Индия</string>
+
+
+    <string name="insane_lvl_question_165">Какие два океана омывают территорию Зарубежной Азии?</string>
+
+    <!--options and answer for insane lvl || question 45|| Adventurer-->
+    <string name="insane_lvl_question_165_option_1">Северный Ледовитый и Южный</string>
+    <string name="insane_lvl_question_165_option_2">Индийский и Южный</string>
+    <string name="insane_lvl_question_165_option_3">Тихий и Индийский</string>
+    <string name="insane_lvl_question_165_option_4">Атлантический и Тихий</string>
+
+    <string name="insane_lvl_question_166">По какому показателю Италия лидирует среди стран Зарубежной Европы?</string>
+
+    <!--options and answer for insane lvl || question 46|| Adventurer-->
+    <string name="insane_lvl_question_166_option_1">по ВВП на душу населения</string>
+    <string name="insane_lvl_question_166_option_2">по уровню здравоохранения</string>
+    <string name="insane_lvl_question_166_option_3">по экологии</string>
+    <string name="insane_lvl_question_166_option_4">по количеству выращиваемого винограда</string>
+
+    <string name="insane_lvl_question_167">Столицей какой страны Латинской Америки является Гавана?</string>
+
+    <!--options and answer for insane lvl || question 47|| Adventurer-->
+    <string name="insane_lvl_question_167_option_1">Ямайка</string>
+    <string name="insane_lvl_question_167_option_2">Куба</string>
+    <string name="insane_lvl_question_167_option_3">Чили</string>
+    <string name="insane_lvl_question_167_option_4">Барбадос</string>
+
+    <string name="insane_lvl_question_168">Самой многонаселенной страной Азии является:</string>
+
+    <!--options and answer for insane lvl || question 48|| Adventurer-->
+    <string name="insane_lvl_question_168_option_1">Китай</string>
+    <string name="insane_lvl_question_168_option_2">Россия</string>
+    <string name="insane_lvl_question_168_option_3">Индия</string>
+    <string name="insane_lvl_question_168_option_4">Индонезия</string>
+
+    <string name="insane_lvl_question_169">В какой стране Европы расположен этот замок, построенный в XIV веке?</string>
+
+    <!--options and answer for insane lvl || question 49|| Adventurer-->
+    <string name="insane_lvl_question_169_option_1">Румыния</string>
+    <string name="insane_lvl_question_169_option_2">Венгрия</string>
+    <string name="insane_lvl_question_169_option_3">Польша</string>
+    <string name="insane_lvl_question_169_option_4">Белоруссия</string>
+
+    <string name="insane_lvl_question_170">В какой из перечисленных стран находится водопад Игуасу?</string>
+
+    <!--options and answer for insane lvl || question 50|| Adventurer-->
+    <string name="insane_lvl_question_170_option_1">Колумбия</string>
+    <string name="insane_lvl_question_170_option_2">Пуэрто-Рико</string>
+    <string name="insane_lvl_question_170_option_3">Аргентина</string>
+    <string name="insane_lvl_question_170_option_4">Бразилия</string>
+
+
+    <!-- Questions insane levels || Alien-->
+    <string name="insane_lvl_question_171">Какая из перечисленных стран является франкоязычной?</string>
+
+    <!--options and answer for insane lvl || question 51|| Alien-->
+    <string name="insane_lvl_question_171_option_1">Гаити</string>
+    <string name="insane_lvl_question_171_option_2">Суринам</string>
+    <string name="insane_lvl_question_171_option_3">Парагвай</string>
+    <string name="insane_lvl_question_171_option_4">Мексика</string>
+
+    <string name="insane_lvl_question_172">Первая версия флага какой страны изображена на этой картинке?</string>
+
+    <!--options and answer for insane lvl || question 52|| Alien-->
+    <string name="insane_lvl_question_172_option_1">Испании</string>
+    <string name="insane_lvl_question_172_option_2">Франции</string>
+    <string name="insane_lvl_question_172_option_3">Мексики</string>
+    <string name="insane_lvl_question_172_option_4">Италии</string>
+
+    <string name="insane_lvl_question_173">Какая страна находится на границе между Африкой и Азией?</string>
+
+    <!--options and answer for insane lvl || question 53|| Alien-->
+    <string name="insane_lvl_question_173_option_1">Турция</string>
+    <string name="insane_lvl_question_173_option_2">Египет</string>
+    <string name="insane_lvl_question_173_option_3">Катар</string>
+    <string name="insane_lvl_question_173_option_4">Саудовская Аравия</string>
+
+    <string name="insane_lvl_question_174">Точка наибольшей высоты в Азии над уровнем моря:</string>
+
+    <!--options and answer for insane lvl || question 54|| Alien-->
+    <string name="insane_lvl_question_174_option_1">гора Манаслу</string>
+    <string name="insane_lvl_question_174_option_2">гора Нанга – Парбат</string>
+    <string name="insane_lvl_question_174_option_3">хребет Балторо</string>
+    <string name="insane_lvl_question_174_option_4">гора Джомолунгма</string>
+
+
+    <string name="insane_lvl_question_175">Самая крупная пустыня Азии:</string>
+
+    <!--options and answer for insane lvl || question 55|| Alien-->
+    <string name="insane_lvl_question_175_option_1">пустыня Сахара</string>
+    <string name="insane_lvl_question_175_option_2">пустыня Гоби</string>
+    <string name="insane_lvl_question_175_option_3">пустыня Намиб</string>
+    <string name="insane_lvl_question_175_option_4">пустыня Мохаве</string>
+
+    <string name="insane_lvl_question_176">Какой океан не омывает берега страны?</string>
+
+    <!--options and answer for insane lvl || question 56|| Alien-->
+    <string name="insane_lvl_question_176_option_1">Тихий</string>
+    <string name="insane_lvl_question_176_option_2">Северный Ледовитый</string>
+    <string name="insane_lvl_question_176_option_3">Атлантический</string>
+    <string name="insane_lvl_question_176_option_4">Индийский</string>
+
+    <string name="insane_lvl_question_177">Какой климат в Коста-Рике?</string>
+
+    <!--options and answer for insane lvl || question 57|| Alien-->
+    <string name="insane_lvl_question_177_option_1">субэкваториальный</string>
+    <string name="insane_lvl_question_177_option_2">тропический</string>
+    <string name="insane_lvl_question_177_option_3">экваториальный</string>
+    <string name="insane_lvl_question_177_option_4">умеренный</string>
+
+    <string name="insane_lvl_question_178">По топографической карте определи гору, расположенную в Африке:</string>
+
+    <!--options and answer for insane lvl || question 58|| Alien-->
+    <string name="insane_lvl_question_178_option_1">Тубкаль</string>
+    <string name="insane_lvl_question_178_option_2">Килиманджаро</string>
+    <string name="insane_lvl_question_178_option_3">Стэнли</string>
+    <string name="insane_lvl_question_178_option_4">Бинтимани</string>
+
+    <string name="insane_lvl_question_179">Основной ландшафт Австралии составляют:</string>
+
+    <!--options and answer for insane lvl || question 59|| Alien-->
+    <string name="insane_lvl_question_179_option_1">широколиственные леса</string>
+    <string name="insane_lvl_question_179_option_2">саванны и степи</string>
+    <string name="insane_lvl_question_179_option_3">вечнозеленые леса</string>
+    <string name="insane_lvl_question_179_option_4">пустыни и полупустыни</string>
+
+    <string name="insane_lvl_question_180">К какому типу по экономическому развитию относится большинство стран Африки?</string>
+
+    <!--options and answer for insane lvl || question 120|| Alien-->
+    <string name="insane_lvl_question_180_option_1">экономически развитые государства</string>
+    <string name="insane_lvl_question_180_option_2">развивающиеся</string>
+    <string name="insane_lvl_question_180_option_3">индустриальные</string>
+    <string name="insane_lvl_question_180_option_4">постиндустриальные</string>
+
+
+</resources>

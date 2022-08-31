@@ -83,12 +83,12 @@ public class MediumLVLsActivity extends AppCompatActivity implements buildRecycl
             lvlModel.scoreAL = zeroOutOfTen;
         }
 
-        lvlModel.lvls.add(new ItemLvl(R.drawable.img_ordinary_person_to_sholders, "Ordinary Person", lvlModel.scoreOP));
-        lvlModel.lvls.add(new ItemLvl(R.drawable.img_teacher_to_sholders, "Teacher", lvlModel.scoreT));
-        lvlModel.lvls.add(new ItemLvl(R.drawable.img_voyager_to_sholders, "Voyager", lvlModel.scoreV));
-        lvlModel.lvls.add(new ItemLvl(R.drawable.img_businesman_to_sholders, "Businessman", lvlModel.scoreB));
-        lvlModel.lvls.add(new ItemLvl(R.drawable.img_knighter_to_sholders, "Adventurer", lvlModel.scoreAD));
-        lvlModel.lvls.add(new ItemLvl(R.drawable.img_alien_to_sholders, "Alien", lvlModel.scoreAL));
+        lvlModel.lvls.add(new ItemLvl(R.drawable.img_ordinary_person_to_sholders, getResources().getString(R.string.text_ordinary_person), lvlModel.scoreOP));
+        lvlModel.lvls.add(new ItemLvl(R.drawable.img_teacher_to_sholders, getResources().getString(R.string.text_teacher), lvlModel.scoreT));
+        lvlModel.lvls.add(new ItemLvl(R.drawable.img_voyager_to_sholders, getResources().getString(R.string.text_voyager), lvlModel.scoreV));
+        lvlModel.lvls.add(new ItemLvl(R.drawable.img_businesman_to_sholders,  getResources().getString(R.string.text_businessman), lvlModel.scoreB));
+        lvlModel.lvls.add(new ItemLvl(R.drawable.img_knighter_to_sholders, getResources().getString(R.string.text_adventurer), lvlModel.scoreAD));
+        lvlModel.lvls.add(new ItemLvl(R.drawable.img_alien_to_sholders, getResources().getString(R.string.text_alien), lvlModel.scoreAL));
 
 
     }

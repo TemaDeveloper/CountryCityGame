@@ -59,7 +59,7 @@
                         android:layout_marginLeft="10dp"
                         android:fontFamily="@font/font_raleway"
                         android:letterSpacing=".1"
-                        android:text="INSANE"
+                        android:text="@string/text_insane"
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textSize="24dp" />
@@ -79,7 +79,7 @@
                 android:layout_marginTop="?android:attr/actionBarSize"
                 android:gravity="center"
                 android:letterSpacing=".1"
-                android:text="As long as you obtain 6th level,\nyou are about to teach others!"
+                android:text="@string/text_description_inside_insane"
                 android:textColor="@color/white"
                 android:textSize="16dp"
                 app:layout_collapseMode="parallax" />
@@ -101,7 +101,7 @@
 
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerView_medium_lvls"
+                android:id="@+id/recyclerView_insane_lvls"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="20dp" />

@@ -53,52 +53,52 @@ public class FinishActivity extends AppCompatActivity {
     private void saveScore(){
         SharedPreferences.Editor editorSP = sharedPreferences.edit();
         //put data in shared pref
-        switch(lvlTitle){
-            //for easy LV
-            case "1.Ordinary Person Easy":
-                editorSP.putString("SCORE_ORDINARY_PERSON", score + " / 10");
-                break;
-            case "2.Teacher Easy":
-                editorSP.putString("SCORE_TEACHER", score + " / 10");
-                break;
-            case "3.Voyager Easy":
-                editorSP.putString("SCORE_VOYAGER", score + " / 10");
-                break;
-            case "4.Businessman Easy":
-                editorSP.putString("SCORE_BUSINESSMAN", score + " / 10");
-                break;
-            case "5.Adventurer Easy":
-                editorSP.putString("SCORE_ADVENTURER", score + " / 10");
-                break;
-            case "6.Alien Easy":
-                editorSP.putString("SCORE_ALIEN", score + " / 10");
-                break;
-
-                //for medium LV
-
-            case "1.Ordinary Person Medium":
-                editorSP.putString("MEDIUM_SCORE_ORDINARY_PERSON", score + " / 10");
-                break;
-            case "2.Teacher Medium":
-                editorSP.putString("MEDIUM_SCORE_TEACHER", score + " / 10");
-                break;
-            case "3.Voyager Medium":
-                editorSP.putString("MEDIUM_SCORE_VOYAGER", score + " / 10");
-                break;
-            case "4.Businessman Medium":
-                editorSP.putString("MEDIUM_SCORE_BUSINESSMAN", score + " / 10");
-                break;
-            case "5.Adventurer Medium":
-                editorSP.putString("MEDIUM_SCORE_ADVENTURER", score + " / 10");
-                break;
-            case "6.Alien Medium":
-                editorSP.putString("SMEDIUM_CORE_ALIEN", score + " / 10");
-                break;
+        //for easy LV
+        if(lvlTitle.equals("1." + getResources().getString(R.string.text_ordinary_person) + " " + getResources().getString(R.string.text_easy))){
+            editorSP.putString("SCORE_ORDINARY_PERSON", score + " / 10");
+        }else if(lvlTitle.equals("2." + getResources().getString(R.string.text_teacher) + " " + getResources().getString(R.string.text_easy))){
+            editorSP.putString("SCORE_TEACHER", score + " / 10");
+        }else if(lvlTitle.equals("3." + getResources().getString(R.string.text_voyager) + " " + getResources().getString(R.string.text_easy))){
+            editorSP.putString("SCORE_VOYAGER", score + " / 10");
+        }else if(lvlTitle.equals("4." + getResources().getString(R.string.text_businessman) + " " + getResources().getString(R.string.text_easy))){
+            editorSP.putString("SCORE_BUSINESSMAN", score + " / 10");
+        }else if(lvlTitle.equals("5." + getResources().getString(R.string.text_adventurer) + " " + getResources().getString(R.string.text_easy))){
+            editorSP.putString("SCORE_ADVENTURER", score + " / 10");
+        }else if(lvlTitle.equals("6." + getResources().getString(R.string.text_alien) + " " + getResources().getString(R.string.text_easy))){
+            editorSP.putString("SCORE_ALIEN", score + " / 10");
         }
+
+        //for medium LV
+        if(lvlTitle.equals("1." + getResources().getString(R.string.text_ordinary_person) + " " + getResources().getString(R.string.text_medium))){
+            editorSP.putString("MEDIUM_SCORE_ORDINARY_PERSON", score + " / 10");
+        }else if(lvlTitle.equals("2." + getResources().getString(R.string.text_teacher) + " " + getResources().getString(R.string.text_medium))){
+            editorSP.putString("MEDIUM_SCORE_TEACHER", score + " / 10");
+        }else if(lvlTitle.equals("3." + getResources().getString(R.string.text_voyager) + " " + getResources().getString(R.string.text_medium))){
+            editorSP.putString("MEDIUM_SCORE_VOYAGER", score + " / 10");
+        }else if(lvlTitle.equals("4." + getResources().getString(R.string.text_businessman) + " " + getResources().getString(R.string.text_medium))){
+            editorSP.putString("MEDIUM_SCORE_BUSINESSMAN", score + " / 10");
+        }else if(lvlTitle.equals("5." + getResources().getString(R.string.text_adventurer) + " " + getResources().getString(R.string.text_medium))){
+            editorSP.putString("MEDIUM_SCORE_ADVENTURER", score + " / 10");
+        }else if(lvlTitle.equals("6." + getResources().getString(R.string.text_alien) + " " + getResources().getString(R.string.text_medium))){
+            editorSP.putString("MEDIUM_SCORE_ALIEN", score + " / 10");
+        }
+
+        //for insane LV
+        if(lvlTitle.equals("1." + getResources().getString(R.string.text_ordinary_person) + " " + getResources().getString(R.string.text_insane))){
+            editorSP.putString("INSANE_SCORE_ORDINARY_PERSON", score + " / 10");
+        }else if(lvlTitle.equals("2." + getResources().getString(R.string.text_teacher) + " " + getResources().getString(R.string.text_insane))){
+            editorSP.putString("INSANE_SCORE_TEACHER", score + " / 10");
+        }else if(lvlTitle.equals("3." + getResources().getString(R.string.text_voyager) + " " + getResources().getString(R.string.text_insane))){
+            editorSP.putString("INSANE_SCORE_VOYAGER", score + " / 10");
+        }else if(lvlTitle.equals("4." + getResources().getString(R.string.text_businessman) + " " + getResources().getString(R.string.text_insane))){
+            editorSP.putString("INSANE_SCORE_BUSINESSMAN", score + " / 10");
+        }else if(lvlTitle.equals("5." + getResources().getString(R.string.text_adventurer) + " " + getResources().getString(R.string.text_insane))){
+            editorSP.putString("INSANE_SCORE_ADVENTURER", score + " / 10");
+        }else if(lvlTitle.equals("6." + getResources().getString(R.string.text_alien) + " " + getResources().getString(R.string.text_insane))){
+            editorSP.putString("INSANE_SCORE_ALIEN", score + " / 10");
+        }
+
         editorSP.apply();
-
-
-
 
     }
 

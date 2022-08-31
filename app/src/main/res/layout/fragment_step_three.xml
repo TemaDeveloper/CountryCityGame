@@ -18,21 +18,12 @@
         android:layout_marginBottom="40dp"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="G • Q"
-            android:textAllCaps="true"
-            android:fontFamily="@font/font_raleway"
-            android:textColor="@color/white"
-            android:letterSpacing=".1"
-            android:layout_marginTop="10dp"
-            android:textSize="24dp"/>
+
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@mipmap/ic_launcher_foreground"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_timer"
             app:tint="@color/white" />
 
     </LinearLayout>

@@ -24,7 +24,16 @@
             android:layout_margin="10dp"
             android:layout_marginRight="10dp"
             android:rotation="320"
+            android:layout_gravity="bottom"
             android:src="@drawable/img_heart"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/img_unfill_heart"
             app:tint="@color/white" />
 
         <ImageView
@@ -32,8 +41,9 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom"
             android:rotation="40"
-            android:src="@drawable/img_unfill_heart"
+            android:src="@drawable/img_heart"
             app:tint="@color/white" />
 
     </LinearLayout>

@@ -205,7 +205,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="score: "
+                    android:text="@string/text_score"
+                    android:layout_marginRight="5dp"
                     android:letterSpacing=".1"
                     android:textAllCaps="true"
                     android:textColor="@color/black"
@@ -241,7 +242,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:letterSpacing=".1"
-                    android:text="question: "
+                    android:text="@string/text_question_no"
+                    android:layout_marginRight="5dp"
                     android:textAllCaps="true"
                     android:textColor="@color/black"
                     android:textSize="16dp" />
@@ -277,7 +279,7 @@
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
                     android:letterSpacing=".1"
-                    android:text="Select the answer"
+                    android:text="@string/text_select_answer"
                     android:textAllCaps="true"
                     android:textColor="@color/black"
                     android:textSize="16dp" />
@@ -373,7 +375,7 @@
                 android:layout_marginBottom="10dp"
                 android:elevation="4dp"
                 android:fontFamily="@font/font_raleway"
-                android:text="Next"
+                android:text="@string/btn_text_next"
                 android:textAllCaps="true"
                 app:cornerRadius="4dp" />
 

@@ -36,7 +36,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/font_raleway"
                 android:letterSpacing="0.1"
-                android:text="difficulty"
+                android:text="@string/text_difficulty"
                 android:textAllCaps="true"
                 android:textColor="@color/black"
                 android:textSize="24dp" />
@@ -62,7 +62,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/font_raleway"
-                        android:text="Easy"
+                        android:text="@string/text_easy"
                         android:textColor="@color/white"
                         android:textSize="20dp" />
 
@@ -71,7 +71,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="There you will find the EASIEST questions of the geography and country studies\n\nThese tasks could be solved even by my 4th year old child"
+                        android:text="@string/text_description_easy_outside"
                         android:textColor="@color/white"
                         android:textSize="16dp" />
 
@@ -104,7 +104,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/font_raleway"
-                            android:text="Medium"
+                            android:text="@string/text_medium"
                             android:textColor="@color/white"
                             android:textSize="20dp" />
 
@@ -124,7 +124,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="There you will find MEDIUM questions of the geography and country studies\n\nThis level represents that you are able to teach others, because lack of people could solve this LVLs"
+                        android:text="@string/text_description_medium_outside"
                         android:textColor="@color/white"
                         android:textSize="16dp" />
 
@@ -133,6 +133,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_insane_lvls"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -156,11 +157,12 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:fontFamily="@font/font_raleway"
-                            android:text="Insane"
+                            android:text="@string/text_insane"
                             android:textColor="@color/white"
                             android:textSize="20dp" />
 
                         <ImageView
+                            android:id="@+id/img_lock_of_insane_lvl"
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             android:layout_alignParentRight="true"
@@ -175,7 +177,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="There you will find INSANE questions of the geography and country studies\n\nTRY YOURSELF and solve the most complicated tasks of geography nowadays"
+                        android:text="@string/text_description_insane_outside"
                         android:textColor="@color/white"
                         android:textSize="16dp" />
 
@@ -197,7 +199,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/font_raleway"
                 android:letterSpacing="0.1"
-                android:text="coming soon"
+                android:text="@string/text_coming_soon"
                 android:textAllCaps="true"
                 android:textColor="@color/black"
                 android:textSize="24dp" />
@@ -231,7 +233,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:fontFamily="@font/font_raleway"
-                        android:text="Flags"
+                        android:text="@string/text_flags"
                         android:layout_margin="10dp"
                         android:textColor="@color/black"
                         android:textSize="20dp" />
@@ -280,7 +282,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:fontFamily="@font/font_raleway"
-                        android:text="Currency"
+                        android:text="@string/text_currency"
                         android:layout_margin="10dp"
                         android:textColor="@color/black"
                         android:textSize="20dp" />
@@ -319,7 +321,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:fontFamily="@font/font_raleway"
-                            android:text="Country - City"
+                            android:text="@string/text_country_city"
                             android:layout_margin="10dp"
                             android:textColor="@color/black"
                             android:textSize="20dp" />

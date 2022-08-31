@@ -64,7 +64,6 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
 
     private String textIntentTitle;
 
-    private LvlEasyQuestions lvlOneQuestions;
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
@@ -119,8 +118,8 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
         progressTimer = findViewById(R.id.progress_timer);
 
         dialogLose = new Dialog(this);
-
         getIntentLvl();
+
     }
 
     private void getIntentLvl() {
@@ -138,13 +137,12 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
     private void switchNextLvl() {
 
         @SuppressLint({"NewApi", "LocalSuppress"}) Map<String, Consumer<String>> switchNextLvMap = Map.of(
-                "1.Ordinary Person", (value) -> addQuestionListForPerson(),
-                "2.Teacher", (value) -> addQuestionListForTeacher(),
-                "3.Voyager", (value) -> addQuestionListForVoyager(),
-                "4.Businessman", (value) -> addQuestionListForBusinessman(),
-                "5.Adventurer", (value) -> addQuestionListForAdventurer(),
-                "6.Alien", (value) -> addQuestionListForAlien()
-
+                "1." + getResources().getString(R.string.text_ordinary_person), (value) -> addQuestionListForPerson(),
+                "2." + getResources().getString(R.string.text_teacher), (value) -> addQuestionListForTeacher(),
+                "3." + getResources().getString(R.string.text_voyager), (value) -> addQuestionListForVoyager(),
+                "4." + getResources().getString(R.string.text_businessman), (value) -> addQuestionListForBusinessman(),
+                "5." + getResources().getString(R.string.text_adventurer), (value) -> addQuestionListForAdventurer(),
+                "6." + getResources().getString(R.string.text_alien), (value) -> addQuestionListForAlien()
         );
 
         Optional.ofNullable(switchNextLvMap.get(textIntentTitle)).orElse((value) -> addQuestionListForPerson()).accept(textIntentTitle);
@@ -208,9 +206,9 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
         btnOptionFour.setEnabled(false);
 
         if (qCounter < totalQuestions) {
-            btnSubmit.setText("Next");
+            btnSubmit.setText(getResources().getString(R.string.btn_text_next));
         } else {
-            btnSubmit.setText("Finish");
+            btnSubmit.setText(getResources().getString(R.string.btn_text_finish));
         }
 
     }
@@ -259,7 +257,7 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
             changeDefaultConditionOfButtons();
 
             qCounter++;
-            btnSubmit.setText("Submit");
+            btnSubmit.setText(getResources().getString(R.string.btn_text_submit));
             textProgress.setText(qCounter + "/" + totalQuestions);
 
             answered = false;
@@ -268,7 +266,7 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
             Intent intent = new Intent(Intent.ACTION_MAIN);
             intent.setClass(getApplicationContext(), FinishActivity.class);
             intent.putExtra("scoreIntent", score + "");
-            intent.putExtra("lvlTitle", textIntentTitle + " Medium");
+            intent.putExtra("lvlTitle", textIntentTitle + " " + getResources().getString(R.string.text_medium));
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         }
@@ -304,7 +302,7 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
 
             @Override
             public void onFinish() {
-                textTimer.setText("Over");
+                textTimer.setText(getResources().getString(R.string.text_time_is_over));
                 lose();
             }
         }.start();
@@ -316,7 +314,6 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
         FloatingActionButton fabMenu = dialogLose.findViewById(R.id.btn_all_levels);
         fabMenu.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
         dialogLose.show();
-
         dialogLose.setCanceledOnTouchOutside(false);
     }
 
@@ -390,7 +387,7 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
                         checkAnswer();
                         mCountDownTimer.cancel();
                     } else {
-                        Snackbar.make(view, "Select an option", Snackbar.LENGTH_SHORT)
+                        Snackbar.make(view, getResources().getString(R.string.text_selection_of_option), Snackbar.LENGTH_SHORT)
                                 .setTextColor(getResources().getColor(R.color.white))
                                 .setBackgroundTint(getResources().getColor(R.color.pink))
                                 .show();
