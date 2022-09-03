@@ -48,7 +48,7 @@
         <entry key="app/src/main/res/layout/item_lvl.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_lvl_easy.xml" value="0.5192708333333333" />
         <entry key="app/src/main/res/layout/item_lvl_medium.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/lose_layout_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/lose_layout_dialog.xml" value="0.223748779296875" />
         <entry key="app/src/main/res/layout/pause_layout_dialog.xml" value="0.25" />
         <entry key="app/src/main/res/layout/splash_img.xml" value="0.5192708333333333" />
       </map>

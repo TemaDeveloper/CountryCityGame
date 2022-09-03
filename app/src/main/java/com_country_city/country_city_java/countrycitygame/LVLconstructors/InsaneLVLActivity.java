@@ -63,7 +63,7 @@ public class InsaneLVLActivity extends AppCompatActivity implements lists, View.
 
     private String textIntentTitle;
 
-    private LVLInsaneQuestions lvlOneQuestions;
+    private boolean losing = false;
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
@@ -291,7 +291,7 @@ public class InsaneLVLActivity extends AppCompatActivity implements lists, View.
                     } else {
                         Snackbar.make(view, getResources().getString(R.string.text_selection_of_option), Snackbar.LENGTH_SHORT)
                                 .setTextColor(getResources().getColor(R.color.white))
-                                .setBackgroundTint(getResources().getColor(R.color.blue))
+                                .setBackgroundTint(getResources().getColor(R.color.orange))
                                 .show();
                     }
                 } else {
@@ -344,9 +344,15 @@ public class InsaneLVLActivity extends AppCompatActivity implements lists, View.
         dialogLose.setContentView(R.layout.lose_layout_dialog);
         dialogLose.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         FloatingActionButton fabMenu = dialogLose.findViewById(R.id.btn_all_levels);
+        FloatingActionButton fabRestart = dialogLose.findViewById(R.id.btn_restart);
         fabMenu.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
+        fabRestart.setOnClickListener(view -> {
+            onRestart();
+            losing = false;
+        });
         dialogLose.show();
         dialogLose.setCanceledOnTouchOutside(false);
+        losing = true;
     }
 
 
@@ -395,6 +401,9 @@ public class InsaneLVLActivity extends AppCompatActivity implements lists, View.
     @Override
     protected void onStop() {
         super.onStop();
+        if(losing == true){
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        }
     }
 
     @Override

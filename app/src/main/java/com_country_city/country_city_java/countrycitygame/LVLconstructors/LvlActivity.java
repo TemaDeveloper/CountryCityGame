@@ -10,6 +10,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
+import android.view.ActionMode;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -56,6 +57,8 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
     private CountDownTimer mCountDownTimer;
     private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
 
+    private boolean losing = false;
+
     private ColorStateList dfRbColors;
     private boolean answered;
 
@@ -87,6 +90,7 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
 
         updateCountDownText();
 
+
     }
 
     @Override
@@ -113,9 +117,15 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
         dialogLose.setContentView(R.layout.lose_layout_dialog);
         dialogLose.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         FloatingActionButton fabMenu = dialogLose.findViewById(R.id.btn_all_levels);
+        FloatingActionButton fabRestart = dialogLose.findViewById(R.id.btn_restart);
         fabMenu.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
+        fabRestart.setOnClickListener(view -> {
+            onRestart();
+            losing = false;
+        });
         dialogLose.show();
         dialogLose.setCanceledOnTouchOutside(false);
+        losing = true;
     }
 
     @Override
@@ -200,6 +210,13 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
 
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if(losing == true){
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        }
+    }
 
     private void getColors() {
         dfRbColors = btnOptionOne.getTextColors();
@@ -364,11 +381,6 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
 
         Optional.ofNullable(switchNextLvMap.get(textIntentTitle)).orElse((value) -> addQuestionListForPerson()).accept(textIntentTitle);
 
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
     }
 
     @Override

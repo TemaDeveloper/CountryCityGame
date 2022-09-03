@@ -49,9 +49,20 @@
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/btn_all_levels"
                 android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:src="@drawable/img_bar"
+                app:tint="@color/purple_500"
+                app:borderWidth="0dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btn_restart"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/img_reload"
                 app:tint="@color/purple_500"
                 app:borderWidth="0dp" />
 

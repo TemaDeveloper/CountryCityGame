@@ -57,6 +57,8 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
     private CountDownTimer mCountDownTimer;
     private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
 
+    private boolean losing = false;
+
     private ColorStateList dfRbColors;
     private boolean answered;
 
@@ -312,9 +314,15 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
         dialogLose.setContentView(R.layout.lose_layout_dialog);
         dialogLose.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         FloatingActionButton fabMenu = dialogLose.findViewById(R.id.btn_all_levels);
+        FloatingActionButton fabRestart = dialogLose.findViewById(R.id.btn_restart);
         fabMenu.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
+        fabRestart.setOnClickListener(view -> {
+            onRestart();
+            losing = false;
+        });
         dialogLose.show();
         dialogLose.setCanceledOnTouchOutside(false);
+        losing = true;
     }
 
     @Override
@@ -359,9 +367,13 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
         Collections.shuffle(questionsAndAnswers);
     }
 
+
     @Override
     protected void onStop() {
         super.onStop();
+        if(losing == true){
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        }
     }
 
     @Override
