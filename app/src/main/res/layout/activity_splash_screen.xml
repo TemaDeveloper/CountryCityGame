@@ -11,17 +11,6 @@
     android:background="@color/purple_500"
     tools:context=".OnBoarding.SplashScreenActivity">
 
-    <TextView
-        android:id="@+id/text_created_by"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/text_created_by"
-        android:letterSpacing=".1"
-        android:textAllCaps="true"
-        android:textSize="24dp"
-        android:gravity="center"
-        android:fontFamily="@font/font_raleway"
-        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/text_creator_name_title"

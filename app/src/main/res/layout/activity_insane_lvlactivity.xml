@@ -34,11 +34,26 @@
                     android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/img_back"
+                        app:backgroundTint="@color/white"
+                        app:borderWidth="0dp"
+                        app:fabSize="mini"
+                        app:tint="@color/orange" />
+
                     <TextView
                         android:id="@+id/text_lvl_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toEndOf="@+id/fab_back"
                         android:fontFamily="@font/font_raleway"
                         android:text="LVL1"
                         android:textAllCaps="true"
@@ -141,6 +156,73 @@
             android:background="@color/white"
             android:orientation="vertical">
 
+
+            <LinearLayout
+                android:id="@+id/text_score_left_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lin_question"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:letterSpacing=".1"
+                    android:text="@string/text_score"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/text_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font_raleway"
+                    android:text="0/n"
+                    android:textAllCaps="true"
+                    android:textColor="@color/orange"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lin_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_score_left_text"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:letterSpacing=".1"
+                    android:text="@string/text_question_no"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/text_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font_raleway"
+                    android:gravity="center"
+                    android:textColor="@color/orange"
+                    android:textSize="16dp"
+                    tools:text="0/10" />
+
+            </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/lin_question"
                 android:layout_width="match_parent"
@@ -156,7 +238,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/font_raleway"
-                    android:gravity="center"
+                    android:gravity="left"
                     android:text="s?"
                     android:textColor="@color/orange"
                     android:textSize="20dp" />
@@ -185,76 +267,6 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
-
-
-            <LinearLayout
-                android:id="@+id/text_score_left_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/lin_question"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:letterSpacing=".1"
-                    android:text="@string/text_score"
-                    android:textAllCaps="true"
-                    android:layout_marginRight="5dp"
-                    android:textColor="@color/black"
-                    android:textSize="16dp" />
-
-                <TextView
-                    android:id="@+id/text_score"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/font_raleway"
-                    android:text="0/n"
-                    android:textAllCaps="true"
-                    android:textColor="@color/orange"
-                    android:textSize="16dp" />
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:id="@+id/lin_progress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/text_score_left_text"
-                android:layout_margin="10dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:letterSpacing=".1"
-                    android:text="@string/text_question_no"
-                    android:layout_marginRight="5dp"
-                    android:textAllCaps="true"
-                    android:textColor="@color/black"
-                    android:textSize="16dp" />
-
-                <TextView
-                    android:id="@+id/text_progress"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/font_raleway"
-                    android:gravity="center"
-                    android:textColor="@color/orange"
-                    android:textSize="16dp"
-                    tools:text="0/10" />
-
-            </LinearLayout>
-
 
             <LinearLayout
                 android:id="@+id/lin_cards"
@@ -301,7 +313,7 @@
                         android:fontFamily="@font/font_raleway"
                         android:gravity="center"
                         android:text="Gabon"
-                        android:textColor="@drawable/text_color_selector_insane"
+                        android:textColor="@color/orange"
                         android:textSize="20dp" />
 
                     <RadioButton
@@ -318,7 +330,7 @@
                         android:fontFamily="@font/font_raleway"
                         android:gravity="center"
                         android:text="France"
-                        android:textColor="@drawable/text_color_selector_insane"
+                        android:textColor="@color/orange"
                         android:textSize="20dp" />
 
                     <RadioButton
@@ -352,7 +364,7 @@
                         android:fontFamily="@font/font_raleway"
                         android:gravity="center"
                         android:text="USA"
-                        android:textColor="@drawable/text_color_selector_insane"
+                        android:textColor="@color/orange"
                         android:textSize="20dp" />
 
                 </RadioGroup>

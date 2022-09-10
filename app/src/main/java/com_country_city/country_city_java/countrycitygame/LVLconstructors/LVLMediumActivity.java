@@ -33,6 +33,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Consumer;
 
+import com_country_city.country_city_java.countrycitygame.DifficultyLvls.EasyLVLsActivity;
+import com_country_city.country_city_java.countrycitygame.DifficultyLvls.MediumLVLsActivity;
 import com_country_city.country_city_java.countrycitygame.Main.FinishActivity;
 import com_country_city.country_city_java.countrycitygame.Main.MainActivity;
 import com_country_city.country_city_java.countrycitygame.Main.lists;
@@ -50,6 +52,7 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
     private RadioGroup radioGroup;
     private RadioButton btnOptionOne, btnOptionTwo, btnOptionThree, btnOptionFour;
     private MaterialButton btnSubmit;
+    private FloatingActionButton fabBack;
     private ProgressBar progressTimer;
     private ArrayList<ItemQuestion> questionsAndAnswers;
     private ItemQuestion itemQuestion;
@@ -86,6 +89,7 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
         startTimer();
 
         btnSubmit.setOnClickListener(this::onClick);
+        fabBack.setOnClickListener(this::onClick);
 
         updateCountDownText();
 
@@ -98,6 +102,7 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
     private void initFields(){
         questionsAndAnswers = new ArrayList<>();
         textTimer = findViewById(R.id.text_timer);
+        fabBack = findViewById(R.id.fab_back);
         imgFlag = findViewById(R.id.img_question);
         imgPerson = findViewById(R.id.img_person);
         btnSubmit = findViewById(R.id.btn_submit);
@@ -304,7 +309,6 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
 
             @Override
             public void onFinish() {
-                textTimer.setText(getResources().getString(R.string.text_time_is_over));
                 lose();
             }
         }.start();
@@ -410,6 +414,12 @@ public class LVLMediumActivity extends AppCompatActivity implements lists, View.
                     resetTimer();
                     startTimer();
                 }
+                break;
+            case R.id.fab_back:
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setClass(getApplicationContext(), MediumLVLsActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
                 break;
         }
     }

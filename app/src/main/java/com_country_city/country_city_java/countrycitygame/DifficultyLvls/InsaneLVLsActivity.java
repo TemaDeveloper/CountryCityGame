@@ -9,6 +9,7 @@ import android.os.Bundle;
 
 import java.util.ArrayList;
 
+import com_country_city.country_city_java.countrycitygame.Adapters.AdapterInsane;
 import com_country_city.country_city_java.countrycitygame.Adapters.AdapterMediumLvl;
 import com_country_city.country_city_java.countrycitygame.Main.MainActivity;
 import com_country_city.country_city_java.countrycitygame.Moduls.ItemLvl;
@@ -45,12 +46,12 @@ public class InsaneLVLsActivity extends AppCompatActivity implements buildRecycl
     public void buildArrayList() {
 
         SharedPreferences sharedPreferencesScore = getSharedPreferences("SP_SCORE", MODE_PRIVATE);
-        lvlModel.scoreOP = sharedPreferencesScore.getString("MEDIUM_SCORE_ORDINARY_PERSON", "");
-        lvlModel.scoreT = sharedPreferencesScore.getString("MEDIUM_SCORE_TEACHER", "");
-        lvlModel.scoreV = sharedPreferencesScore.getString("MEDIUM_SCORE_VOYAGER", "");
-        lvlModel.scoreB = sharedPreferencesScore.getString("MEDIUM_SCORE_BUSINESSMAN", "");
-        lvlModel.scoreAD = sharedPreferencesScore.getString("MEDIUM_SCORE_ADVENTURER", "");
-        lvlModel.scoreAL = sharedPreferencesScore.getString("MEDIUM_SCORE_ALIEN", "");
+        lvlModel.scoreOP = sharedPreferencesScore.getString("INSANE_SCORE_ORDINARY_PERSON", "");
+        lvlModel.scoreT = sharedPreferencesScore.getString("INSANE_SCORE_TEACHER", "");
+        lvlModel.scoreV = sharedPreferencesScore.getString("INSANE_SCORE_VOYAGER", "");
+        lvlModel.scoreB = sharedPreferencesScore.getString("INSANE_SCORE_BUSINESSMAN", "");
+        lvlModel.scoreAD = sharedPreferencesScore.getString("INSANE_SCORE_ADVENTURER", "");
+        lvlModel.scoreAL = sharedPreferencesScore.getString("INSANE_SCORE_ALIEN", "");
 
         String zeroOutOfTen = "0 / 10";
 
@@ -106,8 +107,8 @@ public class InsaneLVLsActivity extends AppCompatActivity implements buildRecycl
 
     @Override
     public void setNewAdapter() {
-        lvlModel.adapterMediumLvl = new AdapterMediumLvl(getApplicationContext(), lvlModel.lvls);
-        lvlModel.recyclerViewLightLvls.setAdapter(lvlModel.adapterMediumLvl);
+        lvlModel.adapterInsane = new AdapterInsane(getApplicationContext(), lvlModel.lvls);
+        lvlModel.recyclerViewLightLvls.setAdapter(lvlModel.adapterInsane);
     }
 
     @Override

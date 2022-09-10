@@ -32,7 +32,10 @@ public class FinishActivity extends AppCompatActivity {
         score = getIntent().getStringExtra("scoreIntent");
         lvlTitle = getIntent().getStringExtra("lvlTitle");
 
-        textScore.setText(score + " / 10");
+        if(lvlTitle.equals("CURRENCY") || lvlTitle.equals("COUNTRY_CAPITAL_DEMON_1") || lvlTitle.equals("COUNTRY_CAPITAL_DEMON_2") || lvlTitle.equals("FLAGS")){
+            textScore.setText(score + " / 15");
+        }else textScore.setText(score + " / 10");
+
 
         btnGoToMenuFromFinish.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +51,7 @@ public class FinishActivity extends AppCompatActivity {
         btnGoToMenuFromFinish = findViewById(R.id.btn_go_to_menu_from_finish);
         textScore = findViewById(R.id.text_score);
         sharedPreferences = getSharedPreferences("SP_SCORE", MODE_PRIVATE);
+
     }
 
     private void saveScore(){
@@ -96,6 +100,27 @@ public class FinishActivity extends AppCompatActivity {
             editorSP.putString("INSANE_SCORE_ADVENTURER", score + " / 10");
         }else if(lvlTitle.equals("6." + getResources().getString(R.string.text_alien) + " " + getResources().getString(R.string.text_insane))){
             editorSP.putString("INSANE_SCORE_ALIEN", score + " / 10");
+        }
+
+        //for currency LVL mode
+        if(lvlTitle.equals("CURRENCY")){
+            textScore.setText(score + " / 15");
+            editorSP.putString("CURRENCY", score + " / 15");
+        }
+        //for country - capital LVL mode
+        if(lvlTitle.equals("COUNTRY_CAPITAL_DEMON_1")){
+            textScore.setText(score + " / 15");
+            editorSP.putString("COUNTRY_CAPITAL_DEMON_1", score + " / 15");
+        }
+        //for country capital LVL mode
+        if(lvlTitle.equals("COUNTRY_CAPITAL_DEMON_2")){
+            textScore.setText(score + " / 15");
+            editorSP.putString("COUNTRY_CAPITAL_DEMON_2", score + " / 15");
+        }
+        //for flags LVL mode
+        if(lvlTitle.equals("FLAGS")){
+            textScore.setText(score + " / 15");
+            editorSP.putString("FLAGS", score + " / 15");
         }
 
         editorSP.apply();

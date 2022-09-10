@@ -11,6 +11,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:fitsSystemWindows="true"
+            android:background="@color/purple_500"
             android:id="@+id/cons_top"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,7 +22,8 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:src="@mipmap/ic_launcher_foreground"
+                android:src="@drawable/logo"
+                android:padding="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

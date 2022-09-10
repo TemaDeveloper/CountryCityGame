@@ -241,11 +241,11 @@ public class LVLMediumQuestions{
                 context.getResources().getString(R.string.medium_lvl_question_112_option_1), context.getResources().getString(R.string.medium_lvl_question_112_option_2),
                 context.getResources().getString(R.string.medium_lvl_question_112_option_3), context.getResources().getString(R.string.medium_lvl_question_112_option_4)));
 
-        list.add(new ItemQuestion(R.drawable.img_map_north_a_question, context.getResources().getString(R.string.medium_lvl_question_113), 1,
+        list.add(new ItemQuestion(0, context.getResources().getString(R.string.medium_lvl_question_113), 1,
                 context.getResources().getString(R.string.medium_lvl_question_113_option_1), context.getResources().getString(R.string.medium_lvl_question_113_option_2),
                 context.getResources().getString(R.string.medium_lvl_question_113_option_3), context.getResources().getString(R.string.medium_lvl_question_113_option_4)));
 
-        list.add(new ItemQuestion(0, context.getResources().getString(R.string.medium_lvl_question_114), 2,
+        list.add(new ItemQuestion(R.drawable.img_junisef_question, context.getResources().getString(R.string.medium_lvl_question_114), 2,
                 context.getResources().getString(R.string.medium_lvl_question_114_option_1), context.getResources().getString(R.string.medium_lvl_question_114_option_2),
                 context.getResources().getString(R.string.medium_lvl_question_114_option_3), context.getResources().getString(R.string.medium_lvl_question_114_option_4)));
 

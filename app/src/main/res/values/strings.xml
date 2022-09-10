@@ -14,6 +14,7 @@
     <string name="btn_start_text">Start</string>
     <string name="GQ_reduction_text">G • Q</string>
     <string name="text_skip">Skip</string>
+    <string name="text_welcome">Welcome!</string>
 
     <!--SplashScreen texts-->
     <string name="text_created_by">Created by</string>
@@ -48,14 +49,16 @@
     <string name="text_game_over_description">You lose!\nTry again later</string>
 
     <!--Main and selection of difficulty-->
-    <string name="text_difficulty">difficulty</string>
+    <string name="text_new">Quick</string>
+    <string name="text_currency_diff">15 questions non-stop,\neach question takes 10 seconds</string>
+    <string name="text_difficulty">Choose\nGame Mode</string>
     <string name="text_coming_soon">Coming soon</string>
     <string name="text_currency">Currency</string>
     <string name="text_flags">Flags</string>
-    <string name="text_country_city">Country - City</string>
-    <string name="text_description_easy_outside">There you will find the EASIEST questions of the geography and country studies\n\nThese tasks could be solved even by my 4th year old child</string>
-    <string name="text_description_medium_outside">There you will find MEDIUM questions of the geography and country studies\n\nThis level represents that you are able to teach others, because lack of people could solve this LVLs</string>
-    <string name="text_description_insane_outside">There you will find INSANE questions of the geography and country studies\n\nTRY YOURSELF and solve the most complicated tasks of geography nowadays</string>
+    <string name="text_country_city">Capital - Country</string>
+    <string name="text_description_easy_outside">These tasks could be solved even by my 4th year old child</string>
+    <string name="text_description_medium_outside">This level represents that you are able to teach others, because lack of people could solve this LVLs</string>
+    <string name="text_description_insane_outside">TRY YOURSELF and solve the most complicated tasks of geography nowadays</string>
 
     <!--personalities-->
     <string name="text_ordinary_person">Ordinary Person</string>
@@ -1560,5 +1563,299 @@
     <string name="insane_lvl_question_180_option_3">Industrial</string>
     <string name="insane_lvl_question_180_option_4">Post-industrial</string>
 
+    <!--Currency questions-->
+    <string name="currency_lvl_question_1">Dollar</string>
+    <string name="currency_lvl_question_2">Cent symbol currency. A United States one-cent coin, also known as a "penny"</string>
+    <string name="currency_lvl_question_3">Euro</string>
+    <string name="currency_lvl_question_4">Pound</string>
+    <string name="currency_lvl_question_5">Japanese yen or the Chinese yuan currencies</string>
+    <string name="currency_lvl_question_6">Korean Won</string>
+    <string name="currency_lvl_question_7">Russian ruble</string>
+    <string name="currency_lvl_question_8">Indian rupee</string>
+    <string name="currency_lvl_question_9">Generic currency</string>
+    <string name="currency_lvl_question_10">Philippine peso</string>
+    <string name="currency_lvl_question_11">Nigerian naira currency</string>
+    <string name="currency_lvl_question_12">The florin sign is a symbol that is used for the currencies named florin, also called guilder</string>
+    <string name="currency_lvl_question_13">Tugrik is the official currency of Mongolia</string>
+    <string name="currency_lvl_question_14">Bengali rupee currency symbol</string>
+    <string name="currency_lvl_question_15">Tamil rupee currency</string>
+
+    <string name="text_part_1">Part 1</string>
+    <string name="text_part_2">Part 2</string>
+
+
+    <!--Country Capital Questions-->
+    <string name="country_1">Afghanistan</string>
+    <string name="capital_1">Kabul</string>
+    <string name="capital_option_1_q_1">Maputo</string>
+    <string name="capital_option_2_q_1">Abuja</string>
+    <string name="capital_option_3_q_1">Oslo</string>
+
+    <string name="country_2">Iceland</string>
+    <string name="capital_2">Reykjavik</string>
+    <string name="capital_option_1_q_2">Muscat</string>
+    <string name="capital_option_2_q_2">Lima</string>
+    <string name="capital_option_3_q_2">Warsaw</string>
+
+    <string name="country_3">Comoros</string>
+    <string name="capital_3">Moroni</string>
+    <string name="capital_option_1_q_3">Banjul</string>
+    <string name="capital_option_2_q_3">Pristina</string>
+    <string name="capital_option_3_q_3">Dublin</string>
+
+    <string name="country_4">Croatia</string>
+    <string name="capital_4">Zagreb</string>
+    <string name="capital_option_1_q_4">Moscow</string>
+    <string name="capital_option_2_q_4">Rome</string>
+    <string name="capital_option_3_q_4">New Delhi</string>
+
+    <string name="country_5">Dominica</string>
+    <string name="capital_5">Roseau</string>
+    <string name="capital_option_1_q_5">Jakarta</string>
+    <string name="capital_option_2_q_5">Tokyo</string>
+    <string name="capital_option_3_q_5">Riga</string>
+
+    <string name="country_6">Iraq</string>
+    <string name="capital_6">Baghdad</string>
+    <string name="capital_option_1_q_6">Beirut</string>
+    <string name="capital_option_2_q_6">Maseru</string>
+    <string name="capital_option_3_q_6">Vientiane</string>
+
+    <string name="country_7">Jordan</string>
+    <string name="capital_7">Amman</string>
+    <string name="capital_option_1_q_7">Maputo</string>
+    <string name="capital_option_2_q_7">Male</string>
+    <string name="capital_option_3_q_7">Kigali</string>
+
+    <string name="country_8">Laos</string>
+    <string name="capital_8">Vientiane</string>
+    <string name="capital_option_1_q_8">Monaco</string>
+    <string name="capital_option_2_q_8">Ulaanbaatar</string>
+    <string name="capital_option_3_q_8">Chisinau</string>
+
+    <string name="country_9">Peru</string>
+    <string name="capital_9">Lima</string>
+    <string name="capital_option_1_q_9">Mexico City</string>
+    <string name="capital_option_2_q_9">Niamey</string>
+    <string name="capital_option_3_q_9">Pyongyang</string>
+
+    <string name="country_10">South Sudan</string>
+    <string name="capital_10">Juba</string>
+    <string name="capital_option_1_q_10">Windhoek</string>
+    <string name="capital_option_2_q_10">Port Louis</string>
+    <string name="capital_option_3_q_10">No official capital</string>
+
+    <string name="country_11">Uzbekistan</string>
+    <string name="capital_11">Tashkent</string>
+    <string name="capital_option_1_q_11">Male</string>
+    <string name="capital_option_2_q_11">Banjul</string>
+    <string name="capital_option_3_q_11">Luxembourg</string>
+
+    <string name="country_12">Zimbabwe</string>
+    <string name="capital_12">Harare</string>
+    <string name="capital_option_1_q_12">Kyiv or Kiev</string>
+    <string name="capital_option_2_q_12">Seoul</string>
+    <string name="capital_option_3_q_12">Bangkok</string>
+
+    <string name="country_13">Yemen</string>
+    <string name="capital_13">Sana\'a</string>
+    <string name="capital_option_1_q_13">Edinburgh</string>
+    <string name="capital_option_2_q_13">Cardiff</string>
+    <string name="capital_option_3_q_13">No official capital</string>
+
+    <string name="country_14">Turkmenistan</string>
+    <string name="capital_14">Ashgabat</string>
+    <string name="capital_option_1_q_14">Port Vila</string>
+    <string name="capital_option_2_q_14">Funafuti</string>
+    <string name="capital_option_3_q_14">Washington D.C.</string>
+
+    <string name="country_15">Moldova</string>
+    <string name="capital_15">Chisinau</string>
+    <string name="capital_option_1_q_15">Kampala</string>
+    <string name="capital_option_2_q_15">London</string>
+    <string name="capital_option_3_q_15">No official capital</string>
+
+    <!--Country Capital Demon 2-->
+
+    <string name="country_16">Estonia</string>
+    <string name="capital_16">Tallinn</string>
+    <string name="capital_option_1_q_16">Maputo</string>
+    <string name="capital_option_2_q_16">Abuja</string>
+    <string name="capital_option_3_q_16">Luanda</string>
+
+    <string name="country_17">Ethiopia</string>
+    <string name="capital_17">Addis Ababa</string>
+    <string name="capital_option_1_q_17">Yerevan</string>
+    <string name="capital_option_2_q_17">Lima</string>
+    <string name="capital_option_3_q_17">Warsaw</string>
+
+    <string name="country_18">Greece</string>
+    <string name="capital_18">Athens</string>
+    <string name="capital_option_1_q_18">Dhaka</string>
+    <string name="capital_option_2_q_18">Pristina</string>
+    <string name="capital_option_3_q_18">Dublin</string>
+
+    <string name="country_19">Norway</string>
+    <string name="capital_19">Oslo</string>
+    <string name="capital_option_1_q_19">Moscow</string>
+    <string name="capital_option_2_q_19">Porto Novo</string>
+    <string name="capital_option_3_q_19">New Delhi</string>
+
+    <string name="country_20">Oman</string>
+    <string name="capital_20">Muscat</string>
+    <string name="capital_option_1_q_20">Praia</string>
+    <string name="capital_option_2_q_20">Ouagadougou</string>
+    <string name="capital_option_3_q_20">Riga</string>
+
+    <string name="country_21">Russia</string>
+    <string name="capital_21">Moscow</string>
+    <string name="capital_option_1_q_21">Murmansk</string>
+    <string name="capital_option_2_q_21">Kaliningrad</string>
+    <string name="capital_option_3_q_21">Lipetsck</string>
+
+    <string name="country_22">Rwanda</string>
+    <string name="capital_22">Kigali</string>
+    <string name="capital_option_1_q_22">Maputo</string>
+    <string name="capital_option_2_q_22">Male</string>
+    <string name="capital_option_3_q_22">Kigali</string>
+
+    <string name="country_23">Seychelles</string>
+    <string name="capital_23">Victoria</string>
+    <string name="capital_option_1_q_23">Monaco</string>
+    <string name="capital_option_2_q_23">Ulaanbaatar</string>
+    <string name="capital_option_3_q_23">Chisinau</string>
+
+    <string name="country_24">United Arab Emirates</string>
+    <string name="capital_24">Abu Dhabi</string>
+    <string name="capital_option_1_q_24">Mexico City</string>
+    <string name="capital_option_2_q_24">Niamey</string>
+    <string name="capital_option_3_q_24">N\'Djamena</string>
+
+    <string name="country_25">Libya</string>
+    <string name="capital_25">Tripoli</string>
+    <string name="capital_option_1_q_25">Windhoek</string>
+    <string name="capital_option_2_q_25">Port Louis</string>
+    <string name="capital_option_3_q_25">No official capital</string>
+
+    <string name="country_26">Jamaica</string>
+    <string name="capital_26">Kingston</string>
+    <string name="capital_option_1_q_26">Male</string>
+    <string name="capital_option_2_q_26">Bogota</string>
+    <string name="capital_option_3_q_26">Luxembourg</string>
+
+    <string name="country_27">Germany</string>
+    <string name="capital_27">Berlin</string>
+    <string name="capital_option_1_q_27">Kyiv or Kiev</string>
+    <string name="capital_option_2_q_27">Seoul</string>
+    <string name="capital_option_3_q_27">Bangkok</string>
+
+    <string name="country_28">Fiji</string>
+    <string name="capital_28">Suva</string>
+    <string name="capital_option_1_q_28">Edinburgh</string>
+    <string name="capital_option_2_q_28">Cardiff</string>
+    <string name="capital_option_3_q_28">N\'Djamena</string>
+
+    <string name="country_29">Cyprus</string>
+    <string name="capital_29">Nicosia</string>
+    <string name="capital_option_1_q_29">Cairo</string>
+    <string name="capital_option_2_q_29">Funafuti</string>
+    <string name="capital_option_3_q_29">Tehran</string>
+
+    <string name="country_30">Bahamas</string>
+    <string name="capital_30">Nassau</string>
+    <string name="capital_option_1_q_30">Sofia</string>
+    <string name="capital_option_2_q_30">Gitega</string>
+    <string name="capital_option_3_q_30">No official capital</string>
+
+    <!--Flags-->
+    <string name="right_flag_1">Cook Iceland</string>
+
+    <string name="option_1_flag_1">Australia</string>
+    <string name="option_2_flag_1">New Zeeland</string>
+    <string name="option_3_flag_1">Iceland</string>
+
+    <string name="right_flag_2">Cayman Islands</string>
+
+    <string name="option_1_flag_2">Rwanda</string>
+    <string name="option_2_flag_2">Pakistan</string>
+    <string name="option_3_flag_2">Peru</string>
+
+    <string name="right_flag_3">Brunei</string>
+
+    <string name="option_1_flag_3">Tonga</string>
+    <string name="option_2_flag_3">Taiwan</string>
+    <string name="option_3_flag_3">Uruguay</string>
+
+    <string name="right_flag_4">Cyprus</string>
+
+    <string name="option_1_flag_4">Vietnam</string>
+    <string name="option_2_flag_4">Swaziland</string>
+    <string name="option_3_flag_4">Sudan</string>
+
+    <string name="right_flag_5">Georgia</string>
+
+    <string name="option_1_flag_5">Palestine</string>
+    <string name="option_2_flag_5">Saudi Arabia</string>
+    <string name="option_3_flag_5">Switzerland</string>
+
+    <string name="right_flag_6">Haiti</string>
+
+    <string name="option_1_flag_6">Uruguay</string>
+    <string name="option_2_flag_6">Zimbabwe</string>
+    <string name="option_3_flag_6">Venezuela</string>
+
+    <string name="right_flag_7">Panama</string>
+
+    <string name="option_1_flag_7">Paraguay</string>
+    <string name="option_2_flag_7">Romania</string>
+    <string name="option_3_flag_7">Luxembourg</string>
+
+    <string name="right_flag_8">Uganda</string>
+
+    <string name="option_1_flag_8">Latvia</string>
+    <string name="option_2_flag_8">Malta</string>
+    <string name="option_3_flag_8">Maldives</string>
+
+    <string name="right_flag_9">Saint Vincent and the Grenadines Flag</string>
+
+    <string name="option_1_flag_9">Mexico</string>
+    <string name="option_2_flag_9">Mali</string>
+    <string name="option_3_flag_9">Malta</string>
+
+    <string name="right_flag_10">Zambia</string>
+
+    <string name="option_1_flag_10">UAE</string>
+    <string name="option_2_flag_10">Zimbabwe</string>
+    <string name="option_3_flag_10">Togo</string>
+
+    <string name="right_flag_11">Saint Kitts</string>
+
+    <string name="option_1_flag_11">Trinidad and Tobago</string>
+    <string name="option_2_flag_11">Tanzania</string>
+    <string name="option_3_flag_11">Solomon Islands</string>
+
+    <string name="right_flag_12">Syria</string>
+
+    <string name="option_1_flag_12">Ghana</string>
+    <string name="option_2_flag_12">Myanmar</string>
+    <string name="option_3_flag_12">Nepal</string>
+
+    <string name="right_flag_13">Mozambique</string>
+
+    <string name="option_1_flag_13">Philippines</string>
+    <string name="option_2_flag_13">Guyana</string>
+    <string name="option_3_flag_13">Equatorial Guinea</string>
+
+    <string name="right_flag_14">Qatar</string>
+
+    <string name="option_1_flag_14">Palestine</string>
+    <string name="option_2_flag_14">Mozambique</string>
+    <string name="option_3_flag_14">Puerto Rico</string>
+
+    <string name="right_flag_15">Saint Lucia</string>
+
+    <string name="option_1_flag_15">Zimbabwe</string>
+    <string name="option_2_flag_15">Sri Lanka</string>
+    <string name="option_3_flag_15">Turkmenistan</string>
 
 </resources>

@@ -14,6 +14,7 @@
     <string name="btn_start_text">Начать</string>
     <string name="GQ_reduction_text">G • Q</string>
     <string name="text_skip">Пропустить</string>
+    <string name="text_welcome">Добро пожаловать!</string>
 
     <!--SplashScreen texts-->
     <string name="text_created_by">Created by</string>
@@ -48,14 +49,16 @@
     <string name="text_game_over_description">Вы проиграли!\nПопробуйте снова</string>
 
     <!--Main and selection of difficulty-->
-    <string name="text_difficulty">сложность</string>
+    <string name="text_new">Быстрые</string>
+    <string name="text_currency_diff">15 вопросов без перерыва,\nкаждый вопрос занимает 10 секунд</string>
+    <string name="text_difficulty">выберите\nрежим игры</string>
     <string name="text_coming_soon">Выйдет Скоро</string>
     <string name="text_currency">Валюта</string>
     <string name="text_flags">Флаги</string>
-    <string name="text_country_city">Страна - Город</string>
-    <string name="text_description_easy_outside">Здест ты найдешь НАИЛЕГЧАЙШИЕ вопросы по географии\n\nЭти задания могут быть решены даже моим 4ех летним сыном</string>
-    <string name="text_description_medium_outside">Там вы найдете СРЕДНИЕ вопросы по географии и страноведению\n\nЭтот уровень показывает, что вы можете учить других, потому что только некоторые могут решить эти уровни</string>
-    <string name="text_description_insane_outside">Там вы найдете БЕЗУМНЫЕ вопросы по географии и страноведению\n\nПОПРОБУЙТЕ СЕБЯ и решите сложнейшие на сегодняшний день задачи по географии</string>
+    <string name="text_country_city">Столица - Страна</string>
+    <string name="text_description_easy_outside">Эти задания могут быть решены даже моим 4ех летним сыном</string>
+    <string name="text_description_medium_outside">Этот уровень показывает, что вы можете учить других, потому что только некоторые могут решить эти уровни</string>
+    <string name="text_description_insane_outside">ПОПРОБУЙТЕ СЕБЯ и решите сложнейшие на сегодняшний день задачи по географии</string>
 
     <!--personalities-->
     <string name="text_ordinary_person">Обычный человек</string>
@@ -1561,5 +1564,298 @@
     <string name="insane_lvl_question_180_option_3">индустриальные</string>
     <string name="insane_lvl_question_180_option_4">постиндустриальные</string>
 
+    <!--Currency questions-->
+    <string name="currency_lvl_question_1">Доллар</string>
+    <string name="currency_lvl_question_2">Валюта символа цента. Монета в один цент США, также известная как «пенни».</string>
+    <string name="currency_lvl_question_3">Евро</string>
+    <string name="currency_lvl_question_4">Фунт</string>
+    <string name="currency_lvl_question_5">Японская иена или китайский юань валюты</string>
+    <string name="currency_lvl_question_6">Корейская вона</string>
+    <string name="currency_lvl_question_7">Русский рубль</string>
+    <string name="currency_lvl_question_8">Индийская рупия</string>
+    <string name="currency_lvl_question_9">Общая валюта</string>
+    <string name="currency_lvl_question_10">Филиппинское песо</string>
+    <string name="currency_lvl_question_11">Валюта нигерийская найра</string>
+    <string name="currency_lvl_question_12">Знак флорина — это символ, который используется для валют, называемых флорином, также называемым гульденом.</string>
+    <string name="currency_lvl_question_13">Тугрик — официальная валюта Монголии.</string>
+    <string name="currency_lvl_question_14">Символ валюты бенгальской рупии</string>
+    <string name="currency_lvl_question_15">Валюта тамильской рупии</string>
+
+    <string name="text_part_1">Часть 1</string>
+    <string name="text_part_2">Часть 2</string>
+
+    <!--Country Capital Questions-->
+    <string name="country_1">Афганистан</string>
+    <string name="capital_1">Кабул</string>
+    <string name="capital_option_1_q_1">Мапуту</string>
+    <string name="capital_option_2_q_1">Абуджа</string>
+    <string name="capital_option_3_q_1">Осло</string>
+
+    <string name="country_2">Исландия</string>
+    <string name="capital_2">Рейкьявик</string>
+    <string name="capital_option_1_q_2">Мускат</string>
+    <string name="capital_option_2_q_2">Лима</string>
+    <string name="capital_option_3_q_2">Варшава</string>
+
+    <string name="country_3">Коморы</string>
+    <string name="capital_3">Мороний</string>
+    <string name="capital_option_1_q_3">Банжул</string>
+    <string name="capital_option_2_q_3">Приштина</string>
+    <string name="capital_option_3_q_3">Дублин</string>
+
+    <string name="country_4">Хорватия</string>
+    <string name="capital_4">Загреб</string>
+    <string name="capital_option_1_q_4">Москва</string>
+    <string name="capital_option_2_q_4">Рим</string>
+    <string name="capital_option_3_q_4">Нью-Дели</string>
+
+    <string name="country_5">Доминика</string>
+    <string name="capital_5">Розо</string>
+    <string name="capital_option_1_q_5">Джакарта</string>
+    <string name="capital_option_2_q_5">Токио</string>
+    <string name="capital_option_3_q_5">Рига</string>
+
+    <string name="country_6">Ирак</string>
+    <string name="capital_6">Багдад</string>
+    <string name="capital_option_1_q_6">Бейрут</string>
+    <string name="capital_option_2_q_6">Масеру</string>
+    <string name="capital_option_3_q_6">Вьентьян</string>
+
+    <string name="country_7">Джордан</string>
+    <string name="capital_7">Амман</string>
+    <string name="capital_option_1_q_7">Мапуту</string>
+    <string name="capital_option_2_q_7">Мали</string>
+    <string name="capital_option_3_q_7">Кигали</string>
+
+    <string name="country_8">Лаос</string>
+    <string name="capital_8">Вьентьян</string>
+    <string name="capital_option_1_q_8">Монако</string>
+    <string name="capital_option_2_q_8">Улан-Батор</string>
+    <string name="capital_option_3_q_8">Кишинев</string>
+
+    <string name="country_9">Перу</string>
+    <string name="capital_9">Лима</string>
+    <string name="capital_option_1_q_9">Мехико</string>
+    <string name="capital_option_2_q_9">Ниамей</string>
+    <string name="capital_option_3_q_9">Пхеньян</string>
+
+    <string name="country_10">Южный Судан</string>
+    <string name="capital_10">Джуба</string>
+    <string name="capital_option_1_q_10">Виндхук</string>
+    <string name="capital_option_2_q_10">Порт-Луи</string>
+    <string name="capital_option_3_q_10">Нет официальной столицы</string>
+
+    <string name="country_11">Узбекистан</string>
+    <string name="capital_11">Ташкент</string>
+    <string name="capital_option_1_q_11">Мали</string>
+    <string name="capital_option_2_q_11">Банжул</string>
+    <string name="capital_option_3_q_11">Люксенбург</string>
+
+    <string name="country_12">Зимбабве</string>
+    <string name="capital_12">Хараре</string>
+    <string name="capital_option_1_q_12">Киев</string>
+    <string name="capital_option_2_q_12">Сеул</string>
+    <string name="capital_option_3_q_12">Банкок</string>
+
+    <string name="country_13">Йемен</string>
+    <string name="capital_13">Сана</string>
+    <string name="capital_option_1_q_13">Эдинбург</string>
+    <string name="capital_option_2_q_13">Кардифф</string>
+    <string name="capital_option_3_q_13">Нет официальной столицы</string>
+
+    <string name="country_14">Туркменистан</string>
+    <string name="capital_14">Ашхабад</string>
+    <string name="capital_option_1_q_14">Порт-Вила</string>
+    <string name="capital_option_2_q_14">Фунафути</string>
+    <string name="capital_option_3_q_14">Вашингтон</string>
+
+    <string name="country_15">Молдова</string>
+    <string name="capital_15">Кишинев</string>
+    <string name="capital_option_1_q_15">Кампала</string>
+    <string name="capital_option_2_q_15">Лондон</string>
+    <string name="capital_option_3_q_15">Нет официальной столицы</string>
+
+    <!--Country Capital Demon 2-->
+
+    <string name="country_16">Эстония</string>
+    <string name="capital_16">Талин</string>
+    <string name="capital_option_1_q_16">Мапуту</string>
+    <string name="capital_option_2_q_16">Абуджа</string>
+    <string name="capital_option_3_q_16">Луанда</string>
+
+    <string name="country_17">Эфиопия</string>
+    <string name="capital_17">Аддис-Абеба</string>
+    <string name="capital_option_1_q_17">Ереван</string>
+    <string name="capital_option_2_q_17">Лима</string>
+    <string name="capital_option_3_q_17">Варшава</string>
+
+    <string name="country_18">Греция</string>
+    <string name="capital_18">Афины</string>
+    <string name="capital_option_1_q_18">Дакка</string>
+    <string name="capital_option_2_q_18">Приштина</string>
+    <string name="capital_option_3_q_18">Дублин</string>
+
+    <string name="country_19">Норвегия</string>
+    <string name="capital_19">Осло</string>
+    <string name="capital_option_1_q_19">Москва</string>
+    <string name="capital_option_2_q_19">Порто-Ново</string>
+    <string name="capital_option_3_q_19">Нью-Дели</string>
+
+    <string name="country_20">Оман</string>
+    <string name="capital_20">Мускат</string>
+    <string name="capital_option_1_q_20">Прая</string>
+    <string name="capital_option_2_q_20">Уагадугу</string>
+    <string name="capital_option_3_q_20">Рига</string>
+
+    <string name="country_21">Россия</string>
+    <string name="capital_21">Москва</string>
+    <string name="capital_option_1_q_21">Мурманск</string>
+    <string name="capital_option_2_q_21">Санкт-Петербург</string>
+    <string name="capital_option_3_q_21">Липетск</string>
+
+    <string name="country_22">Руанда</string>
+    <string name="capital_22">Кигали</string>
+    <string name="capital_option_1_q_22">Мапуту</string>
+    <string name="capital_option_2_q_22">Мали</string>
+    <string name="capital_option_3_q_22">Кигали</string>
+
+    <string name="country_23">Сейшелы</string>
+    <string name="capital_23">Виктория</string>
+    <string name="capital_option_1_q_23">Монако</string>
+    <string name="capital_option_2_q_23">Улан-Батор</string>
+    <string name="capital_option_3_q_23">Кишинев</string>
+
+    <string name="country_24">Соединенные Арабские Эмираты</string>
+    <string name="capital_24">Абу Даби</string>
+    <string name="capital_option_1_q_24">Мехико</string>
+    <string name="capital_option_2_q_24">Ниамей</string>
+    <string name="capital_option_3_q_24">Нджамена</string>
+
+    <string name="country_25">Ливия</string>
+    <string name="capital_25">Триполи</string>
+    <string name="capital_option_1_q_25">Виндхук</string>
+    <string name="capital_option_2_q_25">Порт-Луи</string>
+    <string name="capital_option_3_q_25">Нет официальной столицы</string>
+
+    <string name="country_26">Ямайка</string>
+    <string name="capital_26">Кингстон</string>
+    <string name="capital_option_1_q_26">Мали</string>
+    <string name="capital_option_2_q_26">Богота</string>
+    <string name="capital_option_3_q_26">Люксембург</string>
+
+    <string name="country_27">Германия</string>
+    <string name="capital_27">Берлин</string>
+    <string name="capital_option_1_q_27">Гамбург</string>
+    <string name="capital_option_2_q_27">Франкфурт</string>
+    <string name="capital_option_3_q_27">Франкфурт на Майне</string>
+
+    <string name="country_28">Фиджи</string>
+    <string name="capital_28">Сува</string>
+    <string name="capital_option_1_q_28">Эдинбург</string>
+    <string name="capital_option_2_q_28">Кардифф</string>
+    <string name="capital_option_3_q_28">Аризона</string>
+
+    <string name="country_29">Кипр</string>
+    <string name="capital_29">Никосия</string>
+    <string name="capital_option_1_q_29">Каир</string>
+    <string name="capital_option_2_q_29">Фунафути</string>
+    <string name="capital_option_3_q_29">Тегеран</string>
+
+    <string name="country_30">Багамы</string>
+    <string name="capital_30">Нассау</string>
+    <string name="capital_option_1_q_30">София</string>
+    <string name="capital_option_2_q_30">Гитега</string>
+    <string name="capital_option_3_q_30">Нет официальной столицы</string>
+
+    <!--Flags-->
+    <string name="right_flag_1">Остров кука</string>
+
+    <string name="option_1_flag_1">Австралия</string>
+    <string name="option_2_flag_1">Новая Зеландия</string>
+    <string name="option_3_flag_1">Исландия</string>
+
+    <string name="right_flag_2">Каймановы острова</string>
+
+    <string name="option_1_flag_2">Руанда</string>
+    <string name="option_2_flag_2">Пакистан</string>
+    <string name="option_3_flag_2">Перу</string>
+
+    <string name="right_flag_3">Бруней</string>
+
+    <string name="option_1_flag_3">Тонга</string>
+    <string name="option_2_flag_3">Таивань</string>
+    <string name="option_3_flag_3">Уругвай</string>
+
+    <string name="right_flag_4">Кипр</string>
+
+    <string name="option_1_flag_4">Виетнам</string>
+    <string name="option_2_flag_4">Свазиленд</string>
+    <string name="option_3_flag_4">Судан</string>
+
+    <string name="right_flag_5">Грузия</string>
+
+    <string name="option_1_flag_5">Палестина</string>
+    <string name="option_2_flag_5">Саудовская Аравия</string>
+    <string name="option_3_flag_5">Швейцария</string>
+
+    <string name="right_flag_6">Гаити</string>
+
+    <string name="option_1_flag_6">Уругвай</string>
+    <string name="option_2_flag_6">Зимбабве</string>
+    <string name="option_3_flag_6">Венесуэлла</string>
+
+    <string name="right_flag_7">Панама</string>
+
+    <string name="option_1_flag_7">Парагвай</string>
+    <string name="option_2_flag_7">Румыния</string>
+    <string name="option_3_flag_7">Люксенбург</string>
+
+    <string name="right_flag_8">Уганда</string>
+
+    <string name="option_1_flag_8">Латвия</string>
+    <string name="option_2_flag_8">Мальта</string>
+    <string name="option_3_flag_8">Мальдивы</string>
+
+    <string name="right_flag_9">Флаг Сент-Винсента и Гренадин</string>
+
+    <string name="option_1_flag_9">Мексико</string>
+    <string name="option_2_flag_9">Мали</string>
+    <string name="option_3_flag_9">Мальта</string>
+
+    <string name="right_flag_10">Замбия</string>
+
+    <string name="option_1_flag_10">ОАЭ</string>
+    <string name="option_2_flag_10">Зимбабве</string>
+    <string name="option_3_flag_10">Того</string>
+
+    <string name="right_flag_11">Сент-Китс</string>
+
+    <string name="option_1_flag_11">Тринидад и Тобаго</string>
+    <string name="option_2_flag_11">Танзания</string>
+    <string name="option_3_flag_11">Соломоновы острова</string>
+
+    <string name="right_flag_12">Сирия</string>
+
+    <string name="option_1_flag_12">Гана</string>
+    <string name="option_2_flag_12">Миянмар</string>
+    <string name="option_3_flag_12">Непал</string>
+
+    <string name="right_flag_13">Мозанбик</string>
+
+    <string name="option_1_flag_13">Филипины</string>
+    <string name="option_2_flag_13">Гвинея</string>
+    <string name="option_3_flag_13">Экваториальная Гвинея</string>
+
+    <string name="right_flag_14">Катар</string>
+
+    <string name="option_1_flag_14">Палестина</string>
+    <string name="option_2_flag_14">Мозанбик</string>
+    <string name="option_3_flag_14">Пуэрто Рико</string>
+
+    <string name="right_flag_15">Сент-Люсия</string>
+
+    <string name="option_1_flag_15">Зимбабве</string>
+    <string name="option_2_flag_15">Шри-Ланка</string>
+    <string name="option_3_flag_15">Туркменистан</string>
 
 </resources>

@@ -5,12 +5,11 @@
 
     <item android:drawable="@color/purple_500"/>
 
-    <item>
 
-        <bitmap
-            android:src="@drawable/img_puzzle"
-            android:gravity="center"/>
-
-    </item>
+    <item
+        android:width="200dp"
+        android:height="200dp"
+        android:drawable="@drawable/logo"
+        android:gravity="center" />
 
 </layer-list>

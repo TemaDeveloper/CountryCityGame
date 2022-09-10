@@ -9,8 +9,6 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.util.Log;
-import android.view.ActionMode;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -34,6 +32,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Consumer;
 
+import com_country_city.country_city_java.countrycitygame.DifficultyLvls.EasyLVLsActivity;
 import com_country_city.country_city_java.countrycitygame.Main.FinishActivity;
 import com_country_city.country_city_java.countrycitygame.Main.MainActivity;
 import com_country_city.country_city_java.countrycitygame.Main.lists;
@@ -50,6 +49,7 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
     private RadioGroup radioGroup;
     private RadioButton btnOptionOne, btnOptionTwo, btnOptionThree, btnOptionFour;
     private MaterialButton btnSubmit;
+    private FloatingActionButton fabBack;
     private ProgressBar progressTimer;
     private ArrayList<ItemQuestion> questionsAndAnswers;
     private ItemQuestion itemQuestion;
@@ -87,6 +87,7 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
         startTimer();
 
         btnSubmit.setOnClickListener(this::onClick);
+        fabBack.setOnClickListener(this::onClick);
 
         updateCountDownText();
 
@@ -106,7 +107,6 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
 
             @Override
             public void onFinish() {
-                textTimer.setText(getResources().getString(R.string.text_time_is_over));
                 lose();
             }
         }.start();
@@ -146,7 +146,6 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     private void checkAnswer() {
-
         answered = true;
         RadioButton rbSelected = findViewById(radioGroup.getCheckedRadioButtonId());
         int answerNo = radioGroup.indexOfChild(rbSelected) + 1;
@@ -155,7 +154,7 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
             textScore.setText(score + "/" + totalQuestions);
         } else {
             mistakes++;
-            switch(mistakes){
+            switch (mistakes) {
                 case 1:
                     imgHeartThree.setColorFilter(ContextCompat.getColor(getApplicationContext(),
                             android.R.color.darker_gray), android.graphics.PorterDuff.Mode.MULTIPLY);
@@ -213,7 +212,7 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
     @Override
     protected void onStop() {
         super.onStop();
-        if(losing == true){
+        if (losing == true) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
         }
     }
@@ -267,7 +266,7 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
         }
     }
 
-    private void changeDefaultConditionOfButtons(){
+    private void changeDefaultConditionOfButtons() {
 
         btnOptionOne.setBackgroundResource(R.drawable.radio_btn_selector);
         btnOptionTwo.setBackgroundResource(R.drawable.radio_btn_selector);
@@ -340,6 +339,7 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
         questionsAndAnswers = new ArrayList<>();
         textTimer = findViewById(R.id.text_timer);
         imgFlag = findViewById(R.id.img_question);
+        fabBack = findViewById(R.id.fab_back);
         imgPerson = findViewById(R.id.img_person);
         btnSubmit = findViewById(R.id.btn_submit);
         textLvlTopic = findViewById(R.id.text_lvl_title);
@@ -417,6 +417,12 @@ public class LvlActivity extends AppCompatActivity implements lists, View.OnClic
                     resetTimer();
                     startTimer();
                 }
+                break;
+            case R.id.fab_back:
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setClass(getApplicationContext(), EasyLVLsActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
                 break;
         }
     }

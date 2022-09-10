@@ -16,7 +16,7 @@ import com_country_city.country_city_java.countrycitygame.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
-    private TextView textTitleCreator, textTitleCreatedBy, textGQ;
+    private TextView textTitleCreator, textGQ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 
         Animation animationAlphaForText = new AlphaAnimation(1.0f, 0.0f);
         animationAlphaForText.setDuration(2000);
-        textTitleCreatedBy.startAnimation(animationAlphaForText);
         textTitleCreator.startAnimation(animationAlphaForText);
 
         animationAlphaForText.setAnimationListener(new Animation.AnimationListener() {
@@ -42,7 +41,6 @@ public class SplashScreenActivity extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 textGQ.setVisibility(View.VISIBLE);
-                textTitleCreatedBy.setVisibility(View.GONE);
                 textTitleCreator.setVisibility(View.GONE);
                 textGQ.startAnimation(animationAlphaForImg);
                 animationAlphaForImg.setAnimationListener(new Animation.AnimationListener() {
@@ -82,7 +80,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     private void initFields(){
         textTitleCreator = findViewById(R.id.text_creator_name_title);
-        textTitleCreatedBy = findViewById(R.id.text_created_by);
         textGQ = findViewById(R.id.text_GQ);
     }
 

@@ -95,7 +95,7 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_go_to_menu_from_finish"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="70dp"
             android:layout_below="@+id/lin_finish"
             android:layout_marginStart="20dp"
             android:layout_marginLeft="20dp"
